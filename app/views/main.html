@@ -75,7 +75,7 @@
 
       <tr ng-repeat="character in mpqModel.characters">
         <td>
-          <md-checkbox ng-model="character.selected" aria-label="Checkbox 1">
+          <md-checkbox ng-checked="isSelectedCharacter(character)" aria-label="{{character.name}}" ng-click="select(character);" ng-disabled="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
           </md-checkbox>
         </td>
         <td hide-sm class="rank">
@@ -139,6 +139,16 @@
         </td>
       </tr>
     </table>
+  </div>
+
+  <div class="container selection" layout="row" layout-align="space-between center">
+    <div ng-repeat="character in mpqModel.selectedCharacters" class="character">
+      <div ng-bind="character.name">
+      </div>
+      <img ng-src="{{character.image}}"/>
+
+    </div>
+
   </div>
 
   <div class="container" layout-fill>
