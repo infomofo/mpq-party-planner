@@ -1,23 +1,82 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+<md-toolbar layout="row" layout-fill>
+  <div class="md-toolbar-tools">
+    <h1>Marvel Puzzle Quest Party Planner</h1>
+  </div>
+</md-toolbar>
+<md-content layout="column" flex class="md-padding" layout-fill>
+  <p class="raison">
+    This is a tool to help you plan your Marvel Puzzle Quest Party.  Pick a character and you will be able to see what
+    active color abilities they bring to your team, and what passives.  Using our graph you can pick out complementary
+    characters that will help you succeed no matter what tiles are on the board.
   </p>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+  <div class="chart" layout-fill layout="column" layout-align="start center">
+    <table class="character_table">
+      <tr>
+        <td class="zero">
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+        </td>
+        <th>
+          Character
+        </th>
+        <th>
+          <md-tooltip>
+            Filled = Active; Shaded = Passive
+          </md-tooltip>
+          <img src="/images/YellowTile.png" aria-label="yellow"/>
+        </th>
+        <th>
+          <img src="/images/RedTile.png" aria-label="red"/>
+        </th>
+        <th>
+          <img src="/images/BlueTile.png" aria-label="red"/>
+        </th>
+        <th>
+          <img src="/images/PurpleTile.png" aria-label="red"/>
+        </th>
+        <th>
+          <img src="/images/GreenTile.png" aria-label="red"/>
+        </th>
+        <th>
+          <img src="/images/BlackTile.png" aria-label="red"/>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+          </md-checkbox>
+        </th>
+        <td class="character">
+          <div layout="row" layout-align="space-around center">
+          <p>Wolverine (****)</p>
+          <div>&nbsp;&nbsp;</div>
+          <div layout="row" layout-align="space-around center">
+            <small><md-button>forum</md-button></small>
+            <small><md-button href="http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(X-Force)">wiki</md-button></small>
+          </div>
+          </div>
+        </td>
+        <td class="yellow ability">
+          <div layout-fill class="passive">
+
+          </div>
+        </td>
+        <td class="red ability">
+
+        </td>
+        <td class="blue ability">
+
+        </td>
+        <td class="purple ability">
+
+        </td>
+        <td class="green ability">
+          <div layout-fill class="active"></div>
+        </td>
+        <td class="black ability">
+          <div layout-fill class="active"></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</md-content>

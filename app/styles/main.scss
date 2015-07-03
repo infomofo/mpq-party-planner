@@ -1,89 +1,104 @@
-// bower:scss
-// endbower
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
 body {
+  margin: 0;
   padding: 0;
+  top: 0;
+  min-height: 600px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+.raison {
+
+  margin-bottom: 20px;
+
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
+.chart {
 
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
-}
+  table.character_table {
+    border-collapse: collapse;
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
+    md-checkbox {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
+    .md-button {
+      margin-top: 0;
+      margin-bottom: 0;
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+      span {
+        text-decoration: none;
+      }
+    }
+    th, td {
+      border: 1px solid black;
+    }
 
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
+    th {
+      padding: 0;
+      min-width: 35px;
+    }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+    td.zero {
+      border-top: 0;
+      border-left: 0;
+    }
 
-  p + h4 {
-    margin-top: 28px;
-  }
-}
+    td {
+      padding: 0;
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+    td.character {
+      padding-left: 5px;
+    }
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
+    td.ability {
+      div {
+        background-color: black;
+        height:36px;
+      }
+
+      .active {
+        opacity: 1.0;
+      }
+
+      .passive {
+        opacity: 0.2;
+      }
+    }
+
+    td.ability.yellow {
+      div {
+        background-color: yellow;
+      }
+    }
+    td.ability.red {
+      div {
+        background-color: red;
+      }
+    }
+    td.ability.blue {
+      div {
+        background-color: blue;
+      }
+    }
+    td.ability.purple {
+      div {
+        background-color: purple;
+      }
+    }
+    td.ability.green {
+      div {
+        background-color: green;
+      }
+    }
+    td.ability.black {
+      div {
+        background-color: black;
+      }
+    }
   }
 }
