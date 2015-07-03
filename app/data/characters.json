@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Wolverine",
+    "cover": "X-Force",
+    "stars": 4,
+    "abilities": [
+      {
+        "name": "Recovery",
+        "color": "yellow",
+        "description": "",
+        "type": "passive"
+      }
+    ]
+  }
+]

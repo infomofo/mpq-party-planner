@@ -8,10 +8,13 @@
  * Controller of the mpqPartyPlannerApp
  */
 angular.module('mpqPartyPlannerApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $http) {
+
+    $scope.mpqModel = {
+      characters: []
+    };
+
+    $http.get('data/characters.json').success(function(data) {
+      $scope.mpqModel.characters = data;
+    });
   });
