@@ -43,6 +43,7 @@ md-tooltip {
     }
 
     th {
+      padding: 2px;
       min-width: 35px;
     }
 
@@ -60,7 +61,7 @@ md-tooltip {
     }
 
 
-    span.rank {
+    td.rank {
       text-align: center;
       margin-left: 5px;
     }

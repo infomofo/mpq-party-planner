@@ -25,8 +25,11 @@
         <td class="zero">
 
         </td>
-        <th>
-          Rank
+        <th hide-sm>
+          <a href="https://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">
+            <md-tooltip>This character's standing in the most recent rankings</md-tooltip>
+            #
+          </a>
         </th>
         <th>
           Character
@@ -71,12 +74,12 @@
       </tr>
 
       <tr ng-repeat="character in mpqModel.characters">
-        <th>
+        <td>
           <md-checkbox ng-model="character.selected" aria-label="Checkbox 1">
           </md-checkbox>
-        </th>
-        <td>
-          <span ng-bind="character.rank" class="rank" layout-fill></span>
+        </td>
+        <td hide-sm class="rank">
+          <span ng-bind="character.rank" layout-fill></span>
         </td>
         <td class="character">
           <div layout="row" layout-align="space-between center">
@@ -99,8 +102,8 @@
               </span>
             </p>
             <div layout="row" layout-align="space-around center" hide-sm>
-              <small><md-button href="http://www.d3pforums.com/viewtopic.php?f=14&t=552" target="_blank">forum</md-button></small>
-              <small><md-button href="http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(X-Force)" target="_blank">wiki</md-button></small>
+              <small><md-button ng-href="{{character.forum}}" target="_blank">forum</md-button></small>
+              <small><md-button ng-href="{{character.wiki}}" target="_blank">wiki</md-button></small>
             </div>
           </div>
         </td>
