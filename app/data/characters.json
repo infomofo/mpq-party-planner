@@ -158,6 +158,35 @@
     ]
   },
   {
+    "name": "The Hood",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 5,
+    "forum": "http://d3go.com/forums/viewtopic.php?style=1&f=14&t=445",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/The_Hood_(Classic)",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/5/5b/The_Hood_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002163714",
+    "abilities": [
+      {
+        "name": "Twin Pistols",
+        "color": "yellow",
+        "cost": 15,
+        "description": "Destoys two selected 3x3 blocks of tiles, dealing damage to a single target per tile. Does not generate AP. Ends the turn."
+      },
+      {
+        "name": "Dormammu's Aid",
+        "color": "blue",
+        "cost": 0,
+        "description": "Each turn there are more than a certain number of tiles in a color, steal that color"
+      },
+      {
+        "name": "Intimidation",
+        "color": "black",
+        "cost": 9,
+        "description": "Damages the targeted character and reduces the timer on a number of friendly Countdown tiles by 1."
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,
