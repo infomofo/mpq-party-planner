@@ -23,7 +23,8 @@ angular
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main'
+        controllerAs: 'main',
+        reloadOnSearch: false
       })
       .when('/about', {
         templateUrl: 'views/about.html',

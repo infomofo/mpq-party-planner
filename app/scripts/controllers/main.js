@@ -8,7 +8,10 @@
  * Controller of the mpqPartyPlannerApp
  */
 angular.module('mpqPartyPlannerApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('MainCtrl', function ($scope, $http, $location) {
+
+    var selection = $location.search().selection;
+    console.debug(selection);
 
     $scope.mpqModel = {
       characters: [],
@@ -28,6 +31,11 @@ angular.module('mpqPartyPlannerApp')
           $scope.mpqModel.selectedCharacters.push(character);
         }
       }
+      var searchArray = _.map($scope.mpqModel.selectedCharacters, function(character) {
+        return character.name.concat(",",character.stars);
+      });
+      $location.search({'selection': searchArray});
+
     };
 
     $scope.isSelectedCharacter = function (character) {
