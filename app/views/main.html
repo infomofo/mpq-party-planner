@@ -3,26 +3,7 @@
     <h1 flex>MPQ Planner</h1>
     <div layout="row" layout-align="space-around center">
       <div layout="column">
-        <md-menu layout="column">
-          <md-button ng-click="$mdOpenMenu()" class="md-button-icon">
-            <md-tooltip>References/Resources</md-tooltip>
-            <i class="fa fa-link"></i>
-          </md-button>
 
-          <md-menu-content layout="column" width="4">
-            <md-menu-item>
-              <md-button href="https://d3go.com/forums/viewtopic.php?f=6&t=17105" target="_blank">
-                Most compatibile characters
-              </md-button>
-              <md-button href="https://d3go.com/forums/viewtopic.php?f=6&t=19921" target="_blank">
-                List of rainbow teams with 3 passives
-              </md-button>
-              <md-button href="https://d3go.com/forums/viewtopic.php?f=6&t=30692" target="_blank">
-                Rainbow Teams with Synergy
-              </md-button>
-            </md-menu-item>
-          </md-menu-content>
-        </md-menu>
       </div>
     <md-button class="md-button-icon" href="//github.com/infomofo/mpq-party-planner" target="_blank">
       <md-tooltip>Contribute on Github</md-tooltip>
@@ -85,6 +66,64 @@
           <img src="/images/BlackFlag.png" aria-label="red"/>
         </th>
       </tr>
+
+      <tr ng-repeat="character in mpqModel.characters">
+        <th>
+          <md-checkbox ng-model="character.selected" aria-label="Checkbox 1">
+          </md-checkbox>
+        </th>
+        <td class="character">
+          <div layout="row" layout-align="space-between center">
+            <p>
+              <span class="name" ng-bind="character.name"></span>
+              <span class="title" hide-sm>({{character.cover}})</span>
+              <span class="stars" ng-switch="character.stars">
+                <span ng-switch-when="1">
+                  *
+                </span>
+                <span ng-switch-when="2">
+                  **
+                </span>
+                <span ng-switch-when="3">
+                  ***
+                </span>
+                <span ng-switch-when="4">
+                  ****
+                </span>
+              </span>
+            </p>
+            <div layout="row" layout-align="space-around center" hide-sm>
+              <small><md-button href="http://www.d3pforums.com/viewtopic.php?f=14&t=552" target="_blank">forum</md-button></small>
+              <small><md-button href="http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(X-Force)" target="_blank">wiki</md-button></small>
+            </div>
+          </div>
+        </td>
+        <td class="yellow ability">
+          <div layout-fill class="passive">
+            <md-tooltip>Recovery</md-tooltip>
+          </div>
+        </td>
+        <td class="red ability">
+
+        </td>
+        <td class="blue ability">
+
+        </td>
+        <td class="purple ability">
+
+        </td>
+        <td class="green ability">
+          <div layout-fill class="active">
+            <md-tooltip>X-Force</md-tooltip>
+          </div>
+        </td>
+        <td class="black ability">
+          <div layout-fill class="active">
+            <md-tooltip>Surgical Strike</md-tooltip>
+          </div>
+        </td>
+      </tr>
+
       <tr>
         <th>
           <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
@@ -212,6 +251,25 @@
         </td>
       </tr>
     </table>
+  </div>
+
+  <div>
+    <h2>References/Resources</h2>
+    <p>The idea for this tool and a lot of the data came from the following sources</p>
+    <div layout="column" layout-align="start start">
+      <a href="https://d3go.com/forums/viewtopic.php?f=6&t=17105" target="_blank">
+        Most Compatible Character/Team Compositions
+      </a>
+      <a href="https://d3go.com/forums/viewtopic.php?f=6&t=19921" target="_blank">
+        List of Rainbow Teams with 3 Passives
+      </a>
+      <a href="https://d3go.com/forums/viewtopic.php?f=6&t=30692" target="_blank">
+        3* Synergy/Rainbow Combinations
+      </a>
+      <a href="https://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">
+        Character Rankings May 2015 Edition: The Results!
+      </a>
+    </div>
   </div>
 
 </md-content>

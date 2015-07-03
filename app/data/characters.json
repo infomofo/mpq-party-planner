@@ -1,5 +1,134 @@
 [
   {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "cover": "Modern",
+    "stars": 3,
+    "rank": 1,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=4281",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Thor_(Modern)",
+    "abilities": [
+      {
+        "name": "Mjolnir's Might",
+        "color": "red",
+        "cost": 8,
+        "description": "Deals damage to a single target and adds Yellow tiles to the board.",
+        "damage": "single",
+        "generatesTiles": "yellow",
+        "cooldown": "false"
+      },
+      {
+        "name": "Thunder Strike",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Deals damage to a single target and adds Green tiles to the board.",
+        "damage": "single",
+        "generatesTiles": "green",
+        "cooldown": "false"
+      },
+      {
+        "name": "Call The Storm",
+        "color": "green",
+        "cost": 14,
+        "description": "Deals aoe damage and double the damage to the primary target.",
+        "damage": "aoe",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
+    "name": "Professor X",
+    "cover": "Charles Xavier",
+    "stars": 4,
+    "rank": 2,
+    "forum": "http://d3go.com/forums/viewtopic.php?style=1&f=14&t=25156",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Professor_X_(Charles_Xavier)",
+    "abilities": [
+      {
+        "name": "Master Plan",
+        "color": "blue",
+        "cost": 0,
+        "description": "Whenever the team makes a Match-5 or greater, it generates AP in the team's strongest color and deals damage to a single target.",
+        "cooldown": "false"
+      },
+      {
+        "name": "Blind Spot",
+        "color": "purple",
+        "cost": 7,
+        "description": "Creates an invisibility tile that targets him. While invisible if Professor X makes a match, then strengthen some friendly strike tiles.",
+        "cooldown": "false"
+      },
+      {
+        "name": "Psychic Convergence",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever an ally uses an ability, convert a random basic tile to a strike tile.",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
+    "name": "Iron Fist",
+    "cover": "Immortal Weapon",
+    "stars": 3,
+    "rank": 3,
+    "forum": "http://d3go.com/forums/viewtopic.php?style=1&f=14&t=24256",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Iron_Fist_(Immortal_Weapon)",
+    "abilities": [
+      {
+        "name": "Shou-Lao Fang Strike",
+        "color": "green",
+        "cost": 8,
+        "description": "Deals damage to a single target and generates strike tiles. If the team has 12 or more Black AP, then bonus strike tiles are created.",
+        "cooldown": "false"
+      },
+      {
+        "name": "Iron Fist of K'un-Lun",
+        "color": "purple",
+        "cost": 5,
+        "description": "If the team has less than 12 Black AP, add black tiles to the board. If the team has 12 or more Black AP, deal damage to a single target.",
+        "cooldown": "false"
+      },
+      {
+        "name": "Exquisite Technique",
+        "color": "black",
+        "cost": 0,
+        "description": "At the beginning of every turn, if there are no friendly Attack tiles, create a Green Attack tile.",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
     "name": "Wolverine",
     "cover": "X-Force",
     "stars": 4,
