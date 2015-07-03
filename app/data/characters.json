@@ -136,6 +136,7 @@
       {
         "name": "Recovery",
         "color": "yellow",
+        "cost": 0,
         "description": "",
         "type": "passive"
       }
