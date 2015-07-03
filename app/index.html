@@ -25,6 +25,28 @@
       <div ng-view="" layout-fill flex layout="column"></div>
       <div class="footer" layout="row" layout-align="center center" layout-fill>
           <p>with <i class="fa fa-heart"></i> to d3go and this awesome game</p>
+
+        <div layout="column">
+          <md-menu layout="column">
+            <md-button ng-click="$mdOpenMenu()">
+              Other Resources/References
+            </md-button>
+
+            <md-menu-content layout="column" width="4">
+              <md-menu-item>
+                <md-button href="https://d3go.com/forums/viewtopic.php?f=6&t=17105" target="_blank">
+                  Most compatibile characters
+                </md-button>
+                <md-button href="https://d3go.com/forums/viewtopic.php?f=6&t=19921" target="_blank">
+                  List of rainbow teams with 3 passives
+                </md-button>
+                <md-button href="https://d3go.com/forums/viewtopic.php?f=6&t=30692" target="_blank">
+                  Rainbow Teams with Synergy
+                </md-button>
+              </md-menu-item>
+            </md-menu-content>
+          </md-menu>
+        </div>
       </div>
     </div>
 
