@@ -1,19 +1,19 @@
-<md-toolbar layout="row" layout-fill>
-  <div class="md-toolbar-tools" layout="row" layout-align="space-between center">
+<md-toolbar layout="row" layout-fill layout-align="center center">
+  <div class="md-toolbar-tools container" layout="row" layout-align="space-between center">
     <h1 flex>MPQ Planner</h1>
     <div layout="row" layout-align="space-around center">
       <div layout="column">
 
       </div>
-    <md-button class="md-button-icon" href="//github.com/infomofo/mpq-party-planner" target="_blank">
+    <md-button class="md-icon-button" href="//github.com/infomofo/mpq-party-planner" target="_blank">
       <md-tooltip>Contribute on Github</md-tooltip>
-      <i class="fa fa-github"></i>
+      <i class="fa fa-github fa-2x"></i>
     </md-button>
     </div>
   </div>
 </md-toolbar>
-<md-content layout="column" flex class="md-padding" layout-fill>
-  <p class="raison">
+<md-content layout="column" flex class="md-padding" layout-fill layout-align="start center">
+  <p class="raison container">
     This is a tool to help you plan your Marvel Puzzle Quest Party.  Pick a character and you will be able to see what
     active color abilities they bring to your team, and what passives.  Using our graph you can pick out complementary
     characters that will help you succeed no matter what tiles are on the board.
@@ -25,6 +25,9 @@
         <td class="zero">
 
         </td>
+        <th>
+          Rank
+        </th>
         <th>
           Character
         </th>
@@ -72,6 +75,9 @@
           <md-checkbox ng-model="character.selected" aria-label="Checkbox 1">
           </md-checkbox>
         </th>
+        <td>
+          <span ng-bind="character.rank" class="rank" layout-fill></span>
+        </td>
         <td class="character">
           <div layout="row" layout-align="space-between center">
             <p>
@@ -132,7 +138,7 @@
     </table>
   </div>
 
-  <div>
+  <div class="container" layout-fill>
     <h2>References/Resources</h2>
     <p>The idea for this tool and a lot of the data came from the following sources</p>
     <div layout="column" layout-align="start start">
