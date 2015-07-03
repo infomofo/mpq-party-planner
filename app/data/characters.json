@@ -11,22 +11,19 @@
         "name": "",
         "color": "",
         "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "description": ""
       },
       {
         "name": "",
         "color": "",
         "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "description": ""
       },
       {
         "name": "",
         "color": "",
         "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "description": ""
       }
     ]
   },
@@ -129,16 +126,154 @@
     ]
   },
   {
-    "name": "Wolverine",
-    "cover": "X-Force",
-    "stars": 4,
+    "name": "Luke Cage",
+    "cover": "Hero For Hire",
+    "stars": 3,
+    "rank": 4,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=20966",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Luke_Cage_(Hero_For_Hire)",
     "abilities": [
       {
-        "name": "Recovery",
+        "name": "Righteous Uppercut",
         "color": "yellow",
+        "cost": 13,
+        "description": "Deals single target damage. Deals bonus damage for every non-downed ally."
+      },
+      {
+        "name": "Unbreakable",
+        "color": "red",
         "cost": 0,
+        "description": "At the beginning of every turn, if there are no friendly Protect tiles on the board, creates a Red Protect tile."
+      },
+      {
+        "name": "Jab, Jab, Cross",
+        "color": "black",
+        "cost": 6,
+        "description": "Deals single target damage and places a countdown tile. While it is on the board, Jab, Jab, Cross deals bonus damage."
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
         "description": "",
-        "type": "passive"
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": "",
+        "cooldown": "false"
       }
     ]
   }
