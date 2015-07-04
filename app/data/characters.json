@@ -475,31 +475,31 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
+    "name": "Iron Man",
+    "cover": "Hulkbuster",
+    "stars": 4,
+    "rank": 17,
+    "forum": "http://d3go.com/forums/viewtopic.php?style=1&f=14&t=28209",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Iron_Man_(Hulkbuster)",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/7/7d/Iron_Man_%28Hulkbuster%29.png/revision/latest/scale-to-width-down/260?cb=20150511200717",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Repulsor Punch",
+        "color": "red",
+        "cost": 9,
+        "description": "Depletes his team's Red AP, dealing damage for each."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Overdrive",
+        "color": "black",
+        "cost": 11,
+        "description": "Deals damage to Iron Man, but gains Red AP and generates 2 Yellow Strike Tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Hulk-Proof",
+        "color": "blue",
+        "cost": 9,
+        "description": "Converts Green tiles to Red and creates Blue Protect tiles."
       }
     ]
   },

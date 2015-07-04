@@ -148,6 +148,7 @@
         <td class="{{color}} ability" ng-repeat="color in colors">
           <div layout-fill layout-fill ng-repeat="ability in character.abilities | filter:{color:color}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0, 'taken': isActive(color)}">
+            <span ng-if="ability.cost === 0">P</span>
             <md-tooltip>
               {{ability.name}}
               <span ng-if="ability.cost === 0">
@@ -227,6 +228,9 @@
       </a>
       <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">
         Character Rankings May 2015 Edition: The Results!
+      </a>
+      <a href="http://d3go.com/forums/viewtopic.php?f=6&t=23635" target="_blank">
+        Best Characters for Two Colour Combinations
       </a>
       <a href="http://d3go.com/games/marvelpuzzlequest/" target="_blank">
         The official site.

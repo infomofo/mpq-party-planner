@@ -94,12 +94,14 @@ md-tooltip {
       }
 
       .passive {
+        content: "P";
         opacity: 0.4;
         box-sizing:border-box;
         -moz-box-sizing:border-box;
         -webkit-box-sizing:border-box;
-        border: 12px solid black;
+        border: 8px solid black;
         border-radius:50%;
+        text-align: center;
 
       }
 
@@ -121,6 +123,7 @@ md-tooltip {
         background-color: #C29325;
       }
       div.passive {
+        color: #C29325;
         border-color: #C29325;
       }
     }
