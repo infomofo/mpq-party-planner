@@ -84,7 +84,7 @@
         <td class="character">
           <div layout="row" layout-align="space-between center">
             <p>
-              <span class="name" ng-bind="character.name"></span>
+              <strong class="name" ng-bind="character.name"></strong>
               <span class="title" hide-sm>({{character.cover}})</span>
               <span class="stars" ng-switch="character.stars">
                 <span ng-switch-when="1">
@@ -141,14 +141,16 @@
     </table>
   </div>
 
-  <div class="container selection" layout="row" layout-align="space-between center">
+  <div class="container selection" layout-gt-sm="column" layout-align="space-between center" layout-sm="column" ng-if="mpqModel.selectedCharacters.length > 0">
+    <h2> Your Team</h2>
+    <div layout="row" layout-align="space-between center">
     <div ng-repeat="character in mpqModel.selectedCharacters" class="character">
       <div ng-bind="character.name">
       </div>
       <img ng-src="{{character.image}}"/>
 
     </div>
-
+    </div>
   </div>
 
   <div class="container" layout-fill>

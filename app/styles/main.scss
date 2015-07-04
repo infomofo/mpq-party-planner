@@ -36,6 +36,7 @@ md-tooltip {
 
       span {
         text-decoration: none;
+        text-transform: none;
       }
     }
     th, td {
@@ -43,7 +44,7 @@ md-tooltip {
     }
 
     th {
-      padding: 2px;
+      padding-top: 5px;
       min-width: 35px;
     }
 
@@ -115,6 +116,15 @@ md-tooltip {
       div {
         background-color: #555555;
       }
+    }
+  }
+}
+
+.selection {
+  .character {
+    border: 1px solid black;
+    img {
+      max-width: 100px;
     }
   }
 }
