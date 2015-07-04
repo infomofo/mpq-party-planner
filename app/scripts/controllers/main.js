@@ -13,7 +13,8 @@ angular.module('mpqPartyPlannerApp')
     $scope.mpqModel = {
       characters: [],
       selectedCharacters: [],
-      teamActiveAbilities: []
+      teamActiveAbilities: {},
+      teamActiveColors: []
     };
 
     var searchName = function(character) {
@@ -27,12 +28,32 @@ angular.module('mpqPartyPlannerApp')
       return _.groupBy(_.filter(abilities, function(ability) {
         return ability.cost > 0;
       }), function(ability) {
-        return ability.color;
+        return ability.color.toLowerCase();
       });
     };
 
     var setState = function() {
       $scope.mpqModel.teamActiveAbilities = teamActiveAbilities();
+      $scope.mpqModel.teamActiveColors = _.keys($scope.mpqModel.teamActiveAbilities);
+    };
+
+    $scope.isActive = function(color) {
+      var active = $scope.mpqModel.teamActiveColors.indexOf(color.toLowerCase()) !== -1;
+      console.debug('color ' + color + ' is active in ' + $scope.mpqModel.teamActiveColors + '? ' + active);
+      return active;
+    };
+
+    $scope.isIneligible = function(character) {
+      if ($scope.mpqModel.selectedCharacters.indexOf(character) !== -1) {
+        return false;
+      } else {
+        var eligible = _.every(character.abilities, function (ability) {
+          // return true if this ability does not contribute to the team's active colors
+          var eligibility = (ability.cost === 0 || $scope.mpqModel.teamActiveColors.indexOf(ability.color.toLowerCase()) !== -1);
+          return eligibility;
+        });
+        return eligible;
+      }
     };
 
     $http.get('data/characters.json').success(function (data) {

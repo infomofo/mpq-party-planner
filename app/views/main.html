@@ -97,7 +97,7 @@
         </th>
       </tr>
 
-      <tr ng-repeat="character in mpqModel.characters">
+      <tr ng-repeat="character in mpqModel.characters" ng-class="{'ineligible': isIneligible(character), 'selected': isSelectedCharacter(character)}">
         <td>
           <md-checkbox ng-checked="isSelectedCharacter(character)" aria-label="{{character.name}}"
                        ng-click="select(character);"
@@ -143,7 +143,7 @@
         </td>
         <td class="yellow ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'yellow'}"
-               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0, 'taken': isActive(ability.color)}">
             <md-tooltip>
               {{ability.name}}
               <span ng-if="ability.cost === 0">

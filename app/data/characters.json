@@ -195,7 +195,7 @@
     "abilities": [
       {
         "name": "Sentinel of Liberty",
-        "color": "Yellow",
+        "color": "yellow",
         "cost": 19,
         "description": "Transform several chosen basic tiles into Yellow Protect tiles."
       },
