@@ -144,37 +144,67 @@
         <td class="yellow ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'yellow'}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
-            <md-tooltip ng-bind="ability.name"></md-tooltip>
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
           </div>
         </td>
         <td class="red ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'red'}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
-            <md-tooltip ng-bind="ability.name"></md-tooltip>
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
           </div>
         </td>
         <td class="blue ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'blue'}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
-            <md-tooltip ng-bind="ability.name"></md-tooltip>
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
           </div>
         </td>
         <td class="purple ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'purple'}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
-            <md-tooltip ng-bind="ability.name"></md-tooltip>
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
           </div>
         </td>
         <td class="green ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'green'}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
-            <md-tooltip ng-bind="ability.name"></md-tooltip>
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
           </div>
         </td>
         <td class="black ability">
           <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'black'}"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
-            <md-tooltip ng-bind="ability.name"></md-tooltip>
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
           </div>
         </td>
       </tr>

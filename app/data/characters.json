@@ -214,6 +214,93 @@
     ]
   },
   {
+    "name": "Wolverine",
+    "cover": "Patch",
+    "stars": 3,
+    "rank": 8,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=1993",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(Patch)",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/3/31/Wolverine_%28Patch%29.png/revision/latest/scale-to-width-down/260?cb=20141002170749",
+    "abilities": [
+      {
+        "name": "Berserker Rage",
+        "color": "green",
+        "cost": 9,
+        "description": "Deals damage to the targeted character and creates Strike tiles for each team."
+      },
+      {
+        "name": "Best There Is",
+        "color": "red",
+        "cost": 14,
+        "description": "Deals damage to the targeted character for each tile on the board that bears his icon and creates Red Strike tiles for each team."
+      },
+      {
+        "name": "Healing Factor",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Recovers health."
+      }
+    ]
+  },
+  {
+    "name": "Blade",
+    "cover": "Daywalker",
+    "stars": 3,
+    "rank": 9,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=18125",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Blade_(Daywalker)",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/e/e7/Blade_%28Daywalker%29.png/revision/latest/scale-to-width-down/260?cb=20141024182942&format=webp",
+    "abilities": [
+      {
+        "name": "Nightstalker",
+        "color": "black",
+        "cost": 8,
+        "description": "Deals damage to the targeted character and creates a Green Cooldown tile activates every turn to drain AP from the enemy team's strongest color."
+      },
+      {
+        "name": "Keep Your Enemies Closer",
+        "color": "purple",
+        "cost": 10,
+        "description": "Creates a Purple Attack Tile with bonus strength for each friendly Strike tile on the board."
+      },
+      {
+        "name": "The Thirst",
+        "color": "green",
+        "cost": 0,
+        "description": "If there are more than a certain number of Red tiles on the board, converts random basic Red tiles into Strike tiles."
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,
