@@ -123,8 +123,37 @@ md-tooltip {
 .selection {
   .character {
     border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
     img {
-      max-width: 100px;
+      max-width: 125px;
+    }
+
+    .abilities {
+      margin-top: 5px;
+      .ability {
+        img {
+
+        }
+      }
+
+      .ability.passive {
+        img {
+          opacity: .3;
+        }
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      margin-left: 2px;
+      margin-right: 2px;
+      padding-left: 2px;
+      padding-right: 2px;
+
+      img {
+        max-width: 80px;
+      }
     }
   }
 }

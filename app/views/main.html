@@ -1,23 +1,41 @@
 <md-toolbar layout="row" layout-fill layout-align="center center">
   <div class="md-toolbar-tools container" layout="row" layout-align="space-between center">
     <h1 flex>MPQ Planner</h1>
+
     <div layout="row" layout-align="space-around center">
       <div layout="column">
 
       </div>
-    <md-button class="md-icon-button" href="//github.com/infomofo/mpq-party-planner" target="_blank">
-      <md-tooltip>Contribute on Github</md-tooltip>
-      <i class="fa fa-github fa-2x"></i>
-    </md-button>
+      <md-button class="md-icon-button" href="//github.com/infomofo/mpq-party-planner" target="_blank">
+        <md-tooltip>Contribute on Github</md-tooltip>
+        <i class="fa fa-github fa-2x"></i>
+      </md-button>
     </div>
   </div>
 </md-toolbar>
 <md-content layout="column" flex class="md-padding" layout-fill layout-align="start center">
-  <p class="raison container">
-    This is a tool to help you plan your Marvel Puzzle Quest Party.  Pick a character and you will be able to see what
-    active color abilities they bring to your team, and what passives.  Using our graph you can pick out complementary
-    characters that will help you succeed no matter what tiles are on the board.
-  </p>
+  <div class="raison container">
+    <p>
+      This is a tool to help you plan your Marvel Puzzle Quest Party. Pick a character and you will be able to see what
+      active color abilities they bring to your team, and what passives. Using our graph you can pick out complementary
+      characters that will help you succeed no matter what tiles are on the board.
+    </p>
+    <p>
+      Start by selecting a character that you want to build a team around. When you select that character, other characters
+      that would become available (i.e. different versions of the same character) will become unselectable.  Also,
+      characters whose active ability colors are already present in your team will be greyed out.
+    </p>
+    <p>
+      The characters are sorted by the most recent <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">community sourced character rankings</a>.
+    </p>
+    <p>
+      As you select characters, the in your browser will update so you can paste this link and share it with your friends
+      or on a forum.  For example- <a href="/#/?selection=Thor,3&selection=Iron%20Fist,3&selection=Luke%20Cage,3">here</a>'s a team I plan on using soon.
+    </p>
+    <p>
+      If you find any issues or have any suggestions, please let me know on <a href="http://github.com/infomofo/mpq-party-planner/issues">this project's github issues page</a>. Thanks!
+    </p>
+  </div>
 
   <div class="chart" layout-fill layout="column" layout-align="start center">
     <table class="character_table">
@@ -75,7 +93,9 @@
 
       <tr ng-repeat="character in mpqModel.characters">
         <td>
-          <md-checkbox ng-checked="isSelectedCharacter(character)" aria-label="{{character.name}}" ng-click="select(character);" ng-disabled="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
+          <md-checkbox ng-checked="isSelectedCharacter(character)" aria-label="{{character.name}}"
+                       ng-click="select(character);"
+                       ng-disabled="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
           </md-checkbox>
         </td>
         <td hide-sm class="rank">
@@ -101,39 +121,50 @@
                 </span>
               </span>
             </p>
+
             <div layout="row" layout-align="space-around center" hide-sm>
-              <small><md-button ng-href="{{character.forum}}" target="_blank">forum</md-button></small>
-              <small><md-button ng-href="{{character.wiki}}" target="_blank">wiki</md-button></small>
+              <small>
+                <md-button ng-href="{{character.forum}}" target="_blank">forum</md-button>
+              </small>
+              <small>
+                <md-button ng-href="{{character.wiki}}" target="_blank">wiki</md-button>
+              </small>
             </div>
           </div>
         </td>
         <td class="yellow ability">
-          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'yellow'}" ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'yellow'}"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
             <md-tooltip ng-bind="ability.name"></md-tooltip>
           </div>
         </td>
         <td class="red ability">
-          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'red'}" ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'red'}"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
             <md-tooltip ng-bind="ability.name"></md-tooltip>
           </div>
         </td>
         <td class="blue ability">
-          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'blue'}" ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'blue'}"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
             <md-tooltip ng-bind="ability.name"></md-tooltip>
           </div>
         </td>
         <td class="purple ability">
-          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'purple'}" ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'purple'}"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
             <md-tooltip ng-bind="ability.name"></md-tooltip>
           </div>
         </td>
         <td class="green ability">
-          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'green'}" ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'green'}"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
             <md-tooltip ng-bind="ability.name"></md-tooltip>
           </div>
         </td>
         <td class="black ability">
-          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'black'}" ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
+          <div layout-fill ng-repeat="ability in character.abilities | filter:{color:'black'}"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}">
             <md-tooltip ng-bind="ability.name"></md-tooltip>
           </div>
         </td>
@@ -141,21 +172,36 @@
     </table>
   </div>
 
-  <div class="container selection" layout-gt-sm="column" layout-align="space-between center" layout-sm="column" ng-if="mpqModel.selectedCharacters.length > 0">
+  <div class="container selection" layout-gt-sm="column" layout-align="space-between center" layout-sm="column"
+       ng-if="mpqModel.selectedCharacters.length > 0">
     <h2> Your Team</h2>
-    <div layout="row" layout-align="space-between center">
-    <div ng-repeat="character in mpqModel.selectedCharacters" class="character">
-      <div ng-bind="character.name">
-      </div>
-      <img ng-src="{{character.image}}"/>
 
-    </div>
+    <div layout="row" layout-align="space-between center">
+      <div ng-repeat="character in mpqModel.selectedCharacters" class="character" layout="column" layout-align="start center">
+        <div ng-bind="character.name">
+        </div>
+        <img ng-src="{{character.image}}"/>
+        <div layout="row" layout-align="space-around center" layout-fill class="abilities">
+          <div ng-repeat="ability in character.abilities"
+               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}" class="ability">
+            <md-tooltip>
+              {{ability.name}}
+              <span ng-if="ability.cost === 0">
+                &nbsp;(Passive)
+              </span>
+            </md-tooltip>
+            <img ng-src="/images/{{ability.color}}Flag.png"/>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="container" layout-fill>
     <h2>References/Resources</h2>
+
     <p>The idea for this tool and a lot of the data came from the following sources</p>
+
     <div layout="column" layout-align="start start">
       <a href="https://d3go.com/forums/viewtopic.php?f=6&t=17105" target="_blank">
         Most Compatible Character/Team Compositions
