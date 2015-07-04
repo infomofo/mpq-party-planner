@@ -301,6 +301,528 @@
     ]
   },
   {
+    "name": "Thor",
+    "cover": "Goddess of Thunder",
+    "stars": 4,
+    "rank": 11,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=17200",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Thor_(Goddess_of_Thunder)",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/6/69/Thor_%28Goddess_of_Thunder%29.png/revision/latest/scale-to-width-down/260?cb=20141016143858",
+    "abilities": [
+      {
+        "name": "Smite",
+        "color": "red",
+        "cost": 10,
+        "description": "Deals damage to the targeted enemy and additional damage per charged tile on the board. Adds charged tiles to the board."
+      },
+      {
+        "name": "Striking Distance",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Deals damage to the enemy team and converts enemy special tiles into charged tiles."
+      },
+      {
+        "name": "Power Surge",
+        "color": "blue",
+        "cost": 9,
+        "description": "Stuns the targeted enmy and converts random Red, Blue, or Yellow basic tiles into Charged tiles."
+      }
+    ]
+  },
+  {
+    "name": "Black Panther",
+    "cover": "T'Challa",
+    "stars": 3,
+    "rank": 12,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=3801",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Black_Panther_(T'Challa)",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/f7/Black_Panther_%28T%27Challa%29.png/revision/latest/scale-to-width-down/260?cb=20141002161330",
+    "abilities": [
+      {
+        "name": "Battleplan",
+        "color": "yellow",
+        "cost": 9,
+        "description": "Converts 3 basic Yellow tiles to Strike tiles. If the team has 12 or more Team-Up AP, increases the strength of the created Strike tiles."
+      },
+      {
+        "name": "Defense Grid",
+        "color": "blue",
+        "cost": 8,
+        "description": "Places a Blue Countdown tile that converts a basic color tile to a Protect tile every 2 turns.  If 5 or more Protect tiles are in play, conversion is suspended."
+      },
+      {
+        "name": "Rage of the Panther",
+        "color": "black",
+        "cost": 12,
+        "description": "Deals damage to each enemy but the enemy team gains 5 AP in their strongest color."
+      }
+    ]
+  },
+  {
+    "name": "Wolverine",
+    "cover": "X-Force",
+    "stars": 4,
+    "rank": 13,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=552",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(X-Force)",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/06/Wolverine_%28X-Force%29.png/revision/latest/scale-to-width-down/260?cb=20141002171601",
+    "abilities": [
+      {
+        "name": "X-Force",
+        "color": "green",
+        "cost": 8,
+        "description": "Deals damage to the targeted enemy and destroys tiles in 3x3 X-Shaped patterns. Does not generate AP."
+      },
+      {
+        "name": "Surgical Strike",
+        "color": "black",
+        "cost": 11,
+        "description": "Destroys every tile in the enemy team's strongest color, dealing damage per tile. Does not generate AP."
+      },
+      {
+        "name": "Recovery",
+        "color": "yellow",
+        "cost": 9,
+        "description": "Places a 3-turn Yellow Countdown tile that heals when activated. If the Countdown tile is matched, destroys random tiles dealing damage per tile."
+      }
+    ]
+  },
+  {
+    "name": "Daken",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 14,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=5799",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Daken_(Classic)",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/6/69/Daken_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002161822",
+    "abilities": [
+      {
+        "name": "Healing & Heat",
+        "color": "black",
+        "cost": 0,
+        "description": "Every turn Daken recovers health. If there are fewer than a certain number of tiles, then he loses health instead."
+      },
+      {
+        "name": "Pheromone Rage",
+        "color": "purple",
+        "cost": 0,
+        "description": "Whenever anyone makes a Green match, add Red Strike tiles to the board."
+      },
+      {
+        "name": "Chemical Reaction",
+        "color": "blue",
+        "cost": 5,
+        "description": "Damages the targeted enemy and converts Strike tiles to basic tiles, doing bonus damage per Strike tile converted."
+      }
+    ]
+  },
+  {
+    "name": "Nick Fury",
+    "cover": "Director of S.H.I.E.L.D.",
+    "stars": 4,
+    "rank": 15,
+    "forum": "http://d3go.com/forums/viewtopic.php?style=1&f=14&t=6444",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Nick_Fury_(Director_of_S.H.I.E.L.D.)",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/d/dc/Nick_Fury_%28Director_of_S.H.I.E.L.D.%29.png/revision/latest/scale-to-width-down/260?cb=20141002171417",
+    "abilities": [
+      {
+        "name": "Avengers Assemble!",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Various abilities."
+      },
+      {
+        "name": "Demolition",
+        "color": "blue",
+        "cost": 10,
+        "description": "Creates 2 trap tiles that, when matched by the enemy detonate dealing damage but not generating AP. If you match a trap it detonates dealing damage."
+      },
+      {
+        "name": "Escape Plan",
+        "color": "purple",
+        "cost": 12,
+        "description": "Deals damage to the targeted enemy and creates a Countdown that, when activated, steals AP from the enemy's strongest color before converting to a Strike tile."
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,

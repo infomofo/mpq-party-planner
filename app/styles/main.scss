@@ -44,6 +44,10 @@ md-tooltip {
       opacity: 0.5;
     }
 
+    tr.unique {
+      background-color: #BDBDBD;
+    }
+
     tr.selected, tr.selected.ineligible {
       background-color: #FFFF8D;
     }

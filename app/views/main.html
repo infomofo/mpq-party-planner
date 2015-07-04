@@ -97,13 +97,17 @@
         </th>
       </tr>
 
-      <tr ng-repeat="character in mpqModel.characters" ng-class="{'ineligible': isIneligible(character), 'selected': isSelectedCharacter(character)}">
+      <tr ng-repeat="character in mpqModel.characters" ng-class="{'ineligible': isIneligible(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
         <td>
-          <md-checkbox ng-checked="isSelectedCharacter(character)" aria-label="{{character.name}}"
+          <md-checkbox ng-checked="isSelectedCharacter(character)"
+                       aria-label="{{character.name}}"
                        ng-click="select(character);"
-                       ng-disabled="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
+                       ng-disabled="!isSelectedCharacter(character) && (mpqModel.selectedCharacters.length >= 3 || isSelectedCharacterName(character))">
           </md-checkbox>
-          <md-tooltip ng-if="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
+          <md-tooltip ng-if="isSelectedCharacterName(character)">
+            You already have a different cover of the same character in your party.
+          </md-tooltip>
+          <md-tooltip ng-if="!isSelectedCharacterName(character) && mpqModel.selectedCharacters.length >= 3 && !isSelectedCharacter(character)">
             You can only have 3 characters in your party.
           </md-tooltip>
         </td>

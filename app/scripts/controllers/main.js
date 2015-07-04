@@ -64,7 +64,7 @@ angular.module('mpqPartyPlannerApp')
       $scope.mpqModel.selectedCharacters = _.filter($scope.mpqModel.characters, function(character) {
 
         var search = searchName(character);
-        if (selection.indexOf(search) !== -1) {
+        if (character.name !== '' && selection.indexOf(search) !== -1) {
           return true;
         } else {
           return false;
@@ -91,6 +91,18 @@ angular.module('mpqPartyPlannerApp')
 
     $scope.isSelectedCharacter = function (character) {
       return $scope.mpqModel.selectedCharacters.indexOf(character) > -1;
+    };
+
+    $scope.isSelectedCharacterName = function (character) {
+      if ($scope.mpqModel.selectedCharacters.indexOf(character) !== -1) {
+        return false;
+      } else {
+        return !_.every($scope.mpqModel.selectedCharacters, function (selectedCharacter) {
+          var compare = selectedCharacter.name !== character.name;
+          console.log(character.name.concat(' ', selectedCharacter.name, ' ', compare));
+          return compare;
+        });
+      }
     };
 
   });
