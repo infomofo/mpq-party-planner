@@ -560,6 +560,62 @@
     ]
   },
   {
+    "name": "Kamala Khan",
+    "cover": "Ms. Marvel",
+    "stars": 3,
+    "rank": 20,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=26067",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/3/35/Kamala_Khan_%28Ms._Marvel%29.png/revision/latest/scale-to-width-down/260?cb=20150407183744",
+    "abilities": [
+      {
+        "name": "Bring Out The Best",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever an ally fires an ability, gives the team a burst of health."
+      },
+      {
+        "name": "Inhuman Stretchiness",
+        "color": "purple",
+        "cost": 8,
+        "description": "Converts a chosen basic tiles and additional random basic tiles of the same color to Green."
+      },
+      {
+        "name": "Embiggened Bash",
+        "color": "green",
+        "cost": 12,
+        "description": "Deals damage to the enemy team."
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,
