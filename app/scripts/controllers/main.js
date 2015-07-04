@@ -10,16 +10,28 @@
 angular.module('mpqPartyPlannerApp')
   .controller('MainCtrl', function ($scope, $http, $location) {
 
-    var selection = $location.search().selection;
-    console.debug(selection);
-
     $scope.mpqModel = {
       characters: [],
       selectedCharacters: []
     };
 
+    var searchName = function(character) {
+      return character.name.concat(",",character.stars);
+    };
+
     $http.get('data/characters.json').success(function (data) {
       $scope.mpqModel.characters = data;
+
+      var selection = $location.search().selection;
+      $scope.mpqModel.selectedCharacters = _.filter($scope.mpqModel.characters, function(character) {
+
+        var search = searchName(character);
+        if (selection.indexOf(search) !== -1) {
+          return true;
+        } else {
+          return false;
+        }
+      });
     });
 
     $scope.select = function (character) {
@@ -32,7 +44,7 @@ angular.module('mpqPartyPlannerApp')
         }
       }
       var searchArray = _.map($scope.mpqModel.selectedCharacters, function(character) {
-        return character.name.concat(",",character.stars);
+        return searchName(character);
       });
       $location.search({'selection': searchArray});
 
