@@ -103,13 +103,8 @@
                        ng-click="select(character);"
                        ng-disabled="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
           </md-checkbox>
-          <md-tooltip>
-            <span ng-if="isSelectedCharacter(character)">
-              Unselect this character to remove them from your party.
-            </span>
-            <span ng-if="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
-              You can only have 3 characters in your party.
-            </span>
+          <md-tooltip ng-if="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
+            You can only have 3 characters in your party.
           </md-tooltip>
         </td>
         <td hide-sm class="rank">
@@ -215,7 +210,7 @@
       <div>
         <h3>Active Abilities</h3>
 
-        <div ng-repeat="(color, abilities) in teamActiveAbilities()" layout="row" class="active_color">
+        <div ng-repeat="(color, abilities) in mpqModel.teamActiveAbilities" layout="row" class="active_color">
 
           <div class="color"><img ng-src="/images/{{color}}Tile.png"/></div>
           <div layout="column">

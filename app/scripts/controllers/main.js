@@ -12,11 +12,27 @@ angular.module('mpqPartyPlannerApp')
 
     $scope.mpqModel = {
       characters: [],
-      selectedCharacters: []
+      selectedCharacters: [],
+      teamActiveAbilities: []
     };
 
     var searchName = function(character) {
       return character.name.concat(",",character.stars);
+    };
+
+    var teamActiveAbilities = function() {
+      var abilities = _.flatten(_.map($scope.mpqModel.selectedCharacters, function(character) {
+        return character.abilities;
+      }));
+      return _.groupBy(_.filter(abilities, function(ability) {
+        return ability.cost > 0;
+      }), function(ability) {
+        return ability.color;
+      });
+    };
+
+    var setState = function() {
+      $scope.mpqModel.teamActiveAbilities = teamActiveAbilities();
     };
 
     $http.get('data/characters.json').success(function (data) {
@@ -32,24 +48,9 @@ angular.module('mpqPartyPlannerApp')
           return false;
         }
       });
+
+      setState();
     });
-
-    $scope.characterActiveAbilities = function(character) {
-      return _.filter(character.abilities, function(ability) {
-        return ability.cost > 0;
-      });
-    };
-
-    $scope.teamActiveAbilities = function() {
-      var abilities = _.flatten(_.map($scope.mpqModel.selectedCharacters, function(character) {
-        return character.abilities;
-      }));
-      return _.groupBy(_.filter(abilities, function(ability) {
-        return ability.cost > 0;
-      }), function(ability) {
-        return ability.color;
-      });
-    };
 
     $scope.select = function (character) {
       console.log(angular.toJson(character));
@@ -64,7 +65,7 @@ angular.module('mpqPartyPlannerApp')
         return searchName(character);
       });
       $location.search({'selection': searchArray});
-
+      setState();
     };
 
     $scope.isSelectedCharacter = function (character) {
