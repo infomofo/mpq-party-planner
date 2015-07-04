@@ -16,24 +16,30 @@
 <md-content layout="column" flex class="md-padding" layout-fill layout-align="start center">
   <div class="raison container">
     <p>
-      This is a tool to help you plan your <a href="http://d3go.com/games/marvelpuzzlequest/">Marvel Puzzle Quest</a> Party. Pick a character and you will be able to see what
-      active color abilities they bring to your team, and what passives. Using our graph you can pick out complementary
-      characters that will help you succeed no matter what tiles are on the board.
+      This is a tool to help you plan your <a href="http://d3go.com/games/marvelpuzzlequest/">Marvel Puzzle Quest</a>
+      Party.
     </p>
+
     <p>
-      Start by selecting a character that you want to build a team around using the checkboxes on the left side of the table. When you select that character, other characters
-      that would become available (i.e. different versions of the same character) will become unselectable.  Also,
+      Start by selecting a character that you want to build a team around using the checkboxes on the left side of the
+      table. When you select that character, other characters
+      that would become available (i.e. different versions of the same character) will become unselectable. Also,
       characters whose active ability colors are already present in your team will be greyed out.
+
+      The characters are sorted by the most recent <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852"
+                                                      target="_blank">community sourced character rankings</a>.
+
+      As you select characters, the in your browser will update so you can paste this link and share it with your
+      friends
+      or on a forum. For example- <a
+      href="/#/?selection=Thor,3&selection=Iron%20Fist,3&selection=Luke%20Cage,3">here</a>'s a team I plan on using
+      soon.
+
     </p>
+
     <p>
-      The characters are sorted by the most recent <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">community sourced character rankings</a>.
-    </p>
-    <p>
-      As you select characters, the in your browser will update so you can paste this link and share it with your friends
-      or on a forum.  For example- <a href="/#/?selection=Thor,3&selection=Iron%20Fist,3&selection=Luke%20Cage,3">here</a>'s a team I plan on using soon.
-    </p>
-    <p>
-      If you find any issues or have any suggestions, please let me know on <a href="http://github.com/infomofo/mpq-party-planner/issues">this project's github issues page</a>. Thanks!
+      If you find any issues or have any suggestions, please let me know on <a
+      href="http://github.com/infomofo/mpq-party-planner/issues">this project's github issues page</a>. Thanks!
     </p>
   </div>
 
@@ -97,6 +103,14 @@
                        ng-click="select(character);"
                        ng-disabled="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
           </md-checkbox>
+          <md-tooltip>
+            <span ng-if="isSelectedCharacter(character)">
+              Unselect this character to remove them from your party.
+            </span>
+            <span ng-if="mpqModel.selectedCharacters.length === 3 && !isSelectedCharacter(character)">
+              You can only have 3 characters in your party.
+            </span>
+          </md-tooltip>
         </td>
         <td hide-sm class="rank">
           <span ng-bind="character.rank" layout-fill></span>
@@ -177,10 +191,12 @@
     <h2> Your Team</h2>
 
     <div layout="row" layout-align="space-between center">
-      <div ng-repeat="character in mpqModel.selectedCharacters" class="character" layout="column" layout-align="start center">
+      <div ng-repeat="character in mpqModel.selectedCharacters" class="character" layout="column"
+           layout-align="start center">
         <div ng-bind="character.name">
         </div>
         <img ng-src="{{character.image}}"/>
+
         <div layout="row" layout-align="space-around center" layout-fill class="abilities">
           <div ng-repeat="ability in character.abilities"
                ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}" class="ability">
@@ -191,6 +207,29 @@
               </span>
             </md-tooltip>
             <img ng-src="/images/{{ability.color}}Flag.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="team_abilities">
+      <div>
+        <h3>Active Abilities</h3>
+
+        <div ng-repeat="(color, abilities) in teamActiveAbilities()" layout="row" class="active_color">
+
+          <div class="color"><img ng-src="/images/{{color}}Tile.png"/></div>
+          <div layout="column">
+            <div ng-repeat="ability in abilities">
+              <strong ng-bind="ability.name"></strong> (Cost: {{ability.cost}}): <span ng-bind="ability.description"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Passive Abilities</h3>
+        <div ng-repeat="character in mpqModel.selectedCharacters" class="passive_abilities">
+          <div ng-repeat="ability in character.abilities | filter:{'cost':0}">
+            <strong ng-bind="ability.name"></strong>: <span ng-bind="ability.description"></span>
           </div>
         </div>
       </div>

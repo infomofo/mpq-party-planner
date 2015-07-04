@@ -34,6 +34,23 @@ angular.module('mpqPartyPlannerApp')
       });
     });
 
+    $scope.characterActiveAbilities = function(character) {
+      return _.filter(character.abilities, function(ability) {
+        return ability.cost > 0;
+      });
+    };
+
+    $scope.teamActiveAbilities = function() {
+      var abilities = _.flatten(_.map($scope.mpqModel.selectedCharacters, function(character) {
+        return character.abilities;
+      }));
+      return _.groupBy(_.filter(abilities, function(ability) {
+        return ability.cost > 0;
+      }), function(ability) {
+        return ability.color;
+      });
+    };
+
     $scope.select = function (character) {
       console.log(angular.toJson(character));
       var idx = $scope.mpqModel.selectedCharacters.indexOf(character);

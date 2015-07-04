@@ -156,4 +156,16 @@ md-tooltip {
       }
     }
   }
+
+  .team_abilities {
+    .active_color {
+      margin-bottom: 10px;
+      .color {
+        min-width: 50px;
+      }
+    }
+    .passive_abilities {
+      margin-left: 50px;
+    }
+  }
 }

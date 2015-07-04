@@ -1,33 +1,5 @@
 [
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
     "name": "Thor",
     "cover": "Modern",
     "stars": 3,
@@ -187,33 +159,31 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
+    "name": "Magneto",
+    "cover": "Classic",
     "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
+    "rank": 6,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=603",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Magneto_(Classic)",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/f8/Magneto_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002164717",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "name": "Coercive Field",
+        "color": "yellow",
+        "cost": 9,
+        "description": "Creates protect tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "name": "Polarizing Force",
+        "color": "red",
+        "cost": 8,
+        "description": "Destroys all team up tiles doing damage to the targeted character per tile destroyed.  Does not generate AP."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "name": "Magnetized Projectiles",
+        "color": "Blue",
+        "cost": 10,
+        "description": "Swaps pairs of red and blue tiles dealing damage for each swap."
       }
     ]
   },
@@ -224,89 +194,25 @@
     "rank": 1,
     "forum": "",
     "wiki": "",
+    "image": "",
     "abilities": [
       {
         "name": "",
         "color": "",
         "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "description": ""
       },
       {
         "name": "",
         "color": "",
         "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "description": ""
       },
       {
         "name": "",
         "color": "",
         "cost": 1,
-        "description": "",
-        "cooldown": "false"
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": "",
-        "cooldown": "false"
+        "description": ""
       }
     ]
   }
