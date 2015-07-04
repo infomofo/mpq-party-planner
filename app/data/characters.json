@@ -272,31 +272,31 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
+    "name": "Cyclops",
+    "cover": "Uncanny X-Men",
     "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
+    "rank": 10,
+    "forum": "http://d3go.com/forums/viewtopic.php?style=1&f=14&t=23667",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Cyclops_(Uncanny_X-Men)",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/2/28/Cyclops_%28Uncanny_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20150216154551",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Optic Blasts",
+        "color": "red",
+        "cost": 10,
+        "description": "Destroys a random row of tiles and deals damage to the targeted character. Does not generate AP."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Mutant Revolutionary",
+        "color": "yellow",
+        "cost": 7,
+        "description": "Converts random Team Up tiles into basic Red tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Full Blast",
+        "color": "black",
+        "cost": 13,
+        "description": "Deals 822 damage to the targeted character. If there are more than 9 Red tiles on the board he deals additional damage but stuns himself for a certain number of turns."
       }
     ]
   },

@@ -17,6 +17,8 @@ angular.module('mpqPartyPlannerApp')
       teamActiveColors: []
     };
 
+    $scope.colors = ['yellow', 'red', 'blue', 'purple', 'green', 'black']
+
     var searchName = function(character) {
       return character.name.concat(",",character.stars);
     };
@@ -39,7 +41,6 @@ angular.module('mpqPartyPlannerApp')
 
     $scope.isActive = function(color) {
       var active = $scope.mpqModel.teamActiveColors.indexOf(color.toLowerCase()) !== -1;
-      console.debug('color ' + color + ' is active in ' + $scope.mpqModel.teamActiveColors + '? ' + active);
       return active;
     };
 
@@ -59,7 +60,7 @@ angular.module('mpqPartyPlannerApp')
     $http.get('data/characters.json').success(function (data) {
       $scope.mpqModel.characters = data;
 
-      var selection = $location.search().selection;
+      var selection = $location.search().selection || [];
       $scope.mpqModel.selectedCharacters = _.filter($scope.mpqModel.characters, function(character) {
 
         var search = searchName(character);
@@ -74,7 +75,6 @@ angular.module('mpqPartyPlannerApp')
     });
 
     $scope.select = function (character) {
-      console.log(angular.toJson(character));
       var idx = $scope.mpqModel.selectedCharacters.indexOf(character);
       if (idx > -1) $scope.mpqModel.selectedCharacters.splice(idx, 1);
       else {
