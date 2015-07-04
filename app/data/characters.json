@@ -14,8 +14,7 @@
         "cost": 8,
         "description": "Deals damage to a single target and adds Yellow tiles to the board.",
         "damage": "single",
-        "generatesTiles": "yellow",
-        "cooldown": "false"
+        "generatesTiles": "yellow"
       },
       {
         "name": "Thunder Strike",
@@ -23,16 +22,14 @@
         "cost": 12,
         "description": "Deals damage to a single target and adds Green tiles to the board.",
         "damage": "single",
-        "generatesTiles": "green",
-        "cooldown": "false"
+        "generatesTiles": "green"
       },
       {
         "name": "Call The Storm",
         "color": "green",
         "cost": 14,
         "description": "Deals aoe damage and double the damage to the primary target.",
-        "damage": "aoe",
-        "cooldown": "false"
+        "damage": "aoe"
       }
     ]
   },
@@ -56,14 +53,14 @@
         "name": "Blind Spot",
         "color": "purple",
         "cost": 7,
-        "description": "Creates an invisibility tile that targets him. While invisible if Professor X makes a match, then strengthen some friendly strike tiles.",
+        "description": "Creates an invisibility tile that targets Professor X. While invisible if Professor X makes a match, then strengthen some friendly Strike tiles.",
         "cooldown": "false"
       },
       {
         "name": "Psychic Convergence",
         "color": "yellow",
         "cost": 0,
-        "description": "Whenever an ally uses an ability, convert a random basic tile to a strike tile.",
+        "description": "Whenever an ally uses an ability, convert a random basic tile to a Strike tile.",
         "cooldown": "false"
       }
     ]
@@ -81,7 +78,7 @@
         "name": "Shou-Lao Fang Strike",
         "color": "green",
         "cost": 8,
-        "description": "Deals damage to a single target and generates strike tiles. If the team has 12 or more Black AP, then bonus strike tiles are created.",
+        "description": "Deals damage to a single target and generates Strike tiles. If the team has 12 or more Black AP, then bonus Strike tiles are created.",
         "cooldown": "false"
       },
       {
@@ -171,7 +168,7 @@
         "name": "Coercive Field",
         "color": "yellow",
         "cost": 9,
-        "description": "Creates protect tiles."
+        "description": "Creates Protect tiles."
       },
       {
         "name": "Polarizing Force",
@@ -184,6 +181,64 @@
         "color": "Blue",
         "cost": 10,
         "description": "Swaps pairs of red and blue tiles dealing damage for each swap."
+      }
+    ]
+  },
+  {
+    "name": "Captain America",
+    "cover": "Steve Rogers",
+    "stars": 3,
+    "rank": 7,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=5088",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Captain_America_(Steve_Rogers)",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/8/8c/Captain_America_%28Steve_Rogers%29.png/revision/latest/scale-to-width-down/260?cb=20141002161720",
+    "abilities": [
+      {
+        "name": "Sentinel of Liberty",
+        "color": "Yellow",
+        "cost": 19,
+        "description": "Transform several chosen basic tiles into Yellow Protect tiles."
+      },
+      {
+        "name": "Star Spangled Avenger",
+        "color": "red",
+        "cost": 11,
+        "description": "Deals damage to the targeted character and turns a targeted tile into a Countdown tile that returns Red AP."
+      },
+      {
+        "name": "Peacemaker",
+        "color": "blue",
+        "cost": 12,
+        "description": "Stuns the targeted character and turns a targeted tile into a Countdown tile that returns Blue AP.  The Countdown tile convers to a Protect tile when activated."
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "wiki": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
       }
     ]
   },
