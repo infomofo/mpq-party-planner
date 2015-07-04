@@ -28,7 +28,7 @@ angular.module('mpqPartyPlannerApp')
         return character.abilities;
       }));
       return _.groupBy(_.filter(abilities, function(ability) {
-        return ability.cost > 0;
+        return ability.cost !== 0;
       }), function(ability) {
         return ability.color.toLowerCase();
       });

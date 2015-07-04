@@ -504,31 +504,58 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
+    "name": "Black Widow",
+    "cover": "Original",
+    "stars": 2,
+    "rank": 18,
+    "forum": "https://d3go.com/forums/viewtopic.php?style=1&f=14&t=5676",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/5/55/Black_Widow_%28Original%29.png/revision/latest/scale-to-width-down/260?cb=20141023153247",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Aggressive Recon",
+        "color": "purple",
+        "cost": "5-11",
+        "description": "Steals AP from the enemy team in various colors."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Anti-Gravity Device",
+        "color": "blue",
+        "cost": "9-11",
+        "description": "Increases enemy Countdown timers and restores a burst of health to the team."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Espionage",
+        "color": "black",
+        "cost": 0,
+        "description": "Whenever Black Widow attacks making colors in certain colors, she steals that color AP from the enemy team and deals additional damage."
+      }
+    ]
+  },
+  {
+    "name": "Doctor Doom",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 19,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=757",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/9/94/Doctor_Doom_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002162308",
+    "abilities": [
+      {
+        "name": "Summon Demons",
+        "color": "black",
+        "cost": 12,
+        "description": "Converts basic Red tiles into Attack tiles."
+      },
+      {
+        "name": "Technopathic Strike",
+        "color": "blue",
+        "cost": 9,
+        "description": "Transforms basic Blue tiles to Black tiles."
+      },
+      {
+        "name": "Diabolical Plot",
+        "color": "purple",
+        "cost": 10,
+        "description": "Each turn Doom places a purple Trap tile. When he activates the ability, all Trap tiles are disarmed and damage is done to the current target."
       }
     ]
   },
@@ -538,326 +565,6 @@
     "stars": 3,
     "rank": 1,
     "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
     "image": "",
     "abilities": [
       {

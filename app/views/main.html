@@ -124,7 +124,7 @@
                   *
                 </span>
                 <span ng-switch-when="2">
-                  **
+                  ** <i hide-sm>(Uncommon)</i>
                 </span>
                 <span ng-switch-when="3">
                   *** <i hide-sm>(Rare)</i>
@@ -140,14 +140,14 @@
                 <md-button ng-href="{{character.forum}}" target="_blank">forum</md-button>
               </small>
               <small>
-                <md-button ng-href="{{character.wiki}}" target="_blank">wiki</md-button>
+                <md-button ng-href="http://marvelpuzzlequest.wikia.com/wiki/{{character.name}}_({{character.cover}})" target="_blank">wiki</md-button>
               </small>
             </div>
           </div>
         </td>
         <td class="{{color}} ability" ng-repeat="color in colors">
           <div layout-fill layout-fill ng-repeat="ability in character.abilities | filter:{color:color}"
-               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0, 'taken': isActive(color)}">
+               ng-class="{'active': ability.cost !== 0, 'passive': ability.cost === 0, 'taken': isActive(color)}">
             <span ng-if="ability.cost === 0">P</span>
             <md-tooltip>
               {{ability.name}}
@@ -174,7 +174,7 @@
 
         <div layout="row" layout-align="space-around center" layout-fill class="abilities">
           <div ng-repeat="ability in character.abilities"
-               ng-class="{'active': ability.cost > 0, 'passive': ability.cost === 0}" class="ability">
+               ng-class="{'active': ability.cost !== 0, 'passive': ability.cost === 0}" class="ability">
             <md-tooltip>
               {{ability.name}}
               <span ng-if="ability.cost === 0">
