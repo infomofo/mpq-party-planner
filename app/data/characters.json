@@ -446,31 +446,31 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
+    "name": "Loki",
+    "cover": "Dark Reign",
     "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "wiki": "",
-    "image": "",
+    "rank": 16,
+    "forum": "https://d3go.com/forums/viewtopic.php?style=1&f=14&t=743",
+    "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Loki_(Dark_Reign)",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/b/b7/Loki_%28Dark_Reign%29.png/revision/latest/scale-to-width-down/260?cb=20141002164535",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Trickery",
+        "color": "black",
+        "cost": 11,
+        "description": "Transforms enemy Strike tiles into friendly Protect tiles and enemy Protect tiles into friendly Strike tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Illusions",
+        "color": "purple",
+        "cost": 5,
+        "description": "Changes the location of colored tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Mischief",
+        "color": "green",
+        "cost": 0,
+        "description": "If the enemy team makes a match-4 of any color, creates Countdown tiles which steal 2 AP of a random color."
       }
     ]
   },
