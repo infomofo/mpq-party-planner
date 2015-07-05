@@ -183,7 +183,7 @@
                 &nbsp;(Passive)
               </span>
             </md-tooltip>
-            <img ng-src="images/{{ability.color}}Flag.png"/>
+            <img ng-src="{{getFlagImage(ability.color)}}"/>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
 
         <div ng-repeat="(color, abilities) in mpqModel.teamActiveAbilities" layout="row" class="active_color">
 
-          <div class="color"><img ng-src="images/{{color}}Tile.png"/></div>
+          <div class="color"><img ng-src="{{getTileImage(color)}}"/></div>
           <div layout="column">
             <div ng-repeat="ability in abilities">
               <strong ng-bind="ability.name"></strong> (Cost: {{ability.cost}}): <span ng-bind="ability.description"></span>

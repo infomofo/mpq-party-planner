@@ -129,4 +129,27 @@ angular.module('mpqPartyPlannerApp')
       }
     };
 
+    var tileImage = {
+      yellow: 'images/YellowTile.png',
+      red: 'images/RedTile.png',
+      blue: 'images/BlueTile.png',
+      purple: 'images/PurpleTile.png',
+      green: 'images/GreenTile.png',
+      black: 'images/BlackTile.png'
+    };
+    $scope.getTileImage = function(color) {
+      return tileImage[color];
+    };
+
+    var flagImage = {
+      yellow: 'images/YellowFlag.png',
+      red: 'images/RedFlag.png',
+      blue: 'images/BlueFlag.png',
+      purple: 'images/PurpleFlag.png',
+      green: 'images/GreenFlag.png',
+      black: 'images/BlackFlag.png'
+    };
+    $scope.getFlagImage = function(color) {
+      return flagImage[color];
+    };
   });
