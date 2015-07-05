@@ -57,6 +57,30 @@ angular.module('mpqPartyPlannerApp')
       }
     };
 
+    $scope.isCandidate = function(character) {
+      if ($scope.mpqModel.selectedCharacters.indexOf(character) !== -1 || $scope.mpqModel.selectedCharacters.length > 2) {
+        return false;
+      } else {
+        var charColors = _.map(_.filter(character.abilities, function(ability) {
+          return ability.cost !== 0;
+        }), function(ability) {
+            return ability.color
+          });
+        if (_.union(charColors, $scope.mpqModel.teamActiveColors).length === 6) {
+          return true;
+        } else if ($scope.mpqModel.selectedCharacters.length < 2 ) {
+          var candidate = _.every(character.abilities, function (ability) {
+            // return true if this ability does contribute to the team's active colors
+            var eligibility = (ability.cost === 0 || $scope.mpqModel.teamActiveColors.indexOf(ability.color.toLowerCase()) === -1);
+            return eligibility;
+          });
+          return candidate;
+        } else {
+          return false;
+        }
+      }
+    };
+
     $http.get('data/characters.json').success(function (data) {
       $scope.mpqModel.characters = data;
 

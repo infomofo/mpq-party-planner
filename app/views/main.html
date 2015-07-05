@@ -24,16 +24,18 @@
       Start by selecting a character that you want to build a team around using the checkboxes on the left side of the
       table. When you select that character, other characters
       that would become available (i.e. different versions of the same character) will become unselectable. Also,
-      characters whose active ability colors are already present in your team will be greyed out.
+      characters whose active ability colors are already present in your team will be greyed out.  Characters highlighted
+      in green are good candidates towards selecting a team with a full "Rainbow" of active ability colors.
 
       The characters are sorted by the most recent <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852"
                                                       target="_blank">community sourced character rankings</a>.
 
       As you select characters, the in your browser will update so you can paste this link and share it with your
       friends
-      or on a forum. For example- <a
-      href="/#/?selection=Thor,3&selection=Iron%20Fist,3&selection=Luke%20Cage,3">here</a>'s a team I plan on using
-      soon.
+      or on a forum.
+      <!--For example- <a-->
+      <!--href="/#/?selection=Thor,3&selection=Iron%20Fist,3&selection=Luke%20Cage,3">here</a>'s a team I plan on using-->
+      <!--soon.-->
 
     </p>
 
@@ -97,7 +99,7 @@
         </th>
       </tr>
 
-      <tr ng-repeat="character in mpqModel.characters" ng-class="{'ineligible': isIneligible(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
+      <tr ng-repeat="character in mpqModel.characters" ng-class="{'ineligible': isIneligible(character), 'candidate': isCandidate(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
         <td>
           <md-checkbox ng-checked="isSelectedCharacter(character)"
                        aria-label="{{character.name}}"

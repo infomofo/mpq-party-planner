@@ -44,6 +44,13 @@ md-tooltip {
       opacity: 0.5;
     }
 
+    tr.candidate, tr.candidate.ineligible {
+      opacity: 1.0;
+      td.character{
+        color: green;
+      }
+    }
+
     tr.unique {
       background-color: #BDBDBD;
     }
