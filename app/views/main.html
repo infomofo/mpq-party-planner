@@ -61,7 +61,7 @@
           Character
         </th>
         <th>
-          <img src="/images/YellowFlag.png" aria-label="yellow">
+          <img src="images/YellowFlag.png" aria-label="yellow">
 
           <md-tooltip>
             Filled = Active; Shaded = Passive
@@ -71,31 +71,31 @@
           <md-tooltip>
             Filled = Active; Shaded = Passive
           </md-tooltip>
-          <img src="/images/RedFlag.png" aria-label="red"/>
+          <img src="images/RedFlag.png" aria-label="red"/>
         </th>
         <th>
           <md-tooltip>
             Filled = Active; Shaded = Passive
           </md-tooltip>
-          <img src="/images/BlueFlag.png" aria-label="red"/>
+          <img src="images/BlueFlag.png" aria-label="red"/>
         </th>
         <th>
           <md-tooltip>
             Filled = Active; Shaded = Passive
           </md-tooltip>
-          <img src="/images/PurpleFlag.png" aria-label="red"/>
+          <img src="images/PurpleFlag.png" aria-label="red"/>
         </th>
         <th>
           <md-tooltip>
             Filled = Active; Shaded = Passive
           </md-tooltip>
-          <img src="/images/GreenFlag.png" aria-label="red"/>
+          <img src="images/GreenFlag.png" aria-label="red"/>
         </th>
         <th>
           <md-tooltip>
             Filled = Active; Shaded = Passive
           </md-tooltip>
-          <img src="/images/BlackFlag.png" aria-label="red"/>
+          <img src="images/BlackFlag.png" aria-label="red"/>
         </th>
       </tr>
 
@@ -183,7 +183,7 @@
                 &nbsp;(Passive)
               </span>
             </md-tooltip>
-            <img ng-src="/images/{{ability.color}}Flag.png"/>
+            <img ng-src="images/{{ability.color}}Flag.png"/>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
 
         <div ng-repeat="(color, abilities) in mpqModel.teamActiveAbilities" layout="row" class="active_color">
 
-          <div class="color"><img ng-src="/images/{{color}}Tile.png"/></div>
+          <div class="color"><img ng-src="images/{{color}}Tile.png"/></div>
           <div layout="column">
             <div ng-repeat="ability in abilities">
               <strong ng-bind="ability.name"></strong> (Cost: {{ability.cost}}): <span ng-bind="ability.description"></span>
