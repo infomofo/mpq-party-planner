@@ -23,8 +23,15 @@
     <div layout="column" layout-align="space-between start" layout-fill flex>
       <!-- Add your site or application content here -->
       <div ng-view="" layout-fill flex layout="column"></div>
-      <div class="footer" layout="row" layout-align="center center" layout-fill>
-          <p>with <i class="fa fa-heart"></i> to d3go and this awesome game</p>
+      <div class="footer" layout="column" layout-align="center center" layout-fill>
+          <p>with <i class="fa fa-heart"></i> to</p>
+        <div layout="row" layout-align="space-around center" layout-fill class="thanks">
+          <p>d3go</p>
+          <i class="fa fa-circle"></i>
+          <p>angular</p>
+          <i class="fa fa-circle"></i>
+          <p>font-awesome</p>
+        </div>
       </div>
     </div>
 

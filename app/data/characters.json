@@ -588,6 +588,375 @@
     ]
   },
   {
+    "name": "Deadpool",
+    "cover": "It's Me, Deadpool!",
+    "stars": 3,
+    "rank": 21,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=13242",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/c/cb/Deadpool_%28It%27s_Me%2C_Deadpool%21%29.png/revision/latest/scale-to-width-down/260?cb=20150220231822",
+    "abilities": [
+      {
+        "name": "A Little Off the Top",
+        "color": "red",
+        "cost": 6,
+        "description": "Deals a percent of the targeted enemy's current health in damage."
+      },
+      {
+        "name": "Whales! Whales! Whales!",
+        "color": "purple",
+        "cost": 14,
+        "description": "Deals damage to the enemy team. Using Deadpool Points will kill the entire enemy team."
+      },
+      {
+        "name": "Life of the Party",
+        "color": "black",
+        "cost": 0,
+        "description": "If an ally with less health than Deadpool will take more than a certain amount of damage, Deadpool will take the damage instead, and creates a Black Countdown tile that will restore health when it activates."
+      }
+    ]
+  },
+  {
+    "name": "The Hulk",
+    "cover": "Indestructible",
+    "stars": 3,
+    "rank": 22,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=1484",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/f9/The_Hulk_%28Indestructible%29.png/revision/latest/scale-to-width-down/260?cb=20141002163943",
+    "abilities": [
+      {
+        "name": "Thunderous Clap",
+        "color": "green",
+        "cost": 10,
+        "description": "Does damage to the targeted enemy for and destroys tiles based on how much Green AP the team has."
+      },
+      {
+        "name": "Smash",
+        "color": "red",
+        "cost": 14,
+        "description": "Consumes up to 10 of the team's Green AP and damages the target based on how much Green AP the team has remaining.  Does 30% of the damage to allies if there are more than 10 Green tiles on the board."
+      },
+      {
+        "name": "Anger",
+        "color": "black",
+        "cost": 0,
+        "description": "When damaged for over 5% of his health, a random basic Black tile becomes a 1 turn Countdown that changes basic tiles to Green."
+      }
+    ]
+  },
+  {
+    "name": "Kingpin",
+    "cover": "Wilson Fisk",
+    "stars": 4,
+    "rank": 23,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=26649",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/6/6d/Kingpin_%28Wilson_Fisk%29.png/revision/latest/scale-to-width-down/260?cb=20150407191424",
+    "abilities": [
+      {
+        "name": "Wilson's Gambit",
+        "color": "black",
+        "cost": 6,
+        "description": "Damages the target. If there is at least one friendly Countdown tile on the board, Kingpin destroys one friendly Countdown tile and deals additional damage."
+      },
+      {
+        "name": "The Fisk Defense",
+        "color": "purple",
+        "cost": 8,
+        "description": "Depletes AP of the enemy's strongest color and generates Yellow AP for his team."
+      },
+      {
+        "name": "Maggia Pawns",
+        "color": "yellow",
+        "cost": 10,
+        "description": "Creates various Countdown tiles with various effects."
+      }
+    ]
+  },
+  {
+    "name": "Rocket & Groot",
+    "cover": "Most Wanted",
+    "stars": 3,
+    "rank": 24,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=19329",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/6/66/Rocket_%26_Groot_%28Most_Wanted%29.png/revision/latest/scale-to-width-down/260?cb=20141120162723",
+    "abilities": [
+      {
+        "name": "I am Groot",
+        "color": "yellow",
+        "cost": 0,
+        "description": "If Rocket & Groot are below 25% health and the team makes a yellow match, destroys all Team-Up tiles on the board, not dealing damage but healing for each tile. Does not generate AP."
+      },
+      {
+        "name": "Blammo! We Got Ya!",
+        "color": "green",
+        "cost": 10,
+        "description": "Punches a 2x2 hole in the center of the board and destroys additional tiles for each 2 Green AP the team has. Deals damage per tile destroyed but does not generate AP."
+      },
+      {
+        "name": "I Got A Plan",
+        "color": "blue",
+        "cost": 11,
+        "description": "Places a Countdown tile on any basic tile. When activated it transforms basic Blue tiles into Strike tiles."
+      }
+    ]
+  },
+  {
+    "name": "Black Widow",
+    "cover": "Grey Suit",
+    "stars": 3,
+    "rank": 25,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=553",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/a/a3/Black_Widow_%28Grey_Suit%29.png/revision/latest/scale-to-width-down/260?cb=20141002161552",
+    "abilities": [
+      {
+        "name": "Sniper Rifle",
+        "color": "green",
+        "cost": "15-19",
+        "description": "Destroys a reticle shaped pattern and deals damage for each tile destroyed."
+      },
+      {
+        "name": "Pistol",
+        "color": "red",
+        "cost": "12-17",
+        "description": "Destroys targeted blocks of tiles, dealing damage for each tile destroyed."
+      },
+      {
+        "name": "Deceptive Tactics",
+        "color": "purple",
+        "cost": 11,
+        "description": "Converts basic color tiles into Green tiles."
+      }
+    ]
+  },
+  {
+    "name": "Falcon",
+    "cover": "Mighty Avengers",
+    "stars": 3,
+    "rank": 26,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=6148",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/2/22/Falcon_%28Mighty_Avengers%29.png/revision/latest/scale-to-width-down/260?cb=20141002163520",
+    "abilities": [
+      {
+        "name": "Inspiration",
+        "color": "yellow",
+        "cost": 0,
+        "description": "When the team makes a yellow match, Falcon improves the strength of several friendly Protect, Strike, or Attack tiles."
+      },
+      {
+        "name": "Redwing",
+        "color": "blue",
+        "cost": 0,
+        "description": "If the team has at least a certain amount of Blue AP, Redwing will convert an enemy special tile into a Countdown tile. While the Countdown tile is active, Redwing will not target any other tiles."
+      },
+      {
+        "name": "Bird Strike",
+        "color": "purple",
+        "cost": 12,
+        "description": "Creates Protect tiles."
+      }
+    ]
+  },
+  {
+    "name": "Ares",
+    "cover": "Dark Avengers",
+    "stars": 2,
+    "rank": 27,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=2098",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/41/Ares_%28Dark_Avengers%29.png/revision/latest/scale-to-width-down/260?cb=20141030155734",
+    "abilities": [
+      {
+        "name": "Onslaught",
+        "color": "green",
+        "cost": "5-7",
+        "description": "Depletes the team's Green AP and deals damage for each. Also grants the enemy team 1 Green AP for every 2 consumed."
+      },
+      {
+        "name": "Rampage",
+        "color": "red",
+        "cost": 10,
+        "description": "Delas damage to the enemy team. Bonus damage if Ares is low on health."
+      },
+      {
+        "name": "Sunder",
+        "color": "yellow",
+        "cost": 10,
+        "description": "Deals damage to the targeted enemy and himself. Creates a Countdown tile that does damage to the targeted enemy and heals himself."
+      }
+    ]
+  },
+  {
+    "name": "Human Torch",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 28,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=5641",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/4d/Human_Torch_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002164151",
+    "abilities": [
+      {
+        "name": "Fireball",
+        "color": "red",
+        "cost": 8,
+        "description": "Deals damage to the targeted enemy and destroys 2 red tiles."
+      },
+      {
+        "name": "Inferno",
+        "color": "black",
+        "cost": 10,
+        "description": "Converts up to 8 basic color tiles into Attack tiles, but depletes the team's Blue, Purple, and Yellow AP by 30%."
+      },
+      {
+        "name": "Flame Jet",
+        "color": "green",
+        "cost": 5,
+        "description": "Creates a Green Countdown tile that activates every turn, dealing damage for every Green AP the team has. Costs 1 Green AP per turn."
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Witch",
+    "cover": "Wanda Maximoff",
+    "stars": 3,
+    "rank": 29,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=28208",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/b/b0/Scarlet_Witch_%28Wanda_Maximoff%29.png/revision/latest/scale-to-width-down/260?cb=20150428142001",
+    "abilities": [
+      {
+        "name": "Reality Crush",
+        "color": "purple",
+        "cost": 14,
+        "description": "Deals damage to the enemy team and stuns a random enemy."
+      },
+      {
+        "name": "Hex Bolt",
+        "color": "green",
+        "cost": 8,
+        "description": "Select one basic tile to destroy it and random non-friendly tiles around it."
+      },
+      {
+        "name": "Arcane Incantation",
+        "color": "blue",
+        "cost": 0,
+        "description": "If one does not already exist, creates a Countdown tile that transforms adjacent basic tiles to Purple when activated."
+      }
+    ]
+  },
+  {
+    "name": "Daredevil",
+    "cover": "Man Without Fear",
+    "stars": 3,
+    "rank": 30,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=2504",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/9/90/Daredevil_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002162049",
+    "abilities": [
+      {
+        "name": "Radar Sense",
+        "color": "purple",
+        "cost": 10,
+        "description": "Converts random enemy Strike, Protect, or Attack tiles to basic tiles and deals damage for each tile converted."
+      },
+      {
+        "name": "Billy Club",
+        "color": "blue",
+        "cost": 9,
+        "description": "Stuns the target and creates a Countdown tile that stuns and creates a new Billy Club Countdown tile. If you match it, Daredevil gains Blue AP."
+      },
+      {
+        "name": "Ambush",
+        "color": "red",
+        "cost": 8,
+        "description": "Creates a Red Trap tile that, when matched by the enemy deals damage. If you match the tile, the enemy takes damage and it changes locations."
+      }
+    ]
+  },
+  {
+    "name": "Mystique",
+    "cover": "Raven Darkholme",
+    "stars": 3,
+    "rank": 31,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=18594",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/6/65/Mystique_%28Raven_Darkholme%29.png/revision/latest/scale-to-width-down/260?cb=20141106184638",
+    "abilities": [
+      {
+        "name": "Shapeshift",
+        "color": "purple",
+        "cost": 8,
+        "description": "Creates a Countdown tile that stuns the target and steals 1 AP whenever the enemy matches specific color."
+      },
+      {
+        "name": "Infiltration",
+        "color": "blue",
+        "cost": 10,
+        "description": "Transforms random basic tiles that are Red, Green, or Yellow into Purple or Black."
+      },
+      {
+        "name": "Masterstroke",
+        "color": "black",
+        "cost": 11,
+        "description": "Deals damage to the target and reduces both team's AP in certain colors by 2. If Mystique is shapeshifted, she destroys her shapeshift tile and deals additional damage."
+      }
+    ]
+  },
+  {
+    "name": "The Punisher",
+    "cover": "Dark Reign",
+    "stars": 3,
+    "rank": 32,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=1123",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/b/b4/The_Punisher_%28Dark_Reign%29.png/revision/latest/scale-to-width-down/260?cb=20141002165429",
+    "abilities": [
+      {
+        "name": "Molotov Cocktail",
+        "color": "black",
+        "cost": 7,
+        "description": "Damages the enemy team and converts a random basic color tile to a Red Countdown tile that spreads fire every few turns, converts a random bsic color tile to a Red Attack tile."
+      },
+      {
+        "name": "Judgement",
+        "color": "green",
+        "cost": 8,
+        "description": "Destroys a 3x3 group fo tiles doing damage but not generating AP. Converts basic colors tile to a Strike tile."
+      },
+      {
+        "name": "Retribution",
+        "color": "red",
+        "cost": 8,
+        "description": "Damages the target. If they are low on health, he downs them."
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "cover": "Marvel NOW!",
+    "stars": 2,
+    "rank": 33,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=56",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/3/31/Thor_%28Marvel_NOW%21%29.png/revision/latest/scale-to-width-down/260?cb=20141023154651",
+    "abilities": [
+      {
+        "name": "Mjolnir's Might",
+        "color": "red",
+        "cost": 8,
+        "description": "Deals damage to a single target and adds Yellow tiles to the board.",
+        "damage": "single",
+        "generatesTiles": "yellow"
+      },
+      {
+        "name": "Thunder Strike",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Deals damage to a single target and adds Green tiles to the board.",
+        "damage": "single",
+        "generatesTiles": "green"
+      },
+      {
+        "name": "Call The Storm",
+        "color": "green",
+        "cost": 14,
+        "description": "Deals aoe damage and double the damage to the primary target.",
+        "damage": "aoe"
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,
