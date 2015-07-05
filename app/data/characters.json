@@ -1511,85 +1511,85 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Human Torch",
+    "cover": "Johnny Storm",
+    "stars": 2,
     "rank": 54,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=11249",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/c/c7/Human_Torch_%28Johnny_Storm%29.png/revision/latest/scale-to-width-down/260?cb=20140709164945",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Fireball",
+        "color": "red",
+        "cost": 8,
+        "description": "Deals damage to the targeted enemy and destroys 2 red tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Inferno",
+        "color": "black",
+        "cost": 10,
+        "description": "Converts up to 8 basic color tiles into Attack tiles, but depletes the team's Blue, Purple, and Yellow AP by 30%."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Flame Jet",
+        "color": "green",
+        "cost": 5,
+        "description": "Creates a Green Countdown tile that activates every turn, dealing damage for every Green AP the team has. Costs 1 Green AP per turn."
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Hawkeye",
+    "cover": "Modern",
+    "stars": 2,
     "rank": 55,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=450",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/a/a1/Hawkeye_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141023153708",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Electric Arrow",
+        "color": "blue",
+        "cost": 9,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Blast Arrow",
+        "color": "red",
+        "cost": 9,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Speed Shot",
+        "color": "purple",
+        "cost": 0,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
+    "name": "Beast",
+    "cover": "Classic",
     "stars": 3,
     "rank": 56,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=13437",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/1/12/Beast_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20140829171819",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Mutagenic Breakthrough",
+        "color": "blue",
+        "cost": 6,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Animal Inside",
+        "color": "green",
+        "cost": 9,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Medical Marvel",
+        "color": "yellow",
+        "cost": 11,
         "description": ""
       }
     ]
