@@ -1349,10 +1349,172 @@
     ]
   },
   {
+    "name": "Colossus",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 48,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=15358",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/f/f5/Colossus_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20140912175122",
+    "abilities": [
+      {
+        "name": "Immovable Object",
+        "color": "yellow",
+        "cost": 8,
+        "description": ""
+      },
+      {
+        "name": "Colossal Punch",
+        "color": "red",
+        "cost": 11,
+        "description": ""
+      },
+      {
+        "name": "Fastball Special",
+        "color": "black",
+        "cost": 13,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Juggernaut",
+    "cover": "Classic",
+    "stars": 1,
+    "rank": 49,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=820",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/4/46/Juggernaut_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141030162054",
+    "abilities": [
+      {
+        "name": "Unstoppable Crash",
+        "color": "green",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Headbutt",
+        "color": "red",
+        "cost": 10,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 50,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=786",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/9/93/Spider-Man_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002170151",
+    "abilities": [
+      {
+        "name": "Web Bandages",
+        "color": "yellow",
+        "cost": 12,
+        "description": ""
+      },
+      {
+        "name": "All Tied Up",
+        "color": "blue",
+        "cost": 5,
+        "description": ""
+      },
+      {
+        "name": "Spider-Sense",
+        "color": "Purple",
+        "cost": 0,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Iron Man",
+    "cover": "Model 40",
+    "stars": 3,
+    "rank": 51,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=415",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/2/21/Iron_Man_%28Model_40%29.png/revision/latest/scale-to-width-down/260?cb=20141002164411",
+    "abilities": [
+      {
+        "name": "Unibeam",
+        "color": "red",
+        "cost": 13,
+        "description": ""
+      },
+      {
+        "name": "Ballistic Salvo",
+        "color": "blue",
+        "cost": 20,
+        "description": ""
+      },
+      {
+        "name": "Recharge",
+        "color": "yellow",
+        "cost": "6-14",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Sentry",
+    "cover": "Dark Avengers",
+    "stars": 3,
+    "rank": 52,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?&style=1f=14&t=9810",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/4/4b/Sentry_%28Dark_Avengers%29.png/revision/latest/scale-to-width-down/260?cb=20141002170015",
+    "abilities": [
+      {
+        "name": "Supernova",
+        "color": "red",
+        "cost": 11,
+        "description": ""
+      },
+      {
+        "name": "World Rupture",
+        "color": "green",
+        "cost": 12,
+        "description": ""
+      },
+      {
+        "name": "Sacrifice",
+        "color": "yellow",
+        "cost": 8,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Quicksilver",
+    "cover": "Pietro Maximoff",
+    "stars": 3,
+    "rank": 53,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=27134",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/e/e5/Quicksilver_%28Pietro_Maximoff%29_Cover2.png/revision/latest/scale-to-width-down/260?cb=20150429123031",
+    "abilities": [
+      {
+        "name": "Idle Hands",
+        "color": "black",
+        "cost": 11,
+        "description": ""
+      },
+      {
+        "name": "Supersonic",
+        "color": "blue",
+        "cost": 0,
+        "description": ""
+      },
+      {
+        "name": "Fists of Fury",
+        "color": "green",
+        "cost": 10,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 54,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1380,7 +1542,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 55,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1408,7 +1570,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 56,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1436,7 +1598,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 57,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1464,7 +1626,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 58,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1492,7 +1654,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 59,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1520,7 +1682,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 60,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1548,7 +1710,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 61,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1576,7 +1738,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 62,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1604,7 +1766,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 63,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1632,7 +1794,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 64,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1660,7 +1822,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 65,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1688,7 +1850,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 66,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1716,7 +1878,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 67,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1744,7 +1906,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
+    "rank": 68,
     "forum": "",
     "image": "",
     "abilities": [
@@ -1772,175 +1934,7 @@
     "name": "",
     "cover": "",
     "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
-    "forum": "",
-    "image": "",
-    "abilities": [
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      }
-    ]
-  },
-  {
-    "name": "",
-    "cover": "",
-    "stars": 3,
-    "rank": 1,
+    "rank": 69,
     "forum": "",
     "image": "",
     "abilities": [
