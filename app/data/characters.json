@@ -1595,253 +1595,247 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Captain Marvel",
+    "cover": "Ms. Marvel",
+    "stars": 2,
     "rank": 57,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=16027",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/c/c8/Captain_Marvel_%28Ms._Marvel%29.png/revision/latest/scale-to-width-down/260?cb=20141017163129",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Photonic Blasts",
+        "color": "red",
+        "cost": 7,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Sonic Boom",
+        "color": "black",
+        "cost": 9,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Strategic Command",
+        "color": "yellow",
+        "cost": 8,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
+    "name": "Doctor Octopus",
+    "cover": "Otto Octavius",
     "stars": 3,
     "rank": 58,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=16695",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/4e/Doctor_Octopus_%28Otto_Octavius%29.png/revision/latest/scale-to-width-down/260?cb=20141002155301",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Manipulation",
+        "color": "blue",
+        "cost": 11,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Insult to Injury",
+        "color": "black",
+        "cost": 0,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Armed and Dangerous",
+        "color": "green",
+        "cost": 12,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
+    "name": "Ragnarok",
+    "cover": "Dark Avengers Thor",
     "stars": 3,
     "rank": 59,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=925",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/e/e3/Ragnarok_%28Dark_Avengers_Thor%29.png/revision/latest/scale-to-width-down/260?cb=20141002165714",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Godlike Power",
+        "color": "green",
+        "cost": 14,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Thunderclap",
+        "color": "red",
+        "cost": 6,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Lightning Rod",
+        "color": "blue",
+        "cost": 8,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Captain America",
+    "cover": "Modern",
+    "stars": 2,
     "rank": 60,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=310",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/b/be/Black_Widow_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141030162009&format=webp",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Sentinel of Liberty",
+        "color": "yellow",
+        "cost": 19,
+        "description": "Transform several chosen basic tiles into Yellow Protect tiles."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Star Spangled Avenger",
+        "color": "red",
+        "cost": 11,
+        "description": "Deals damage to the targeted character and turns a targeted tile into a Countdown tile that returns Red AP."
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Peacemaker",
+        "color": "blue",
+        "cost": 12,
+        "description": "Stuns the targeted character and turns a targeted tile into a Countdown tile that returns Blue AP.  The Countdown tile convers to a Protect tile when activated."
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Black Widow",
+    "cover": "Modern",
+    "stars": 1,
     "rank": 61,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=54",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/b/be/Black_Widow_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141030162009&format=webp",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Aggressive Recon",
+        "color": "purple",
+        "cost": "10-16",
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Widow's Sting",
+        "color": "blue",
+        "cost": 10,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Storm",
+    "cover": "Modern",
+    "stars": 1,
     "rank": 62,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=51",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/a/a5/Storm_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141030162120",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Lightning Strike",
+        "color": "green",
+        "cost": 10,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Mistress of the Elements",
+        "color": "yellow",
+        "cost": 9,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Hailstorm",
+        "color": "black",
+        "cost": 9,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Iron Man",
+    "cover": "Model 35",
+    "stars": 1,
     "rank": 63,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=52",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/0b/Iron_Man_%28Model_35%29.png/revision/latest/scale-to-width-down/260?cb=20141030162043",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Repulsor Blast",
+        "color": "red",
+        "cost": 10,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Armored Assault",
+        "color": "yellow",
+        "cost": 8,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Ultra-Freon Beam",
+        "color": "blue",
+        "cost": 19,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Moonstone",
+    "cover": "Dark Avengers",
+    "stars": 2,
     "rank": 64,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=790",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/5/52/Moonstone_%28Dark_Avengers_Ms._Marvel%29.png/revision/latest/scale-to-width-down/260?cb=20141023153906",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Gravity Warp",
+        "color": "purple",
+        "cost": 8,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Photon Blast",
+        "color": "red",
+        "cost": 11,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Control Shift",
+        "color": "black",
+        "cost": 9,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Bullseye",
+    "cover": "Dark Avengers",
+    "stars": 2,
     "rank": 65,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=607",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/6/62/Bullseye_%28Dark_Avengers_Hawkeye%29.png/revision/latest/scale-to-width-down/260?cb=20141023153331",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Adamantium Bones",
+        "color": "purple",
+        "cost": 0,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Murderous Aim",
+        "color": "black",
+        "cost": 18,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Deadly Precision",
+        "color": "green",
+        "cost": 11,
         "description": ""
       }
     ]
