@@ -142,35 +142,39 @@ md-tooltip {
     }
     td.ability.red {
       div.active {
-        background-color: #851C18;
+        background-color: #B71C1C;
       }
 
       div.passive {
-        border-color: #851C18;
+        border-color: #B71C1C;
+        color: #B71C1C;
       }
     }
     td.ability.blue {
       div.active {
-        background-color: #354C9E;
+        background-color: #3F51B5;
       }
       div.passive {
-        border-color: #354C9E;
+        border-color: #3F51B5;
+        color: #3F51B5;
       }
     }
     td.ability.purple {
       div.active {
-        background-color: #7A0085;
+        background-color: #9C27B0;
       }
       div.passive {
-        border-color: #7A0085;
+        border-color: #9C27B0;
+        color: #9C27B0;
       }
     }
     td.ability.green {
       div.active {
-        background-color: #487D1F;
+        background-color: #4CAF50;
       }
       div.passive {
-        border-color: #487D1F;
+        border-color: #4CAF50;
+        color: #4CAF50;
       }
     }
     td.ability.black {
@@ -179,6 +183,7 @@ md-tooltip {
       }
       div.passive {
         border-color: #555555;
+        color: #555555;
       }
     }
   }
