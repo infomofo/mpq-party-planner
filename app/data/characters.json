@@ -957,6 +957,958 @@
     ]
   },
   {
+    "name": "Captain Marvel",
+    "cover": "Modern",
+    "stars": 3,
+    "rank": 34,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=12341",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/06/Captain_Marvel_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20140718185958",
+    "abilities": [
+      {
+        "name": "Photonic Blasts",
+        "color": "red",
+        "cost": 7,
+        "description": "Deals damage to the target and destroys enemy Protect tiles. Does not generate AP."
+      },
+      {
+        "name": "Hypersonic Punch",
+        "color": "black",
+        "cost": 9,
+        "description": "Deals damage to the enemy team and stuns the targeted enemy. Places an enemy Strike tile."
+      },
+      {
+        "name": "Energy Absorption",
+        "color": "yellow",
+        "cost": 0,
+        "description": "When Captain Marvel takes more than a certain amount of damage, she generates Red and Black AP."
+      }
+    ]
+  },
+  {
+    "name": "Elektra",
+    "cover": "Unkillable",
+    "stars": 3,
+    "rank": 35,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=19382",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/7/75/Elektra_%28Unkillable%29.png/revision/latest/scale-to-width-down/260?cb=20141215221042",
+    "abilities": [
+      {
+        "name": "Double-Double Cross",
+        "color": "purple",
+        "cost": 7,
+        "description": ""
+      },
+      {
+        "name": "Shadow Step",
+        "color": "black",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Ballet of Death",
+        "color": "red",
+        "cost": 8,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Storm",
+    "cover": "Mohawk",
+    "stars": 3,
+    "rank": 36,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=6628",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/9/90/Storm_%28Mohawk%29.png/revision/latest/scale-to-width-down/260?cb=20141002170427",
+    "abilities": [
+      {
+        "name": "Lightning Strike",
+        "color": "green",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Mistress of the Elements",
+        "color": "yellow",
+        "cost": 9,
+        "description": ""
+      },
+      {
+        "name": "Hailstorm",
+        "color": "black",
+        "cost": 9,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Star-Lord",
+    "cover": "Legendary Outlaw",
+    "stars": 4,
+    "rank": 37,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=22670",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/4/49/Star-Lord_%28Legendary_Outlaw%29.png/revision/latest/scale-to-width-down/260?cb=20150702204002",
+    "abilities": [
+      {
+        "name": "Sleight of Hand",
+        "color": "purple",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Everyone With Me",
+        "color": "yellow",
+        "cost": 7,
+        "description": ""
+      },
+      {
+        "name": "Oldest Trick in the Book",
+        "color": "red",
+        "cost": 8,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Storm",
+    "cover": "Classic",
+    "stars": 2,
+    "rank": 38,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=432",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/d/d6/Storm_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141023154520",
+    "abilities": [
+      {
+        "name": "Lightning Storm",
+        "color": "green",
+        "cost": 12,
+        "description": ""
+      },
+      {
+        "name": "Wind Storm",
+        "color": "blue",
+        "cost": 11,
+        "description": ""
+      },
+      {
+        "name": "Raging Tempest",
+        "color": "yellow",
+        "cost": 0,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "She-Hulk",
+    "cover": "Modern",
+    "stars": 3,
+    "rank": 39,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=6627",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/2/2d/She-Hulk_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20140623174406",
+    "abilities": [
+      {
+        "name": "Settlement",
+        "color": "blue",
+        "cost": 9,
+        "description": ""
+      },
+      {
+        "name": "Furious Charge",
+        "color": "green",
+        "cost": 6,
+        "description": ""
+      },
+      {
+        "name": "Power of Attorney",
+        "color": "red",
+        "cost": 9,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Devil Dinosaur",
+    "cover": "Gigantic Reptile",
+    "stars": 4,
+    "rank": 40,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=1152",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/f/fa/Devil_Dinosaur_%28Gigantic_Reptile%29.png/revision/latest/scale-to-width-down/260?cb=20141010182423",
+    "abilities": [
+      {
+        "name": "Prehistoric Bite",
+        "color": "green",
+        "cost": 7,
+        "description": ""
+      },
+      {
+        "name": "Prehistoric Chomp",
+        "color": "red",
+        "cost": 7,
+        "description": ""
+      },
+      {
+        "name": "Prehistoric Arms",
+        "color": "purple",
+        "cost": 3,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Invisible Woman",
+    "cover": "Classic",
+    "stars": 4,
+    "rank": 41,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=2187",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/1/1a/Invisible_Woman_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20150702203639&format=webp",
+    "abilities": [
+      {
+        "name": "Grant Invisibility",
+        "color": "yellow",
+        "cost": 9,
+        "description": ""
+      },
+      {
+        "name": "Force Bubbles",
+        "color": "blue",
+        "cost": 7,
+        "description": ""
+      },
+      {
+        "name": "Force Field Crush",
+        "color": "green",
+        "cost": 12,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Magneto",
+    "cover": "Marvel NOW!",
+    "stars": 2,
+    "rank": 42,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=501",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/d/df/Magneto_%28Marvel_NOW%21%29.png/revision/latest/scale-to-width-down/260?cb=20141023153839",
+    "abilities": [
+      {
+        "name": "Iron Hammer",
+        "color": "blue",
+        "cost": "6-13",
+        "description": ""
+      },
+      {
+        "name": "Polarity Shift",
+        "color": "purple",
+        "cost": "9-11",
+        "description": ""
+      },
+      {
+        "name": "Magnetic Flux",
+        "color": "red",
+        "cost": "8-14",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Gamora",
+    "cover": "Guardians of the Galaxy",
+    "stars": 3,
+    "rank": 43,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=19330",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/e/e8/Gamora_%28Guardians_of_the_Galaxy%29.png/revision/latest/scale-to-width-down/260?cb=20141201204428",
+    "abilities": [
+      {
+        "name": "Skull Cracker",
+        "color": "green",
+        "cost": 12,
+        "description": ""
+      },
+      {
+        "name": "Razor's Edge",
+        "color": "red",
+        "cost": 5,
+        "description": ""
+      },
+      {
+        "name": "Bad Reputation",
+        "color": "black",
+        "cost": 12,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Psylocke",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 44,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=3497",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/4f/Psylocke_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002165107",
+    "abilities": [
+      {
+        "name": "Psychic Knife",
+        "color": "red",
+        "cost": "5-8",
+        "description": ""
+      },
+      {
+        "name": "Bewilder",
+        "color": "blue",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Psi-Katana",
+        "color": "black",
+        "cost": 6,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Daken",
+    "cover": "Dark Avengers Wolverine",
+    "stars": 2,
+    "rank": 45,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=821",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/0b/Daken_%28Dark_Avengers_Wolverine%29.png/revision/latest/scale-to-width-down/260?cb=20141023153609",
+    "abilities": [
+      {
+        "name": "Healing & Heat",
+        "color": "black",
+        "cost": 0,
+        "description": "Every turn Daken recovers health. If there are fewer than a certain number of tiles, then he loses health instead."
+      },
+      {
+        "name": "Pheromone Rage",
+        "color": "purple",
+        "cost": 0,
+        "description": "Whenever anyone makes a Green match, add Red Strike tiles to the board."
+      },
+      {
+        "name": "Chemical Reaction",
+        "color": "blue",
+        "cost": 5,
+        "description": "Damages the targeted enemy and converts Strike tiles to basic tiles, doing bonus damage per Strike tile converted."
+      }
+    ]
+  },
+  {
+    "name": "Wolverine",
+    "cover": "Astonishing X-Men",
+    "stars": 2,
+    "rank": 46,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=492",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/fc/Wolverine_%28Astonishing_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20141023154732&format=webp",
+    "abilities": [
+      {
+        "name": "Feral Claws",
+        "color": "green",
+        "cost": 6,
+        "description": ""
+      },
+      {
+        "name": "Adamantium Slash",
+        "color": "red",
+        "cost": 12,
+        "description": ""
+      },
+      {
+        "name": "Healing Factor",
+        "color": "yellow",
+        "cost": 0,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Squirrel Girl",
+    "cover": "Unbeatable",
+    "stars": 3,
+    "rank": 47,
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=22117",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/a/ae/Squirrel_Girl_%28Unbeatable%29.png/revision/latest/scale-to-width-down/260?cb=20150116192319",
+    "abilities": [
+      {
+        "name": "The Bigger They Are",
+        "color": "yellow",
+        "cost": 9,
+        "description": ""
+      },
+      {
+        "name": "Nuts From Above",
+        "color": "purple",
+        "cost": 9,
+        "description": ""
+      },
+      {
+        "name": "Furry Friends",
+        "color": "green",
+        "cost": 11,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "",
+    "cover": "",
+    "stars": 3,
+    "rank": 1,
+    "forum": "",
+    "image": "",
+    "abilities": [
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      },
+      {
+        "name": "",
+        "color": "",
+        "cost": 1,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "",
     "cover": "",
     "stars": 3,
