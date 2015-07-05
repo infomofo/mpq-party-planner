@@ -1841,113 +1841,94 @@
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Venom",
+    "cover": "Dark Avengers",
+    "stars": 1,
     "rank": 66,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=58",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/b/be/Venom_%28Dark_Avengers_Spider-Man%29.png/revision/latest/scale-to-width-down/260?cb=20141030162143",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Devour",
+        "color": "black",
+        "cost": 12,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Symbiote Snare",
+        "color": "purple",
+        "cost": 7,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Hawkeye",
+    "cover": "Classic",
+    "stars": 1,
     "rank": 67,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=53",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/d/dd/Hawkeye_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141030162040&format=webp",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
+        "name": "Take Aim",
+        "color": "purple",
+        "cost": 8
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Arrow Stab",
+        "color": "red",
+        "cost": 11,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Spider-Man",
+    "cover": "Bag-Man",
+    "stars": 2,
     "rank": 68,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=59",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/3/30/Spider-Man_%28Bag-Man%29.png/revision/latest/scale-to-width-down/260?cb=20141023154032",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Switcheroo",
+        "color": "purple",
+        "cost": "13-18",
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Web-Slinger",
+        "color": "blue",
+        "cost": 9,
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Snarky Remark",
+        "color": "yellow",
+        "cost": 7,
         "description": ""
       }
     ]
   },
   {
-    "name": "",
-    "cover": "",
-    "stars": 3,
+    "name": "Yelena Belova",
+    "cover": "Dark Avengers",
+    "stars": 1,
     "rank": 69,
-    "forum": "",
-    "image": "",
+    "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=819",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/0/02/Yelena_Belova_%28Dark_Avengers_Widow%29.png/revision/latest/scale-to-width-down/260?cb=20141030162157",
     "abilities": [
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Lethal Recon",
+        "color": "purple",
+        "cost": "13-19",
         "description": ""
       },
       {
-        "name": "",
-        "color": "",
-        "cost": 1,
-        "description": ""
-      },
-      {
-        "name": "",
-        "color": "",
-        "cost": 1,
+        "name": "Payback Mission",
+        "color": "black",
+        "cost": 13,
         "description": ""
       }
     ]
