@@ -74,6 +74,17 @@ md-tooltip {
       min-width: 35px;
     }
 
+    th.rank {
+
+      width: 35px;
+      margin-left: 3px;
+      button.md-icon-button {
+        width: 12px;
+        margin-left: 3px;
+        margin-right: 0;
+      }
+    }
+
     td.zero {
       border-top: 0;
       border-left: 0;

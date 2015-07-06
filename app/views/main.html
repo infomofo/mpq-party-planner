@@ -51,14 +51,19 @@
         <td class="zero">
 
         </td>
-        <th hide-sm>
+        <th hide-sm class="rank">
           <a href="https://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">
             <md-tooltip>This character's standing in the most recent rankings</md-tooltip>
-            #
-          </a>
+            #</a>
+          <md-button class="md-icon-button md-accent" ng-click="mpqModel.sortPredicate = 'rank'" hide-sm>
+            <i class="fa fa-sort-numeric-asc"></i>
+          </md-button>
         </th>
         <th>
           Character
+          <md-button class="md-icon-button md-accent" ng-click="mpqModel.sortPredicate = 'name'">
+            <i class="fa fa-sort-alpha-asc"></i>
+          </md-button>
         </th>
         <th>
           <img src="images/YellowFlag.png" aria-label="yellow">
@@ -99,7 +104,7 @@
         </th>
       </tr>
 
-      <tr ng-repeat="character in mpqModel.characters" ng-class="{'ineligible': isIneligible(character), 'candidate': isCandidate(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
+      <tr ng-repeat="character in mpqModel.characters | orderBy: mpqModel.sortPredicate" ng-class="{'ineligible': isIneligible(character), 'candidate': isCandidate(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
         <td>
           <md-checkbox ng-checked="isSelectedCharacter(character)"
                        aria-label="{{character.name}}"

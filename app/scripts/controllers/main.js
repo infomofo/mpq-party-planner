@@ -14,7 +14,8 @@ angular.module('mpqPartyPlannerApp')
       characters: [],
       selectedCharacters: [],
       teamActiveAbilities: {},
-      teamActiveColors: []
+      teamActiveColors: [],
+      sortPredicate: 'rank'
     };
 
     $scope.colors = ['yellow', 'red', 'blue', 'purple', 'green', 'black']
