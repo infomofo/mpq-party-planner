@@ -178,7 +178,7 @@
       },
       {
         "name": "Magnetized Projectiles",
-        "color": "Blue",
+        "color": "blue",
         "cost": 10,
         "description": "Swaps pairs of red and blue tiles dealing damage for each swap."
       }

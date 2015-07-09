@@ -21,7 +21,11 @@ angular.module('mpqPartyPlannerApp')
     $scope.colors = ['yellow', 'red', 'blue', 'purple', 'green', 'black']
 
     var searchName = function(character) {
-      return character.name.concat(",",character.stars);
+      if (angular.isDefined(character.name)) {
+        return character.name.concat(",", character.stars);
+      } else {
+        return '';
+      }
     };
 
     var teamActiveAbilities = function() {
@@ -65,9 +69,10 @@ angular.module('mpqPartyPlannerApp')
         var charColors = _.map(_.filter(character.abilities, function(ability) {
           return ability.cost !== 0;
         }), function(ability) {
-            return ability.color
+            return ability.color.toLowerCase();
           });
-        if (_.union(charColors, $scope.mpqModel.teamActiveColors).length === 6) {
+        var combinedColors = _.union(charColors, $scope.mpqModel.teamActiveColors);
+        if (combinedColors.length >= 6) {
           return true;
         } else if ($scope.mpqModel.selectedCharacters.length < 2 ) {
           var candidate = _.every(character.abilities, function (ability) {
@@ -124,7 +129,6 @@ angular.module('mpqPartyPlannerApp')
       } else {
         return !_.every($scope.mpqModel.selectedCharacters, function (selectedCharacter) {
           var compare = selectedCharacter.name !== character.name;
-          console.log(character.name.concat(' ', selectedCharacter.name, ' ', compare));
           return compare;
         });
       }
