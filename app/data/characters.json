@@ -1,5 +1,33 @@
 [
   {
+    "name": "Ant-Man",
+    "cover": "Scott-Lang",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&31022",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/e/ed/Ant-Man_%28Scott_Lang%29.png/revision/latest/scale-to-width-down/260?cb=20150708220554",
+    "abilities": [
+      {
+        "name": "Pym Particles",
+        "color": "purple",
+        "cost": 9,
+        "description": "Creates a Purple trap tile that creates Purple Attack tiles each turn."
+      },
+      {
+        "name": "Small Time Crooks",
+        "color": "blue",
+        "cost": 9,
+        "description": "Creates a Blue Countdown tile that steals enemy special tiles every turn."
+      },
+      {
+        "name": "Ants! Ants! Ants!",
+        "color": "yellow",
+        "cost": 7,
+        "description": "Creates Red Countdown Tile that create Yellow Strike tiles when activated.  At the beginning of each turn deal damage for each Ants! Ants! Ants! tile."
+      }
+    ]
+  },
+  {
     "name": "Thor",
     "cover": "Modern",
     "stars": 3,
