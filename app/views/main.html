@@ -49,7 +49,12 @@
     <table class="character_table">
       <tr>
         <td class="zero">
-
+          <md-button class="md-icon-button md-warn" aria-label="unselect all" ng-click="clearSelection()">
+            <md-tooltip>
+              Clear all selected characters
+            </md-tooltip>
+            <i class="fa fa-undo"></i>
+          </md-button>
         </td>
         <th hide-sm class="rank">
           <a href="https://d3go.com/forums/viewtopic.php?f=14&t=29852" target="_blank">
@@ -119,7 +124,15 @@
           </md-tooltip>
         </td>
         <td hide-sm class="rank">
-          <span ng-bind="character.rank" layout-fill></span>
+          <span ng-switch="character.rank" layout-fill>
+            <span ng-switch-when="0">
+              <md-tooltip>
+                This character is new and not yet ranked
+              </md-tooltip>
+              NEW
+            </span>
+            <span ng-switch-default ng-bind="character.rank"></span>
+          </span>
         </td>
         <td class="character">
           <div layout="row" layout-align="space-between center">

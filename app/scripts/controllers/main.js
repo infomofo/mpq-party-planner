@@ -18,7 +18,7 @@ angular.module('mpqPartyPlannerApp')
       sortPredicate: 'rank'
     };
 
-    $scope.colors = ['yellow', 'red', 'blue', 'purple', 'green', 'black']
+    $scope.colors = ['yellow', 'red', 'blue', 'purple', 'green', 'black'];
 
     var searchName = function(character) {
       if (angular.isDefined(character.name)) {
@@ -106,7 +106,9 @@ angular.module('mpqPartyPlannerApp')
 
     $scope.select = function (character) {
       var idx = $scope.mpqModel.selectedCharacters.indexOf(character);
-      if (idx > -1) $scope.mpqModel.selectedCharacters.splice(idx, 1);
+      if (idx > -1) {
+        $scope.mpqModel.selectedCharacters.splice(idx, 1);
+      }
       else {
         if ($scope.mpqModel.selectedCharacters.length < 3) {
           $scope.mpqModel.selectedCharacters.push(character);
@@ -116,6 +118,12 @@ angular.module('mpqPartyPlannerApp')
         return searchName(character);
       });
       $location.search({'selection': searchArray});
+      setState();
+    };
+
+    $scope.clearSelection = function() {
+      $scope.mpqModel.selectedCharacters = [];
+      $location.search('selection', null);
       setState();
     };
 

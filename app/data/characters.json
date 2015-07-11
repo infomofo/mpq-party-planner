@@ -1,10 +1,94 @@
 [
   {
+    "name": "Carnage",
+    "cover": "Cletus Kasady",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=30336",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/e/ec/Carnage_%28Cletus_Kasady%29.jpeg/revision/latest/scale-to-width-down/260?cb=20150604175945",
+    "abilities": [
+      {
+        "name": "Symbiote Scythes",
+        "color": "red",
+        "cost": 7,
+        "description": ""
+      },
+      {
+        "name": "Alien Instincts",
+        "color": "black",
+        "cost": 0,
+        "description": ""
+      },
+      {
+        "name": "Carnage Rules",
+        "color": "green",
+        "cost": 11,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Vision",
+    "cover": "Android Avenger",
+    "stars": 3,
+    "rank": 0,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=29209",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/6/6c/Vision_%28Android_Avenger%29.png/revision/latest/scale-to-width-down/260?cb=20150511195146",
+    "abilities": [
+      {
+        "name": "Density: Heavy",
+        "color": "blue",
+        "cost": 5,
+        "description": ""
+      },
+      {
+        "name": "Attack Protocol",
+        "color": "red",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Density: Light",
+        "color": "yellow",
+        "cost": 5,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "The Thing",
+    "cover": "Classic",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=30843",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/6/69/The_Thing_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20150625000016",
+    "abilities": [
+      {
+        "name": "It's Clobberin' Time",
+        "color": "red",
+        "cost": 10,
+        "description": ""
+      },
+      {
+        "name": "Rock Solid",
+        "color": "yellow",
+        "cost": 0,
+        "description": ""
+      },
+      {
+        "name": "Yancy Street Special",
+        "color": "green",
+        "cost": 12,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "Ant-Man",
     "cover": "Scott-Lang",
     "stars": 4,
     "rank": 0,
-    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&31022",
+    "forum": "http://www.d3pforums.com/viewtopic.php?f=14&t=31022",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/e/ed/Ant-Man_%28Scott_Lang%29.png/revision/latest/scale-to-width-down/260?cb=20150708220554",
     "abilities": [
       {
