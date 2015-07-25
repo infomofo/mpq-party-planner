@@ -1,5 +1,61 @@
 [
   {
+    "name": "Bullseye",
+    "cover": "Classic",
+    "stars": 3,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=29858",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/c/ca/Bullseye_%28Classic%29.jpg/revision/latest/scale-to-width-down/260?cb=20150521215035",
+    "abilities": [
+      {
+        "name": "Lethal Improvisation",
+        "color": "purple",
+        "cost": 7,
+        "description": "Turns 2 selected Attack, Protect, or Strike tiles to basic tiles and deals damage to the targeted enemy."
+      },
+      {
+        "name": "Contract Killer",
+        "color": "black",
+        "cost": 0,
+        "description": "If Bullseye downs an opponent he creates Strike tiles."
+      },
+      {
+        "name": "Deadly Precision",
+        "color": "green",
+        "cost": 11,
+        "description": "Destroys chosen basic tiles and deals damage. Destroyed tiles don't generate AP."
+      }
+    ]
+  },
+  {
+    "name": "Jean Grey",
+    "cover": "All New X-Men",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=31536",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/b/bc/Jean_Grey_%28All_New_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20150722214636",
+    "abilities": [
+      {
+        "name": "Mind Over Matter",
+        "color": "purple",
+        "cost": 10,
+        "description": "Deals damage to the enemy team and converts random enemy special tiles to basic tiles."
+      },
+      {
+        "name": "Psychic Feedback",
+        "color": "blue",
+        "cost": 0,
+        "description": "When the opponent makes a Match 5, destroys AP in their strongest color, stuns the enemy team, and deals damage to the enemy team."
+      },
+      {
+        "name": "Full of Surprises",
+        "color": "green",
+        "cost": 12,
+        "description": "Deals damage to the enemy team and creates random Strike, Attack, or Protect tiles."
+      }
+    ]
+  },
+  {
     "name": "Carnage",
     "cover": "Cletus Kasady",
     "stars": 4,
