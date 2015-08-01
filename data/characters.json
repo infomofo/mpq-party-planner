@@ -1,5 +1,33 @@
 [
   {
+    "name": "Deadpool",
+    "cover": "Uncanny X-Force",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=31809",
+    "image": "https://3.bp.blogspot.com/-m055V32eiOQ/Tbd6403L_aI/AAAAAAAAAY8/5YDxCrj5isM/s1600/UncannyX-Force7Cover.png",
+    "abilities": [
+      {
+        "name": "Out of Bullets",
+        "color": "red",
+        "cost": 13,
+        "description": "Hits the enemy for big damage and heals Deadpool."
+      },
+      {
+        "name": "X-Enforcer",
+        "color": "black",
+        "cost": 0,
+        "description": "When any of Deadpool's allies take a certain amount of damage, Deadpool creates a cooldown tile that damages the enemy."
+      },
+      {
+        "name": "Countdown for What",
+        "color": "purple",
+        "cost": 7,
+        "description": "Creates countdown tiles on the enemy teams strongest tiles that if destroyed they reach zero deals damage to the enemy team."
+      }
+    ]
+  },
+  {
     "name": "Bullseye",
     "cover": "Classic",
     "stars": 3,
