@@ -1,4 +1,60 @@
-[
+[  
+{
+    "name": "Sam Wilson",
+    "cover": "Captain America",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=31824",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/3/37/Sam_Wilson_%28Captain_America%29.png/revision/latest/scale-to-width-down/260?cb=20150814204147",
+    "abilities": [
+      {
+        "name": "Wings of Liberty",
+        "color": "yellow",
+        "cost": 9,
+        "description": "Transforms all basic yellow tiles on the board into protect tiles"
+      },
+      {
+        "name": "Aerial Avenger",
+        "color": "blue",
+        "cost": 0,
+        "description": "Whenever his team makes a Blue match, strengthens some friendly special tiles and reduces a friendly cooldown tile."
+      },
+      {
+        "name": "Dive Bomb",
+        "color": "red",
+        "cost": 14,
+        "description": "Deals damage to targeted enemy, plus additional damage for every friendly Protect tile."
+      }
+    ]
+  },  
+{
+    "name": "Spider-Man",
+    "cover": "Original",
+    "stars": 1,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=31882",
+    "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/a/a2/Spider-Man_%28Original%29.png/revision/latest/scale-to-width-down/260?cb=20150810172001",
+    "abilities": [
+      {
+        "name": "Web Swing",
+        "color": "red",
+        "cost": 9,
+        "description": "Deals damage to the targeted enemy and adds a web tile to the board. If there's already a web tile, it deals additional damage."
+      },
+      {
+        "name": "All Tied Up",
+        "color": "blue",
+        "cost": "6-8",
+        "description": "Stuns the target and adds a web tile to the board."
+      },
+      {
+        "name": "Spectacular Strategy",
+        "color": "purple",
+        "cost": 8,
+        "description": "Converts random basic tiles into critical tiles and adds web tiles to the board."
+      }
+    ]
+  },
   {
     "name": "Deadpool",
     "cover": "Uncanny X-Force",
@@ -924,8 +980,8 @@
     ]
   },
   {
-    "name": "Falcon",
-    "cover": "Mighty Avengers",
+    "name": "Sam Wilson",
+    "cover": "Falcon",
     "stars": 3,
     "rank": 26,
     "forum": "http://www.d3go.com/forums/viewtopic.php?style=1&f=14&t=6148",

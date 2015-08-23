@@ -36,5 +36,9 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt-usemin": "^3.1.0",
+    "uglifyjs": "^2.4.10"
   }
 }
