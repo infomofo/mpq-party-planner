@@ -1,12 +1,7 @@
 # mpq-party-planner
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.0.
+This is a tool that helps you plan your attack party in Marvel Puzzle Quest.  Marvel Puzzle Quest is a terribly addictive game for iOS, Android, and Steam.  
 
-## Build & development
+If you're not playing already, just save yourself now.
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+If you are already playing, use this tool to help make sure your team selection is optimized!
