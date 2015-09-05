@@ -1,5 +1,33 @@
 [  
 {
+    "name": "Mr. Fantastic",
+    "cover": "Reed Richards",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=32272",
+    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/9/91/Mr._Fantastic_%28Reed_Richards%29.png/revision/latest/scale-to-width-down/260?cb=20150827222107",
+    "abilities": [
+      {
+        "name": "Flexibility",
+        "color": "blue",
+        "cost": 8,
+        "description": "Stuns the enemy and creates Blue Protect tiles"
+      },
+      {
+        "name": "Master of the Fantastic",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever an enemy matches a friendly special tile, heals himself and generates 1 Green AP for each other Fantastic Four member on the team"
+      },
+      {
+        "name": "Imaginaut",
+        "color": "black",
+        "cost": 9,
+        "description": "Places a Black Countdown tile that while on the board, causes friendly Red, Green, and Yellow matches to do extra damage and increase the duration of these tiles by 1."
+      }
+    ]
+  },  
+{
     "name": "Sam Wilson",
     "cover": "Captain America",
     "stars": 4,
