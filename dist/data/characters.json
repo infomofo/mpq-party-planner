@@ -1,5 +1,33 @@
-[  
-{
+[
+  {
+    "name": "Silver Surfer",
+    "cover": "Skyrider",
+    "stars": 5,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=32590",
+    "image": "https://s-media-cache-ak0.pinimg.com/736x/34/6c/07/346c07372212cabe7658cda3e896193b.jpg",
+    "abilities": [
+      {
+        "name": "Perfect Being",
+        "color": "blue",
+        "cost": 12,
+        "description": "Heals the Silver Surfer and Creates Charged Tiles. (PASSIVE) Silver Surfer cannot be stunned."
+      },
+      {
+        "name": "Cosmic Beam",
+        "color": "red",
+        "cost": 7,
+        "description": "Deals damage to the target and creates Charged tiles"
+      },
+      {
+        "name": "Silver Singularity",
+        "color": "black",
+        "cost": 13,
+        "description": "Transforms a chosen basic tile into a Colorless Black Hole countdown tile which cannot be matched and does not fall.  Every turn it consumes random basic adjacent tiles, dealing damage and generating AP."
+      }
+    ]
+  },
+  {
     "name": "Mr. Fantastic",
     "cover": "Reed Richards",
     "stars": 4,
@@ -26,7 +54,7 @@
         "description": "Places a Black Countdown tile that while on the board, causes friendly Red, Green, and Yellow matches to do extra damage and increase the duration of these tiles by 1."
       }
     ]
-  },  
+  },
 {
     "name": "Sam Wilson",
     "cover": "Captain America",
@@ -54,7 +82,7 @@
         "description": "Deals damage to targeted enemy, plus additional damage for every friendly Protect tile."
       }
     ]
-  },  
+  },
 {
     "name": "Spider-Man",
     "cover": "Original",
@@ -117,7 +145,7 @@
     "stars": 3,
     "rank": 0,
     "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=29858",
-    "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/c/ca/Bullseye_%28Classic%29.jpg/revision/latest/scale-to-width-down/260?cb=20150521215035",
+    "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/d/db/Bullseye_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20150905094621",
     "abilities": [
       {
         "name": "Lethal Improvisation",
