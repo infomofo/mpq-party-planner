@@ -1,5 +1,33 @@
 [
   {
+    "name": "Iceman",
+    "cover": "All New X-Men",
+    "stars": 4,
+    "rank": 0,
+    "forum": "http://d3go.com/forums/viewtopic.php?f=14&t=32435",
+    "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/8/86/Iceman_%28All_New_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20150916190239",
+    "abilities": [
+      {
+        "name": "Whiteout",
+        "color": "green",
+        "cost": 12,
+        "description": "Deals damage to the enemy team plus additional damage for every Blue tile on the board."
+      },
+      {
+        "name": "Build/Punch a Snowman",
+        "color": "blue",
+        "cost": 6,
+        "description": "Build: Stuns a target enemy. Punch: Deals damage to a target enemy."
+      },
+      {
+        "name": "Cold As Ice",
+        "color": "Purple",
+        "cost": 8,
+        "description": "Transforms some Red tiles into Blue tiles and drains Red AP from the enemy team."
+      }
+    ]
+  },
+  {
     "name": "Silver Surfer",
     "cover": "Skyrider",
     "stars": 5,
