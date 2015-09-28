@@ -109,7 +109,7 @@
         </th>
       </tr>
 
-      <tr ng-repeat="character in mpqModel.characters | orderBy: mpqModel.sortPredicate" ng-class="{'ineligible': isIneligible(character), 'candidate': isCandidate(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
+      <tr ng-repeat="character in mpqModel.characters track by $index | orderBy: mpqModel.sortPredicate" ng-class="{'ineligible': isIneligible(character), 'candidate': isCandidate(character), 'selected': isSelectedCharacter(character), 'unique': isSelectedCharacterName(character)}">
         <td>
           <md-checkbox ng-checked="isSelectedCharacter(character)"
                        aria-label="{{character.name}}"
