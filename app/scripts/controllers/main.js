@@ -87,6 +87,10 @@ angular.module('mpqPartyPlannerApp')
       }
     };
 
+    $scope.sortBy = function(predicate) {
+      $scope.mpqModel.sortPredicate = predicate;
+    };
+
     $http.get('data/characters.json').success(function (data) {
       $scope.mpqModel.characters = data;
 
