@@ -16,4 +16,4 @@ angular
     'ngSanitize',
     'ngTouch',
     'ngMaterial'
-  ])
+  ]);

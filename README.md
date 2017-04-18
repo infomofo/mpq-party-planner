@@ -6,6 +6,13 @@ If you're not playing already, just save yourself now.
 
 If you are already playing, use this tool to help make sure your team selection is optimized!
 
+## How to use this tool
+
+![sample image](app/images/ScreenShot.png?raw=true)
+
+1. Pick a Hero, other heroes will become greyed out if they are not optimal for building a team around that heroes colors
+2. Passives will be displayed but will not filter out heroes.
+
 ## Deploy
 
     git subtree push --prefix dist origin gh-pages
