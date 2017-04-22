@@ -14,6 +14,15 @@ a {
   max-width: 1024px;
 }
 
+.center_container {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.resources {
+  padding-bottom: 30px;
+}
+
 md-tooltip {
   background-color: black;
   padding: 5px;

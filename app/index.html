@@ -18,13 +18,13 @@
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
-<body ng-app="mpqPartyPlannerApp" ng-controller="MainCtrl" layout-fill flex>
+<body layout-fill flex>
   <!--[if lte IE 8]>
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
   <div layout="column" layout-align="space-between start" layout-fill flex>
     <!-- Add your site or application content here -->
-    <div layout-fill flex layout="column">
+    <div layout-fill flex layout="column" class="center_container">
       <md-toolbar layout="row" layout-fill layout-align="center center">
         <div class="md-toolbar-tools container" layout="row" layout-align="space-between center">
           <h1 flex>MPQ Planner</h1>
@@ -40,36 +40,41 @@
           </div>
         </div>
       </md-toolbar>
-      <md-content layout="column" flex class="md-padding" layout-fill layout-align="start center">
-        <div class="raison container">
-          <p>
-            This is a tool to help you plan your <a href="http://d3go.com/games/marvelpuzzlequest/">Marvel Puzzle Quest</a>
-            Party.
-          </p>
+      <div class="raison container">
+        <p>
+          This is a tool to help you plan your <a href="http://d3go.com/games/marvelpuzzlequest/">Marvel Puzzle Quest</a>
+          Party.
+        </p>
 
-          <p>
-            Start by selecting a character that you want to build a team around using the checkboxes on the left side of the
-            table. When you select that character, other characters
-            that would become available (i.e. different versions of the same character) will become unselectable. Also,
-            characters whose active ability colors are already present in your team will be greyed out.  Characters highlighted
-            in blue are good candidates towards selecting a team with a full "Rainbow" of active ability colors.
-          </p>
+        <p>
+          Start by selecting a character that you want to build a team around using the checkboxes on the left side of the
+          table. When you select that character, other characters
+          that would become available (i.e. different versions of the same character) will become unselectable. Also,
+          characters whose active ability colors are already present in your team will be greyed out.  Characters highlighted
+          in blue are good candidates towards selecting a team with a full "Rainbow" of active ability colors.
+        </p>
 
-          <p>
-            The characters are sorted by the May 2015 <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852"
-            target="_blank">community sourced character rankings</a>.
+        <p>
+          The characters are sorted by the May 2015 <a href="http://d3go.com/forums/viewtopic.php?f=14&t=29852"
+          target="_blank">community sourced character rankings</a>.
 
-            As you select characters, the in your browser will update so you can paste this link and share it with your
-            friends
-            or on a forum.
-          </p>
+          As you select characters, the in your browser will update so you can paste this link and share it with your
+          friends
+          or on a forum.
+        </p>
 
-          <p>
-            If you find any issues or have any suggestions, please let me know on <a
-            href="http://github.com/infomofo/mpq-party-planner/issues">this project's github issues page</a>. Thanks!
-          </p>
-        </div>
-
+        <p>
+          If you find any issues or have any suggestions, please let me know on <a
+          href="http://github.com/infomofo/mpq-party-planner/issues">this project's github issues page</a>. Thanks!
+        </p>
+        <p>
+          I'm no longer playing this game but if you submit a ticket I will
+          try to look at it. If you would like to support future development
+          of tools like this please click on the amazon links on this page.
+        </p>
+        <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=09fd2f69-502c-47be-bb67-939e6d0e8900"></script>
+      </div>
+      <md-content layout="column" flex class="md-padding" layout-fill layout-align="start center" ng-app="mpqPartyPlannerApp" ng-controller="MainCtrl">
         <div class="container selection" layout-gt-sm="column" layout-align="space-between center" layout-sm="column"
         ng-if="mpqModel.selectedCharacters.length > 0">
         <h2> Your Team</h2>
@@ -258,10 +263,10 @@
     </tr>
   </table>
 </div>
+</md-content>
 
-<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=09fd2f69-502c-47be-bb67-939e6d0e8900"></script>
-
-<div class="container" layout-fill>
+<div class="container resources" layout-fill>
+  <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=09fd2f69-502c-47be-bb67-939e6d0e8900"></script>
   <h2>References/Resources</h2>
 
   <p>The idea for this tool and a lot of the data came from the following sources</p>
@@ -287,8 +292,6 @@
     </a>
   </div>
 </div>
-
-</md-content>
 
 </div>
 <div class="footer" layout="column" layout-align="center center" layout-fill>
