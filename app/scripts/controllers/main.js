@@ -8,7 +8,7 @@
  * Controller of the mpqPartyPlannerApp
  */
 angular.module('mpqPartyPlannerApp')
-  .controller('MainCtrl', function ($scope, $http, $location) {
+  .controller('MainCtrl', function ($scope, $http) {
 
     $scope.mpqModel = {
       characters: [],
@@ -94,7 +94,6 @@ angular.module('mpqPartyPlannerApp')
     $http.get('data/characters.json').success(function (data) {
       $scope.mpqModel.characters = data;
 
-      var selection = $location.search().selection || [];
       $scope.mpqModel.selectedCharacters = _.filter($scope.mpqModel.characters, function(character) {
 
         var search = searchName(character);
@@ -118,16 +117,11 @@ angular.module('mpqPartyPlannerApp')
           $scope.mpqModel.selectedCharacters.push(character);
         }
       }
-      var searchArray = _.map($scope.mpqModel.selectedCharacters, function(character) {
-        return searchName(character);
-      });
-      $location.search({'selection': searchArray});
       setState();
     };
 
     $scope.clearSelection = function() {
       $scope.mpqModel.selectedCharacters = [];
-      $location.search('selection', null);
       setState();
     };
 
