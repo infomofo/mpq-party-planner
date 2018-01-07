@@ -253,7 +253,7 @@ amzn_assoc_linkid = "7643d0e0d19932587213dc041c628f1c";
             </p>
 
             <div layout="row" layout-align="space-around center" hide-sm>
-              <small>
+              <small ng-if="character.forum && character.forum.length > 35">
                 <md-button ng-href="{{character.forum}}" target="_blank">forum</md-button>
               </small>
               <small>
@@ -282,12 +282,10 @@ amzn_assoc_linkid = "7643d0e0d19932587213dc041c628f1c";
 <div class="container resources" layout-fill>
   <h2>Shop Related Products and Support this Developer</h2>
   <div class="resources-kits">
-    <!--
     <iframe src="https://kit.com/embed?url=https%3A%2F%2Fkit.com%2Fmpq%2Fmarvel-comics" style="display: block; border: 0px; margin: 0 auto; width: 100%; height: 100vw; max-width: 700px; max-height: 700px" scrolling="no"></iframe>
     <div class="resources-kits-separator"></div>
     <iframe src="https://kit.com/embed?url=https%3A%2F%2Fkit.com%2Fmpq%2Fawesome-comic-toys" style="display: block; border: 0px; margin: 0 auto; width: 100%; height: 100vw; max-width: 700px; max-height: 700px" scrolling="no"></iframe>
   </div>
-    -->
   <h2>References/Resources</h2>
 
   <p>The idea for this tool and a lot of the data came from the following sources</p>
