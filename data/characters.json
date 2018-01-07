@@ -1,13 +1,11 @@
-[
-  {
+[{
     "name": "Iceman",
     "cover": "All New X-Men",
     "stars": 4,
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/32435",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/8/86/Iceman_%28All_New_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20150916190239",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Whiteout",
         "color": "green",
         "cost": 12,
@@ -34,8 +32,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/32590",
     "image": "https://s-media-cache-ak0.pinimg.com/736x/34/6c/07/346c07372212cabe7658cda3e896193b.jpg",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Perfect Being",
         "color": "blue",
         "cost": 12,
@@ -62,8 +59,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/32272",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/9/91/Mr._Fantastic_%28Reed_Richards%29.png/revision/latest/scale-to-width-down/260?cb=20150827222107",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Flexibility",
         "color": "blue",
         "cost": 8,
@@ -83,15 +79,14 @@
       }
     ]
   },
-{
+  {
     "name": "Sam Wilson",
     "cover": "Captain America",
     "stars": 4,
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/31824",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/3/37/Sam_Wilson_%28Captain_America%29.png/revision/latest/scale-to-width-down/260?cb=20150814204147",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Wings of Liberty",
         "color": "yellow",
         "cost": 9,
@@ -111,15 +106,14 @@
       }
     ]
   },
-{
+  {
     "name": "Spider-Man",
     "cover": "Original",
     "stars": 1,
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/31882",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/a/a2/Spider-Man_%28Original%29.png/revision/latest/scale-to-width-down/260?cb=20150810172001",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Web Swing",
         "color": "red",
         "cost": 9,
@@ -146,8 +140,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/31809",
     "image": "https://3.bp.blogspot.com/-m055V32eiOQ/Tbd6403L_aI/AAAAAAAAAY8/5YDxCrj5isM/s1600/UncannyX-Force7Cover.png",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Out of Bullets",
         "color": "red",
         "cost": 13,
@@ -174,8 +167,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/29858",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/d/db/Bullseye_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20150905094621",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Lethal Improvisation",
         "color": "purple",
         "cost": 7,
@@ -202,8 +194,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/31536",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/b/bc/Jean_Grey_%28All_New_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20150722214636",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Mind Over Matter",
         "color": "purple",
         "cost": 10,
@@ -230,8 +221,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/30336",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/e/ec/Carnage_%28Cletus_Kasady%29.jpeg/revision/latest/scale-to-width-down/260?cb=20150604175945",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Symbiote Scythes",
         "color": "red",
         "cost": 7,
@@ -258,8 +248,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/29209",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/6/6c/Vision_%28Android_Avenger%29.png/revision/latest/scale-to-width-down/260?cb=20150511195146",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Density: Heavy",
         "color": "blue",
         "cost": 5,
@@ -286,8 +275,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/30843",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/6/69/The_Thing_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20150625000016",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "It's Clobberin' Time",
         "color": "red",
         "cost": 10,
@@ -314,8 +302,7 @@
     "rank": 0,
     "forum": "http://forums.d3go.com/discussion/31022",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/e/ed/Ant-Man_%28Scott_Lang%29.png/revision/latest/scale-to-width-down/260?cb=20150708220554",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Pym Particles",
         "color": "purple",
         "cost": 9,
@@ -343,8 +330,7 @@
     "forum": "http://forums.d3go.com/discussion/4281",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Thor_(Modern)",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/a/a4/Thor_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141002170648",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Mjolnir's Might",
         "color": "red",
         "cost": 8,
@@ -377,8 +363,7 @@
     "forum": "http://forums.d3go.com/discussion/25156",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Professor_X_(Charles_Xavier)",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/1/13/Professor_X_%28Charles_Xavier%29.png/revision/latest/scale-to-width-down/260?cb=20150311162317",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Master Plan",
         "color": "blue",
         "cost": 0,
@@ -409,8 +394,7 @@
     "forum": "http://forums.d3go.com/discussion/24256",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Iron_Fist_(Immortal_Weapon)",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/3/3e/Iron_Fist_%28Immortal_Weapon%29.png/revision/latest/scale-to-width-down/260?cb=20150225163441",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Shou-Lao Fang Strike",
         "color": "green",
         "cost": 8,
@@ -441,8 +425,7 @@
     "forum": "http://forums.d3go.com/discussion/20966",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Luke_Cage_(Hero_For_Hire)",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/b/b8/Luke_Cage_%28Hero_For_Hire%29.png/revision/latest/scale-to-width-down/260?cb=20150106214106",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Righteous Uppercut",
         "color": "yellow",
         "cost": 13,
@@ -470,8 +453,7 @@
     "forum": "http://forums.d3go.com/discussion/445",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/The_Hood_(Classic)",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/5/5b/The_Hood_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002163714",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Twin Pistols",
         "color": "yellow",
         "cost": 15,
@@ -499,8 +481,7 @@
     "forum": "http://forums.d3go.com/discussion/603",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Magneto_(Classic)",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/f8/Magneto_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002164717",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Coercive Field",
         "color": "yellow",
         "cost": 9,
@@ -528,8 +509,7 @@
     "forum": "http://forums.d3go.com/discussion/5088",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Captain_America_(Steve_Rogers)",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/8/8c/Captain_America_%28Steve_Rogers%29.png/revision/latest/scale-to-width-down/260?cb=20141002161720",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Sentinel of Liberty",
         "color": "yellow",
         "cost": 19,
@@ -557,8 +537,7 @@
     "forum": "http://forums.d3go.com/discussion/1993",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(Patch)",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/3/31/Wolverine_%28Patch%29.png/revision/latest/scale-to-width-down/260?cb=20141002170749",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Berserker Rage",
         "color": "green",
         "cost": 9,
@@ -586,8 +565,7 @@
     "forum": "http://forums.d3go.com/discussion/18125",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Blade_(Daywalker)",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/e/e7/Blade_%28Daywalker%29.png/revision/latest/scale-to-width-down/260?cb=20141024182942&format=webp",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Nightstalker",
         "color": "black",
         "cost": 8,
@@ -615,8 +593,7 @@
     "forum": "http://forums.d3go.com/discussion/23667",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Cyclops_(Uncanny_X-Men)",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/2/28/Cyclops_%28Uncanny_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20150216154551",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Optic Blasts",
         "color": "red",
         "cost": 10,
@@ -644,8 +621,7 @@
     "forum": "http://forums.d3go.com/discussion/17200",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Thor_(Goddess_of_Thunder)",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/6/69/Thor_%28Goddess_of_Thunder%29.png/revision/latest/scale-to-width-down/260?cb=20141016143858",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Smite",
         "color": "red",
         "cost": 10,
@@ -673,8 +649,7 @@
     "forum": "http://forums.d3go.com/discussion/3801",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Black_Panther_(T'Challa)",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/f7/Black_Panther_%28T%27Challa%29.png/revision/latest/scale-to-width-down/260?cb=20141002161330",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Battleplan",
         "color": "yellow",
         "cost": 9,
@@ -702,8 +677,7 @@
     "forum": "http://forums.d3go.com/discussion/552",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Wolverine_(X-Force)",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/06/Wolverine_%28X-Force%29.png/revision/latest/scale-to-width-down/260?cb=20141002171601",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "X-Force",
         "color": "green",
         "cost": 8,
@@ -731,8 +705,7 @@
     "forum": "http://forums.d3go.com/discussion/5799",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Daken_(Classic)",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/6/69/Daken_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002161822",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Healing & Heat",
         "color": "black",
         "cost": 0,
@@ -760,8 +733,7 @@
     "forum": "http://forums.d3go.com/discussion/6444",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Nick_Fury_(Director_of_S.H.I.E.L.D.)",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/d/dc/Nick_Fury_%28Director_of_S.H.I.E.L.D.%29.png/revision/latest/scale-to-width-down/260?cb=20141002171417",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Avengers Assemble!",
         "color": "yellow",
         "cost": 12,
@@ -789,8 +761,7 @@
     "forum": "http://forums.d3go.com/discussion/743",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Loki_(Dark_Reign)",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/b/b7/Loki_%28Dark_Reign%29.png/revision/latest/scale-to-width-down/260?cb=20141002164535",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Trickery",
         "color": "black",
         "cost": 11,
@@ -818,8 +789,7 @@
     "forum": "http://forums.d3go.com/discussion/28209",
     "wiki": "http://marvelpuzzlequest.wikia.com/wiki/Iron_Man_(Hulkbuster)",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/7/7d/Iron_Man_%28Hulkbuster%29.png/revision/latest/scale-to-width-down/260?cb=20150511200717",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Repulsor Punch",
         "color": "red",
         "cost": 9,
@@ -846,8 +816,7 @@
     "rank": 18,
     "forum": "http://forums.d3go.com/discussion/5676",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/5/55/Black_Widow_%28Original%29.png/revision/latest/scale-to-width-down/260?cb=20141023153247",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Aggressive Recon",
         "color": "purple",
         "cost": "5-11",
@@ -874,8 +843,7 @@
     "rank": 19,
     "forum": "http://forums.d3go.com/discussion/757",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/9/94/Doctor_Doom_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002162308",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Summon Demons",
         "color": "black",
         "cost": 12,
@@ -902,8 +870,7 @@
     "rank": 20,
     "forum": "http://forums.d3go.com/discussion/26067",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/3/35/Kamala_Khan_%28Ms._Marvel%29.png/revision/latest/scale-to-width-down/260?cb=20150407183744",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Bring Out The Best",
         "color": "yellow",
         "cost": 0,
@@ -930,8 +897,7 @@
     "rank": 21,
     "forum": "http://forums.d3go.com/discussion/13242",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/c/cb/Deadpool_%28It%27s_Me%2C_Deadpool%21%29.png/revision/latest/scale-to-width-down/260?cb=20150220231822",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "A Little Off the Top",
         "color": "red",
         "cost": 6,
@@ -958,8 +924,7 @@
     "rank": 22,
     "forum": "http://forums.d3go.com/discussion/1484",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/f9/The_Hulk_%28Indestructible%29.png/revision/latest/scale-to-width-down/260?cb=20141002163943",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Thunderous Clap",
         "color": "green",
         "cost": 10,
@@ -986,8 +951,7 @@
     "rank": 23,
     "forum": "http://forums.d3go.com/discussion/26649",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/6/6d/Kingpin_%28Wilson_Fisk%29.png/revision/latest/scale-to-width-down/260?cb=20150407191424",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Wilson's Gambit",
         "color": "black",
         "cost": 6,
@@ -1014,8 +978,7 @@
     "rank": 24,
     "forum": "http://forums.d3go.com/discussion/19329",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/6/66/Rocket_%26_Groot_%28Most_Wanted%29.png/revision/latest/scale-to-width-down/260?cb=20141120162723",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "I am Groot",
         "color": "yellow",
         "cost": 0,
@@ -1042,8 +1005,7 @@
     "rank": 25,
     "forum": "http://forums.d3go.com/discussion/553",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/a/a3/Black_Widow_%28Grey_Suit%29.png/revision/latest/scale-to-width-down/260?cb=20141002161552",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Sniper Rifle",
         "color": "green",
         "cost": "15-19",
@@ -1070,8 +1032,7 @@
     "rank": 26,
     "forum": "http://forums.d3go.com/discussion/6148",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/2/22/Falcon_%28Mighty_Avengers%29.png/revision/latest/scale-to-width-down/260?cb=20141002163520",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Inspiration",
         "color": "yellow",
         "cost": 0,
@@ -1098,8 +1059,7 @@
     "rank": 27,
     "forum": "http://forums.d3go.com/discussion/2098",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/41/Ares_%28Dark_Avengers%29.png/revision/latest/scale-to-width-down/260?cb=20141030155734",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Onslaught",
         "color": "green",
         "cost": "5-7",
@@ -1126,8 +1086,7 @@
     "rank": 28,
     "forum": "http://forums.d3go.com/discussion/5641",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/4d/Human_Torch_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002164151",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Fireball",
         "color": "red",
         "cost": 8,
@@ -1154,8 +1113,7 @@
     "rank": 29,
     "forum": "http://forums.d3go.com/discussion/28208",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/b/b0/Scarlet_Witch_%28Wanda_Maximoff%29.png/revision/latest/scale-to-width-down/260?cb=20150428142001",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Reality Crush",
         "color": "purple",
         "cost": 14,
@@ -1182,8 +1140,7 @@
     "rank": 30,
     "forum": "http://forums.d3go.com/discussion/2504",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/9/90/Daredevil_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002162049",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Radar Sense",
         "color": "purple",
         "cost": 10,
@@ -1210,8 +1167,7 @@
     "rank": 31,
     "forum": "http://forums.d3go.com/discussion/18594",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/6/65/Mystique_%28Raven_Darkholme%29.png/revision/latest/scale-to-width-down/260?cb=20141106184638",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Shapeshift",
         "color": "purple",
         "cost": 8,
@@ -1238,8 +1194,7 @@
     "rank": 32,
     "forum": "http://forums.d3go.com/discussion/1123",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/b/b4/The_Punisher_%28Dark_Reign%29.png/revision/latest/scale-to-width-down/260?cb=20141002165429",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Molotov Cocktail",
         "color": "black",
         "cost": 7,
@@ -1266,8 +1221,7 @@
     "rank": 33,
     "forum": "http://forums.d3go.com/discussion/56",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/3/31/Thor_%28Marvel_NOW%21%29.png/revision/latest/scale-to-width-down/260?cb=20141023154651",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Mjolnir's Might",
         "color": "red",
         "cost": 8,
@@ -1299,8 +1253,7 @@
     "rank": 34,
     "forum": "http://forums.d3go.com/discussion/12341",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/06/Captain_Marvel_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20140718185958",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Photonic Blasts",
         "color": "red",
         "cost": 7,
@@ -1327,8 +1280,7 @@
     "rank": 35,
     "forum": "http://forums.d3go.com/discussion/19382",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/7/75/Elektra_%28Unkillable%29.png/revision/latest/scale-to-width-down/260?cb=20141215221042",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Double-Double Cross",
         "color": "purple",
         "cost": 7,
@@ -1355,8 +1307,7 @@
     "rank": 36,
     "forum": "http://forums.d3go.com/discussion/6628",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/9/90/Storm_%28Mohawk%29.png/revision/latest/scale-to-width-down/260?cb=20141002170427",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Lightning Strike",
         "color": "green",
         "cost": 10,
@@ -1383,8 +1334,7 @@
     "rank": 37,
     "forum": "http://forums.d3go.com/discussion/22670",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/4/49/Star-Lord_%28Legendary_Outlaw%29.png/revision/latest/scale-to-width-down/260?cb=20150702204002",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Sleight of Hand",
         "color": "purple",
         "cost": 10,
@@ -1411,8 +1361,7 @@
     "rank": 38,
     "forum": "http://forums.d3go.com/discussion/432",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/d/d6/Storm_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141023154520",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Lightning Storm",
         "color": "green",
         "cost": 12,
@@ -1439,8 +1388,7 @@
     "rank": 39,
     "forum": "http://forums.d3go.com/discussion/6627",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/2/2d/She-Hulk_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20140623174406",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Settlement",
         "color": "blue",
         "cost": 9,
@@ -1467,8 +1415,7 @@
     "rank": 40,
     "forum": "http://forums.d3go.com/discussion/1152",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/f/fa/Devil_Dinosaur_%28Gigantic_Reptile%29.png/revision/latest/scale-to-width-down/260?cb=20141010182423",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Prehistoric Bite",
         "color": "green",
         "cost": 7,
@@ -1495,8 +1442,7 @@
     "rank": 41,
     "forum": "http://forums.d3go.com/discussion/2187",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/1/1a/Invisible_Woman_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20150702203639&format=webp",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Grant Invisibility",
         "color": "yellow",
         "cost": 9,
@@ -1523,8 +1469,7 @@
     "rank": 42,
     "forum": "http://forums.d3go.com/discussion/501",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/d/df/Magneto_%28Marvel_NOW%21%29.png/revision/latest/scale-to-width-down/260?cb=20141023153839",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Iron Hammer",
         "color": "blue",
         "cost": "6-13",
@@ -1551,8 +1496,7 @@
     "rank": 43,
     "forum": "http://forums.d3go.com/discussion/19330",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/e/e8/Gamora_%28Guardians_of_the_Galaxy%29.png/revision/latest/scale-to-width-down/260?cb=20141201204428",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Skull Cracker",
         "color": "green",
         "cost": 12,
@@ -1579,8 +1523,7 @@
     "rank": 44,
     "forum": "http://forums.d3go.com/discussion/3497",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/4f/Psylocke_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002165107",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Psychic Knife",
         "color": "red",
         "cost": "5-8",
@@ -1607,8 +1550,7 @@
     "rank": 45,
     "forum": "http://forums.d3go.com/discussion/821",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/0b/Daken_%28Dark_Avengers_Wolverine%29.png/revision/latest/scale-to-width-down/260?cb=20141023153609",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Healing & Heat",
         "color": "black",
         "cost": 0,
@@ -1635,8 +1577,7 @@
     "rank": 46,
     "forum": "http://forums.d3go.com/discussion/492",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/f/fc/Wolverine_%28Astonishing_X-Men%29.png/revision/latest/scale-to-width-down/260?cb=20141023154732&format=webp",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Feral Claws",
         "color": "green",
         "cost": 6,
@@ -1663,8 +1604,7 @@
     "rank": 47,
     "forum": "http://forums.d3go.com/discussion/22117",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/a/ae/Squirrel_Girl_%28Unbeatable%29.png/revision/latest/scale-to-width-down/260?cb=20150116192319",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "The Bigger They Are",
         "color": "yellow",
         "cost": 9,
@@ -1691,8 +1631,7 @@
     "rank": 48,
     "forum": "http://forums.d3go.com/discussion/15358",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/f/f5/Colossus_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20140912175122",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Immovable Object",
         "color": "yellow",
         "cost": 8,
@@ -1719,8 +1658,7 @@
     "rank": 49,
     "forum": "http://forums.d3go.com/discussion/820",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/4/46/Juggernaut_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141030162054",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Unstoppable Crash",
         "color": "green",
         "cost": 10,
@@ -1741,8 +1679,7 @@
     "rank": 50,
     "forum": "http://forums.d3go.com/discussion/786",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/9/93/Spider-Man_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141002170151",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Web Bandages",
         "color": "yellow",
         "cost": 12,
@@ -1769,8 +1706,7 @@
     "rank": 51,
     "forum": "http://forums.d3go.com/discussion/415",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/2/21/Iron_Man_%28Model_40%29.png/revision/latest/scale-to-width-down/260?cb=20141002164411",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Unibeam",
         "color": "red",
         "cost": 13,
@@ -1797,8 +1733,7 @@
     "rank": 52,
     "forum": "http://forums.d3go.com/discussion/9810",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/4/4b/Sentry_%28Dark_Avengers%29.png/revision/latest/scale-to-width-down/260?cb=20141002170015",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Supernova",
         "color": "red",
         "cost": 11,
@@ -1825,8 +1760,7 @@
     "rank": 53,
     "forum": "http://forums.d3go.com/discussion/27134",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/e/e5/Quicksilver_%28Pietro_Maximoff%29_Cover2.png/revision/latest/scale-to-width-down/260?cb=20150429123031",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Idle Hands",
         "color": "black",
         "cost": 11,
@@ -1853,8 +1787,7 @@
     "rank": 54,
     "forum": "http://forums.d3go.com/discussion/11249",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/c/c7/Human_Torch_%28Johnny_Storm%29.png/revision/latest/scale-to-width-down/260?cb=20140709164945",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Fireball",
         "color": "red",
         "cost": 8,
@@ -1881,8 +1814,7 @@
     "rank": 55,
     "forum": "http://forums.d3go.com/discussion/450",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/a/a1/Hawkeye_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141023153708",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Electric Arrow",
         "color": "blue",
         "cost": 9,
@@ -1909,8 +1841,7 @@
     "rank": 56,
     "forum": "http://forums.d3go.com/discussion/13437",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/1/12/Beast_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20140829171819",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Mutagenic Breakthrough",
         "color": "blue",
         "cost": 6,
@@ -1937,8 +1868,7 @@
     "rank": 57,
     "forum": "http://forums.d3go.com/discussion/16027",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/c/c8/Captain_Marvel_%28Ms._Marvel%29.png/revision/latest/scale-to-width-down/260?cb=20141017163129",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Photonic Blasts",
         "color": "red",
         "cost": 7,
@@ -1965,8 +1895,7 @@
     "rank": 58,
     "forum": "http://forums.d3go.com/discussion/16695",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/4/4e/Doctor_Octopus_%28Otto_Octavius%29.png/revision/latest/scale-to-width-down/260?cb=20141002155301",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Manipulation",
         "color": "blue",
         "cost": 11,
@@ -1993,8 +1922,7 @@
     "rank": 59,
     "forum": "http://forums.d3go.com/discussion/925",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/e/e3/Ragnarok_%28Dark_Avengers_Thor%29.png/revision/latest/scale-to-width-down/260?cb=20141002165714",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Godlike Power",
         "color": "green",
         "cost": 14,
@@ -2021,8 +1949,7 @@
     "rank": 60,
     "forum": "http://forums.d3go.com/discussion/310",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/d/db/Captain_America_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141023153416",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Sentinel of Liberty",
         "color": "yellow",
         "cost": 19,
@@ -2049,8 +1976,7 @@
     "rank": 61,
     "forum": "http://forums.d3go.com/discussion/54",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/b/be/Black_Widow_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141030162009&format=webp",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Aggressive Recon",
         "color": "purple",
         "cost": "10-16",
@@ -2071,8 +1997,7 @@
     "rank": 62,
     "forum": "http://forums.d3go.com/discussion/51",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/a/a5/Storm_%28Modern%29.png/revision/latest/scale-to-width-down/260?cb=20141030162120",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Lightning Strike",
         "color": "green",
         "cost": 10,
@@ -2099,8 +2024,7 @@
     "rank": 63,
     "forum": "http://forums.d3go.com/discussion/52",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/0/0b/Iron_Man_%28Model_35%29.png/revision/latest/scale-to-width-down/260?cb=20141030162043",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Repulsor Blast",
         "color": "red",
         "cost": 10,
@@ -2127,8 +2051,7 @@
     "rank": 64,
     "forum": "http://forums.d3go.com/discussion/790",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/5/52/Moonstone_%28Dark_Avengers_Ms._Marvel%29.png/revision/latest/scale-to-width-down/260?cb=20141023153906",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Gravity Warp",
         "color": "purple",
         "cost": 8,
@@ -2155,8 +2078,7 @@
     "rank": 65,
     "forum": "http://forums.d3go.com/discussion/607",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/6/62/Bullseye_%28Dark_Avengers_Hawkeye%29.png/revision/latest/scale-to-width-down/260?cb=20141023153331",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Adamantium Bones",
         "color": "purple",
         "cost": 0,
@@ -2183,8 +2105,7 @@
     "rank": 66,
     "forum": "http://forums.d3go.com/discussion/58",
     "image": "http://vignette1.wikia.nocookie.net/marvelpuzzlequest/images/b/be/Venom_%28Dark_Avengers_Spider-Man%29.png/revision/latest/scale-to-width-down/260?cb=20141030162143",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Devour",
         "color": "black",
         "cost": 12,
@@ -2205,8 +2126,7 @@
     "rank": 67,
     "forum": "http://forums.d3go.com/discussion/53",
     "image": "http://vignette2.wikia.nocookie.net/marvelpuzzlequest/images/d/dd/Hawkeye_%28Classic%29.png/revision/latest/scale-to-width-down/260?cb=20141030162040&format=webp",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Take Aim",
         "color": "purple",
         "cost": 8
@@ -2226,8 +2146,7 @@
     "rank": 68,
     "forum": "http://forums.d3go.com/discussion/59",
     "image": "http://vignette4.wikia.nocookie.net/marvelpuzzlequest/images/3/30/Spider-Man_%28Bag-Man%29.png/revision/latest/scale-to-width-down/260?cb=20141023154032",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Switcheroo",
         "color": "purple",
         "cost": "13-18",
@@ -2254,8 +2173,7 @@
     "rank": 69,
     "forum": "http://forums.d3go.com/discussion/819",
     "image": "http://vignette3.wikia.nocookie.net/marvelpuzzlequest/images/0/02/Yelena_Belova_%28Dark_Avengers_Widow%29.png/revision/latest/scale-to-width-down/260?cb=20141030162157",
-    "abilities": [
-      {
+    "abilities": [{
         "name": "Lethal Recon",
         "color": "purple",
         "cost": "13-19",
@@ -2266,6 +2184,1896 @@
         "color": "black",
         "cost": 13,
         "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Agent Coulson",
+    "cover": "Agents of S.H.I.E.L.D.",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/c/cb/Agent_Coulson_%28Agents_of_S.H.I.E.L.D.%29.png/revision/latest?cb=20170421065712",
+    "abilities": [{
+        "name": "Call the Cavalry",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Create 1 yellow 1-turn S.H.I.E.L.D. Commander Countdown tile that creates 1 green Strike tile (PASSIVE) Whenever a friendly Countdown reaches 0, gain 1 random AP"
+      },
+      {
+        "name": "Best Laid Plans",
+        "color": "purple",
+        "cost": 8,
+        "description": "Choose 2 red or green basic tiles to Charge and swap.(PASSIVE) When you make a match while you have 6 or more Team-Up AP, spend 2 Team-Up AP to reduce 1 random friendly Countdown timer by 1"
+      },
+      {
+        "name": "Super Secret Tech",
+        "color": "blue",
+        "cost": 11,
+        "description": "Steal 2 random AP for each friendly Countdown tile (up to a maximum of 5 tiles).(PASSIVE) Whenever an ally activates a power, create 1 random 2-turn Countdown tile that deals 232 damage."
+      }
+    ]
+  },
+  {
+    "name": "Black Bolt",
+    "cover": "Inhuman King",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/40/black_Bolt_%28Inhuman_King%29.png/revision/latest?cb=20160820114255",
+    "abilities": [{
+        "name": "Quasi-Sonic Whisper",
+        "color": "green",
+        "cost": 10,
+        "description": "Destroys the middle two rows dealing damage. If you have at least 5 AP in all colors, he lets out a scream, draining all friendly colored AP, destroying the board and dealing damage to the enemy team. Destroyed tiles do not deal damage or generate AP"
+      },
+      {
+        "name": "Energy Channeling",
+        "color": "black",
+        "cost": 0,
+        "description": "Every turn, creates Charged tile in the color most present on the board. If there are at least 4 Charged tiles on the board, deals damage to the target and deals damage to Black Bolt instead"
+      },
+      {
+        "name": "The Silent King",
+        "color": "yellow",
+        "cost": 8,
+        "description": "If one does not exist, converts a random basic tile into a 3-turn Motivation tile targeting 1 other ally, increasing all their powers by 1 level (to a max of 5)"
+      }
+    ]
+  },
+  {
+    "name": "Black Panther",
+    "cover": "Civil War",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/black_Panther_(Civil_War)",
+    "abilities": [{
+        "name": "Panther's Prey",
+        "color": "black",
+        "cost": 9,
+        "description": "Choose an enemy and create a 3-turn black Countdown tile. While this tile is on the board and the chosen character would take damage, they suffer an extra damage"
+      },
+      {
+        "name": "Spirit of Wakanda",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever you make a yellow match, if you have 11 or more Team-Up AP, spend 10 Team-Up AP and deal an extra damage to the target"
+      },
+      {
+        "name": "Move... Or Be Moved",
+        "color": "red",
+        "cost": 0,
+        "description": "If Black Panther would take 2787 or more damage, negate 50% of that damage and stun him for 2 turns. Whenever black Panther returns from being Stunned or Invisible, he deals damage"
+      }
+    ]
+  },
+  {
+    "name": "Black Widow",
+    "cover": "Natasha Romanoff",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/black_Widow_(Natasha_Romanoff)",
+    "abilities": [{
+        "name": "Tell Me Everything",
+        "color": "purple",
+        "cost": 12,
+        "description": "Deals damage and remove up to 3 random enemy Strike, Protect, Attack and Countdown tiles"
+      },
+      {
+        "name": "Acrobatic Takedown",
+        "color": "red",
+        "cost": 12,
+        "description": "Deals damage. If the enemy has at least 12 AP in any color, deal additional damage. If this downs an enemy, destroy 4 enemy AP in a random color"
+      },
+      {
+        "name": "red in My Ledger",
+        "color": "black",
+        "cost": 10,
+        "description": "Deals damage. If any allies are below 20% health, drain 2 random enemy AP and deal an extra damage. (PASSIVE) Whenever one of black Widow’s allies is stunned, stun a random enemy for 1 turn."
+      }
+    ]
+  },
+  {
+    "name": "Blade",
+    "cover": "Modern",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Blade_(Modern)",
+    "abilities": [{
+        "name": "The Hunger",
+        "color": "red",
+        "cost": 0,
+        "description": "(PASSIVE) Blade resists his thirst for blood. If there are 10 or more red tiles on the board, Blade steels his resolve and converts a random basic tile to a strength 37 Strike tile at the beginning of the turn. When Blade's team reaches 9 or more red AP, this power transforms into The Bloodlust. Bloodlust: (PASSIVE) Blade can no longer resist his thirst for blood. Every turn, Blade consumes 1 red AP and deals damage to a random enemy. When Blade's team falls below 7 red AP, this power transforms back into The Hunger."
+      },
+      {
+        "name": "Tools of the Trade",
+        "color": "green",
+        "cost": 9,
+        "description": "Blade attacks with his arsenal, dealing damage to the enemy team. If Blade's team has 7 or more red AP, Blade uses his fangs in the attack, healing himself."
+      },
+      {
+        "name": "Supernatural Sense",
+        "color": "black",
+        "cost": 11,
+        "description": "Blade destroys 4 AP from the enemy team's strongest color. If Blade's team has 7 or more red AP, Blade also creates 2 red tiles."
+      }
+    ]
+  },
+  {
+    "name": "Captain Marvel",
+    "cover": "Carol Danvers",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Captain_Marvel_(Carol_Danvers)",
+    "abilities": [{
+        "name": "Photonic Barrage",
+        "color": "black",
+        "cost": 8,
+        "description": "Converts a chosen basic black tile into a 5-turn Countdown tile that creates a Strike tile every turn, and deals damage when it expires."
+      },
+      {
+        "name": "Executive Decision",
+        "color": "yellow",
+        "cost": 5,
+        "description": "reduces a chosen friendly Countdown tile to 0. (PASSIVE) Whenever a friendly Countdown tile expires, improve 1 random friendly tile(s) by 56"
+      },
+      {
+        "name": "Energy Manipulation",
+        "color": "green",
+        "cost": 0,
+        "description": "Whenever the opponent makes a match in their strongest color, gain 2 AP in your strongest color. If they are the same color, deal damage to the enemy team"
+      }
+    ]
+  },
+  {
+    "name": "Cloak & Dagger",
+    "cover": "Classic",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Cloak_%26_Dagger_(Classic)",
+    "abilities": [{
+        "name": "Light-Knives",
+        "color": "yellow",
+        "cost": 8,
+        "description": "Deals damage to the target and removes up to 2 enemy Strike, Protect, or Attack tiles. If no such tiles exist, the damage is dealt to the enemy instead."
+      },
+      {
+        "name": "Child of Darkness",
+        "color": "black",
+        "cost": 0,
+        "description": "At the start of the turn, if there are at least 13 black tiles on the board, creates a red Attack tile. If not, converts up to 2 basic tiles to black."
+      },
+      {
+        "name": "Pocket Dimension",
+        "color": "purple",
+        "cost": 6,
+        "description": "Deals 333 damage and replaces Cloak & Daggers powers with new powers. If there are at least 13 black tiles on the board, this power costs 3 AP less (to a minimum of 3)."
+      }
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "cover": "Classic",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Cyclops_(Classic)",
+    "abilities": [{
+        "name": "Combined Forces",
+        "color": "red",
+        "cost": 10,
+        "description": "Deals damage and destroys a chosen basic tile. If you have 10 or more Team-Up AP, instead drain 10 Team-Up AP, deal damage and destroy a chosen row (tiles do not deal damage or generate AP)"
+      },
+      {
+        "name": "Uncanny Strategist",
+        "color": "yellow",
+        "cost": 5,
+        "description": "Creates a 4-turn yellow Countdown tile. While one of these tiles is on the board, friendly Team-Up matches generate an additional 2 AP in the team's strongest color and increase the duration of these tiles by 1"
+      },
+      {
+        "name": "Called Shot",
+        "color": "blue",
+        "cost": 8,
+        "description": "Destroys the selected tile, all red basic tiles in a 3x3 area around a selected tile, generating AP and dealing damage."
+      }
+    ]
+  },
+  {
+    "name": "Daredevil",
+    "cover": "Matt Murdock",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Daredevil_(Matt_Murdock)",
+    "abilities": [{
+        "name": "Fighting Spirit",
+        "color": "yellow",
+        "cost": 0,
+        "description": "At the start of the turn, if Daredevil is below 30% health, he creates a strength 102 yellow Strike tile, then restores health for each friendly Strike tile on the board (max 5 tiles)"
+      },
+      {
+        "name": "Hand-to-Hand",
+        "color": "green",
+        "cost": 11,
+        "description": "Create a 5-turn green Countdown tile that deals damage at the end of each turn. If you match it, recovers 5 green AP. If otherwise matched or destroyed, deals damage and creates another Hand-to-Hand tile if one doesn't exist."
+      },
+      {
+        "name": "Sonar Strike",
+        "color": "purple",
+        "cost": 9,
+        "description": "Converts random enemy Strike, Protect, or Attack tiles to friendly Strike tiles, then stuns the target for turn(s)."
+      }
+    ]
+  },
+  {
+    "name": "Doctor Octopus",
+    "cover": "Classic",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Doctor_Octopus_(Classic)",
+    "abilities": [{
+        "name": "Superior Science",
+        "color": "black",
+        "cost": 10,
+        "description": "Stuns the target for one turn and creates a 3-turn Countdown tile.  While on the board, it stuns the target for 1 turn each turn.  When it expires, the target takes damage and it creates 2 strength friendly Strike tiles"
+      },
+      {
+        "name": "Tentacles",
+        "color": "blue",
+        "cost": 8,
+        "description": "If he has fewer than 4 on the board, Doc Ock creates a Tentacle tile.  Then he deals damage for each Tentacle tile he controls. (PASSIVE) At the start of each turn, if Doctor Octopus is Stunned, his tentacles make a match for his team for each Tentacle tile he controls. "
+      },
+      {
+        "name": "Cunning Scheme",
+        "color": "green",
+        "cost": 13,
+        "description": "Place a 10-turn Nuclear Reactor Countdown tile not eh board that deals 3974 damage to each enemy.  This power becomes Phase 2. Phase 2 costs 8 green AP:  Doctor Octopus’s generator powers hospitals.  Upgrade the Nuclear Reactor tile to give a burst of health to each friendly character each turn.  This power becomes Phase 3. (PASSIVE) If the Reactor is matched, gain 11 green AP. If it’s destroyed, this power becomes Cunning scheme. Phase 3 costs 6 green AP: Upgrade the Nuclear Reactor tile so that it deals damage to each enemy each turn.  This power becomes Final Phase. (PASSIVE) If the Reactor is matched, gain 14 green AP.  If it’s destroyed, this power becomes Cunning Scheme. Final Phase costs 0 green AP: (PASSIVE) All his work has led to this perfect moment.  If Doc Ock’s Nuclear Reactor is matched away when it’s timer reads “1” he wins the battle!  If Doc Ock’s Nuclear Reactor is matched at another time, gain 18 green AP.  If it’s destroyed, this power becomes Cunning Scheme."
+      }
+    ]
+  },
+  {
+    "name": "Doctor Strange",
+    "cover": "Stephen Strange",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Doctor_Strange_(Stephen_Strange)",
+    "abilities": [{
+        "name": "Crimson Bands of Cyttorak",
+        "color": "blue",
+        "cost": 9,
+        "description": "Converts a chosen basic tile into a 2-turn Countdown tile, then stuns the target for 2 turns. The tile destroys 2 enemy AP of its color and deals damage each turn."
+      },
+      {
+        "name": "Eye of Agamotto",
+        "color": "purple",
+        "cost": 11,
+        "description": "Remove up to 2 random enemy Attack tiles and gain 2 purple AP."
+      },
+      {
+        "name": "Flames of the Faltine",
+        "color": "yellow",
+        "cost": 0,
+        "description": "(PASSIVE) Whenever an enemy fires a power, deal damage to the target and gives a burst of health to the players team"
+      }
+    ]
+  },
+  {
+    "name": "Doctor Strange",
+    "cover": "Sorcerer Supreme",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Doctor_Strange_(Sorcerer_Supreme)",
+    "abilities": [{
+        "name": "Crimson Bands of Cyttorak",
+        "color": "blue",
+        "cost": 9,
+        "description": "Converts a chosen basic tile into a 2-turn Countdown tile, then stuns the target for 2 turns. The tile destroys 2 enemy AP of its color and deals damage each turn."
+      },
+      {
+        "name": "Eye of Agamotto",
+        "color": "purple",
+        "cost": 11,
+        "description": "If one does not exist, creates a colorless eye tile that activates each turn, removing a random enemy Attack tile. The Eye tile can’t be matched and doesn’t fall."
+      },
+      {
+        "name": "Flames of the Faltine",
+        "color": "yellow",
+        "cost": 14,
+        "description": "Deal 1533 damage. (PASSIVE) Whenever an enemy fires a power, deal 557 damage to the target."
+      }
+    ]
+  },
+  {
+    "name": "Drax",
+    "cover": "The Destroyer",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Drax_(The_Destroyer)",
+    "abilities": [{
+        "name": "The Destroyer",
+        "color": "black",
+        "cost": 12,
+        "description": "Removes up to 1 random friendly countdown tile. Deals damage to the enemy, plus damage for each tile removed."
+      },
+      {
+        "name": "Secret Weapon",
+        "color": "purple",
+        "cost": 8,
+        "description": "Places a 3-turn Countdown tile on the board and ends the turn. If this tile is on the board when an ally fires a power, remove it and deal damage to the target enemy."
+      },
+      {
+        "name": "Slice & Dice",
+        "color": "red",
+        "cost": 8,
+        "description": "Deals damage to the target or more damage if the target has more then 90% of their total health."
+      }
+    ]
+  },
+  {
+    "name": "Elektra",
+    "cover": "Assassin",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Elektra_(Assassin)",
+    "abilities": [{
+        "name": "Double-Double Cross",
+        "color": "purple",
+        "cost": 7,
+        "description": "Elektra steals 1 enemy tile, but she also converts 3 random purple basic tiles into enemy Strike tiles."
+      },
+      {
+        "name": "Shadowstep",
+        "color": "black",
+        "cost": 10,
+        "description": "She converts 2 random basic black tiles into Trap tiles. If Elektra would take damage, the damage is negated and a Trap tile is destroyed, generating AP and dealing damage."
+      },
+      {
+        "name": "Crippling Blow",
+        "color": "red",
+        "cost": 9,
+        "description": "Deal damage and creates a 3-turn Countdown tile which deals damage to the enemy when it ticks down each turn."
+      }
+    ]
+  },
+  {
+    "name": "Gambit",
+    "cover": "Modern",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Gambit_(Modern)",
+    "abilities": [{
+        "name": "Ragin' Cajun",
+        "color": "purple",
+        "cost": 11,
+        "description": "Create 2 3-turn CD tiles, replacing up to 2 enemy Strike, Protect or Attack tiles, which each deal damage"
+      },
+      {
+        "name": "Aces & Eights",
+        "color": "red",
+        "cost": 7,
+        "description": "Destroy up to 2 Charged or basic tiles, dealing an extra damage for each Charged tile destroyed this way. Then create 2 Charged tiles. "
+      },
+      {
+        "name": "Stacked Deck",
+        "color": "black",
+        "cost": 0,
+        "description": "(Passive) At the start of the turn gain purple and red AP. Gambit's allies may not fire powers the same color as Gambit's active powers."
+      }
+    ]
+  },
+  {
+    "name": "Gambit",
+    "cover": "Classic",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Gambit_(Classic)",
+    "abilities": [{
+        "name": "Ragin’ Cajun",
+        "color": "purple",
+        "cost": 11,
+        "description": "Gambit unleashes a torrent of kinetically charged playing cards, targeted at his opponents' weak spots. Create 3 3-turn Countdown tiles, replacing up to 3 enemy Special tiles, which each deal damage"
+      },
+      {
+        "name": "Aces & Eights",
+        "color": "red",
+        "cost": 7,
+        "description": "Destroy up to 2 random Charged or basic tiles, dealing an extra damage for each Charged tile destroyed this way. Then create 2 Charged tiles."
+      },
+      {
+        "name": "Stacked Deck",
+        "color": "black",
+        "cost": 0,
+        "description": "(PASSIVE) At the start of the turn, gain 3 purple AP and 3 red AP. Gambit’s allies may not fire powers the same color as Gambit’s active powers."
+      }
+    ]
+  },
+  {
+    "name": "Gamora",
+    "cover": "Awesome Mix Volume 2",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Gamora_(Awesome_Mix_Volume_2)",
+    "abilities": [{
+        "name": "Deals Strike",
+        "color": "red",
+        "cost": 10,
+        "description": "Deals damage and creates a 2-turn red Countdown tile, targeting that character, which deals damage at the end of each turn."
+      },
+      {
+        "name": "The Deadliest Woman…",
+        "color": "black",
+        "cost": 9,
+        "description": "Create 4 strength 32 purple Attack or Strike tiles. (PASSIVE) At the start of the turn, if all purple tiles are friendly special tiles, Gamora removes those tiles and downs the target."
+      },
+      {
+        "name": "Incapacitate",
+        "color": "blue",
+        "cost": 6,
+        "description": "Turns the target for 1 turn. (PASSIVE) Whenever an enemy is Stunned, creates a purple Attack or Strike tile."
+      }
+    ]
+  },
+  {
+    "name": "Ghost Rider",
+    "cover": "Johnny Blaze",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Ghost_Rider_(Johnny_Blaze)",
+    "abilities": [{
+        "name": "Burning Rubber",
+        "color": "green",
+        "cost": 7,
+        "description": "Deals damage to the enemy team and creates 2 Attack tiles. If there are 6 friendly Attack tiles on the board, the fire burns hotter, dealing an additional damage."
+      },
+      {
+        "name": "Hellfire",
+        "color": "red",
+        "cost": 8,
+        "description": "Places a Countdown tile that spreads fire every 2 turns, dealing damage and creating an Attack tile, If the enemy team has more Villains than Heroes, the Countdown tile deals an additional amount of damage."
+      },
+      {
+        "name": "Penance Stare",
+        "color": "black",
+        "cost": 12,
+        "description": "Deals damage to the target enemy equal to a percentage of the total amount of damage they've dealt so far this mission."
+      }
+    ]
+  },
+  {
+    "name": "green Goblin",
+    "cover": "Norman Osborn",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/b/bd/green_Goblin_%28Norman_Osborn%29.png/revision/latest?cb=20160225140550",
+    "abilities": [{
+        "name": "Goblin Glider",
+        "color": "black",
+        "cost": 8,
+        "description": "Deals damage, disables this power and creates a 3-turn black Countdown tile which re-enables this power."
+      },
+      {
+        "name": "Trick or Treat",
+        "color": "purple",
+        "cost": 10,
+        "description": "Creates 3 3-turn Countdown tiles of a chosen color. The Chosen tile’s color will determine the Countdown tiles’ effect."
+      },
+      {
+        "name": "Goblin King",
+        "color": "yellow",
+        "cost": 9,
+        "description": "reduce up to 2 random friendly Countdown tiles by 1 turn. (PASSIVE) At the start of your turn, Fortify 2 random friendly Countdown tiles."
+      }
+    ]
+  },
+  {
+    "name": "Gwenpool",
+    "cover": "Gwen Poole",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/2/22/Gwenpool_%28Gwen_Poole%29.png/revision/latest?cb=20161210112140",
+    "abilities": [{
+        "name": "'SPLOITS!",
+        "color": "purple",
+        "cost": 9,
+        "description": "You know what would be really useful here? Some good, old-fashioned cheat codes. I know how to open the menu, but you're on your own for the rest. I mean, this game has a wiki, right? You'll figure it out."
+      },
+      {
+        "name": "Plot Armor",
+        "color": "black",
+        "cost": 9,
+        "description": "This much nonsense should be enough to buy me 2 Protect tiles. It'll also send my allies airborne for a turn. Oops?"
+      },
+      {
+        "name": "Deus Ex Machina",
+        "color": "green",
+        "cost": 0,
+        "description": "(PASSIVE) Somehow, I feel like everything's going to work out. The Narrative always provides. In this case, The Narrative provides guns. At the start of the battle, a Gun tile appears on the board. If this tile is removed by any means, this ability becomes Chekhov's Gun."
+      }
+    ]
+  },
+  {
+    "name": "Hawkeye",
+    "cover": "Hawkguy",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/5/5f/Hawkeye_%28HawkGuy%29.png/revision/latest?cb=20170321194204",
+    "abilities": [{
+        "name": "Because... Boomerangs",
+        "color": "purple",
+        "cost": 10,
+        "description": "Creates 3 strength 26 red strike tiles and a 3-turn purple Countdown tile that removes up to 3 friendly strike tiles and deals damage."
+      },
+      {
+        "name": "Full Quiver",
+        "color": "blue",
+        "cost": 5,
+        "description": "This power starts as Bola Arrow. When you fire it, this power becomes Explosive Arrow, and there are 6 arrows remaining. Once used, Hawkeye is out of arrows."
+      },
+      {
+        "name": "No Good News",
+        "color": "black",
+        "cost": 10,
+        "description": "Restore health to HAwkeye and create 2 random enemy Protect, Strike or Attack Tiles. (PASSIVE) Whenever you match an enemy special tile, gain 1 blue AP and 1 purple AP."
+      }
+    ]
+  },
+  {
+    "name": "Hawkeye",
+    "cover": "Clint Barton",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/5/5d/Hawkeye_%28Clint_Barton%29_Cover.png/revision/latest?cb=20170329060057",
+    "abilities": [{
+        "name": "Can’t Seem To Miss",
+        "color": "purple",
+        "cost": 0,
+        "description": "(Passive) Whenever a friendly Countdown tile reaches 0, gain 1 blue and 1 red AP. At the start of the turn, fortify 1 friendly Countdown tile."
+      },
+      {
+        "name": "Full Quiver",
+        "color": "blue",
+        "cost": 5,
+        "description": "This Power starts as Bola Arrow. When you fire it, this power becomes Explosive Arrow, and there are 6 arrows remaining. Once used, Hawkeye is out of arrows."
+      },
+      {
+        "name": "Deep Breath",
+        "color": "red",
+        "cost": 5,
+        "description": "Places a 3-turn fortified blue Countdown tile. When it reaches 0, if you have at least 9 red AP, spend 9 red AP and deal damage. Otherwise, deal less damage."
+      }
+    ]
+  },
+  {
+    "name": "Howard The Duck",
+    "cover": "Howard, A Duck",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/4c/Howard_the_Duck_%28Howard_a_Duck%29.png/revision/latest?cb=20161230132826",
+    "abilities": [{
+        "name": "The Quack-Fu One-Two",
+        "color": "green",
+        "cost": 8,
+        "description": "Deals damage for each green tile on the board, then destroys those tiles. (Does not generate AP.)"
+      },
+      {
+        "name": "Bill of Rights",
+        "color": "blue",
+        "cost": 10,
+        "description": "Converts up to 2 random enemy Strike, Protect or Attack tiles to basic tiles, and stuns the target."
+      },
+      {
+        "name": "Duck, Duck, Loose!",
+        "color": "purple",
+        "cost": 12,
+        "description": "Creates 3 Invisibility tiles targeting Howard. At the start of your turn, deal damage for each Duck, Duck Loose tile on the board."
+      }
+    ]
+  },
+  {
+    "name": "Iron Fist",
+    "cover": "Danny Rand",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/5/5b/Iron_Fist_%28Danny_Rand%29.png/revision/latest?cb=20170327184355",
+    "abilities": [{
+        "name": "Chi Focus",
+        "color": "blue",
+        "cost": 6,
+        "description": "Creates a purple Strike tile. Then, if there are at least 3 friendly Strike tiles on the board, Fortify up 1 of them and gain 2 green AP."
+      },
+      {
+        "name": "Crowd Control",
+        "color": "green",
+        "cost": 8,
+        "description": "Deals damage. Then, if there is more than 1 enemy remaining, gains 2 black AP. Otherwise, deals extra damage."
+      },
+      {
+        "name": "Like unto Iron",
+        "color": "black",
+        "cost": 12,
+        "description": "Converts up to 2 friendly Protect tiles to Strike tiles, then deals damage."
+      }
+    ]
+  },
+  {
+    "name": "Iron Man",
+    "cover": "Mark XLVI",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/1/19/Iron_Man_%28Mark_XLVI%29.png/revision/latest?cb=20160820115422",
+    "abilities": [{
+        "name": "The Winning Team",
+        "color": "red",
+        "cost": 9,
+        "description": "Iron Man deals damage to the target, plus an extra damage for every Team Iron Man character on his team."
+      },
+      {
+        "name": "Girl FRIDAY",
+        "color": "blue",
+        "cost": 10,
+        "description": "Converts a number of the enemy’s strongest color basic tiles to red. After the board settles, destroys all remaining basic red tiles. (Does not generate AP.)"
+      },
+      {
+        "name": "House Party Protocol",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Creates 3 3-turn yellow Countdown tiles that deal damage. If Iron Man would take 1632 or more damage, remove one of those tiles and prevent damage."
+      }
+    ]
+  },
+  {
+    "name": "Jean Grey",
+    "cover": "Phoenix",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/d/db/Jean_Grey_%28Phoenix%29.png/revision/latest?cb=20151104161542",
+    "abilities": [{
+        "name": "From the Ashes",
+        "color": "green",
+        "cost": 0,
+        "description": "(PASSIVE) Locked in a cycle of death and rebirth, the Phoenix is eternal. When Jean Grey becomes downed, create a 3 turn red Countdown Tile that revives Jean with a percentage of her health and changes this power to Phoenix Force. This power can fire while Jean Grey is Stunned."
+      },
+      {
+        "name": "Psychic Rapport",
+        "color": "purple",
+        "cost": 7,
+        "description": "Converts 3 random Basic tiles to red. (PASSIVE) When you match 5, improve 3 random friendly special tiles by 104 and reduce 1 random enemy special tile by 104 (to a minimum of 1)."
+      },
+      {
+        "name": "Psychic Flames",
+        "color": "red",
+        "cost": 9,
+        "description": "Deals damage and creates 2 Strike tiles. If there are 5 or more friendly special tiles, also creates 2 black enemy Attack tiles."
+      }
+    ]
+  },
+  {
+    "name": "Kate Bishop",
+    "cover": "Hawkeye",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/e/e3/Kate_Bishop_%28Hawkeye%29.jpg/revision/latest?cb=20160602164427",
+    "abilities": [{
+        "name": "Ruthless Precision",
+        "color": "blue",
+        "cost": 12,
+        "description": "Deals damage and (at level 4) creates a Countdown tile that prevents enemies from healing"
+      },
+      {
+        "name": "Looking for Trouble",
+        "color": "black",
+        "cost": 8,
+        "description": "Deals damage and creates a 3-turn black Countdown tile that deals 815 damage to Kate Bishop"
+      },
+      {
+        "name": "Because... Boomerangs",
+        "color": "purple",
+        "cost": 10,
+        "description": "Creates 3 red Strike tiles and a 3-turn purple Countdown tile that removes up to 3 friendly Strike tiles and deals damage"
+      }
+    ]
+  },
+  {
+    "name": "Lockjaw",
+    "cover": "Royal Bulldog",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Lockjaw_(Royal_Bulldog)",
+    "abilities": [{
+        "name": "Loyal Protector",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever an enemy match includes a friendly Special tile, Lockjaw jumps to the front, resisting 25% of that damage and dealing damage to the enemy"
+      },
+      {
+        "name": "Royal Escort",
+        "color": "blue",
+        "cost": 9,
+        "description": "Lockjaw teleports an Inhuman friend to the battlefield for help! He will summon someone different depending on which color is the most present on the board."
+      },
+      {
+        "name": "The Dog That Bit You",
+        "color": "green",
+        "cost": 9,
+        "description": "Converts 5 random basic tiles to Charged tiles. (Passive) At the start of the turn, if there is a Charged tile in the enemy's strongest color, deal damage."
+      }
+    ]
+  },
+  {
+    "name": "Luke Cage",
+    "cover": "Power Man",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/1/10/Luke_Cage_%28Power_Man%29.png/revision/latest?cb=20161213074218",
+    "abilities": [{
+        "name": "Hero for Hire",
+        "color": "yellow",
+        "cost": 8,
+        "description": "Fortifies friendly special tile(s), then deals damage for each Fortified friendly special tile on the board. If Iron Fist is an active ally, creates a Protect tile first."
+      },
+      {
+        "name": "The Defender",
+        "color": "black",
+        "cost": 0,
+        "description": "Whenever an enemy fires a power, creates a black Protect tile. If Luke is in front, he reduces a random enemy special tile (to a minimum of 1)"
+      },
+      {
+        "name": "Buncha Fiddle-Faddle",
+        "color": "red",
+        "cost": 13,
+        "description": "deals damage, or damage if there are no enemy Strike, Protect, or Attack tiles on the board."
+      }
+    ]
+  },
+  {
+    "name": "Medusa",
+    "cover": "Inhuman Queen",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/a/a6/Medusa_%28Inhuman_Queen%29.png/revision/latest?cb=20161212052516",
+    "abilities": [{
+        "name": "The Resolute Queen",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever an Attack, Protect or Strike tile is matched, if it was a friendly tile, give a burst of health to the team. If it was an enemy tile, gain AP in purple, blue or green."
+      },
+      {
+        "name": "Entangled",
+        "color": "red",
+        "cost": 0,
+        "description": "Every turn, if one does not exist, create a Countdown tile that deals damage every turn. If this tile gets destroyed, create Attack tiles."
+      },
+      {
+        "name": "Hair Meddle",
+        "color": "purple",
+        "cost": 10,
+        "description": "Swaps 16 pairs of random tiles, stealing any swapped enemy strike tiles."
+      }
+    ]
+  },
+  {
+    "name": "Miles Morales",
+    "cover": "Spider-Man",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/8/8c/Miles_Morales_%28Spider-Man%29.png/revision/latest?cb=20151217000352",
+    "abilities": [{
+        "name": "Hide & Seek",
+        "color": "purple",
+        "cost": 7,
+        "description": "Creates a purple Invisibility tile targeting Miles Morales. This power becomes Suprise!"
+      },
+      {
+        "name": "Power & Responsibility",
+        "color": "yellow",
+        "cost": 8,
+        "description": "Creates Web tiles, whenever a Web tile is matched, gain AP"
+      },
+      {
+        "name": "Venom Blast",
+        "color": "red",
+        "cost": 6,
+        "description": "Stuns the target and deals damage."
+      }
+    ]
+  },
+  {
+    "name": "Mockingbird",
+    "cover": "Bobbi Moorse",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/5/5a/Mockingbird-8.jpg/revision/latest?cb=20170829112930",
+    "abilities": [{
+        "name": "Bomb-shell",
+        "color": "red",
+        "cost": 9,
+        "description": "Creates 2 3-turn red Countdown tiles. When one expires, if another exists, remove it an ideal damage. If not, deal less damage to the target and Mockingbird."
+      },
+      {
+        "name": "Opportunist",
+        "color": "yellow",
+        "cost": 0,
+        "description": "Whenever the enemy makes a match-4 or greater, if you have at least 9 AP in that color (including Team-Up), fire a random friendly power at no cost. If not, gain 1 AP in that color."
+      },
+      {
+        "name": "Secret mission",
+        "color": "purple",
+        "cost": 8,
+        "description": "Destroys up to 4 AP of the enemy’s strongest color and generates 3 AP in your strongest color. (This power’s cost can’t be reduced.)"
+      }
+    ]
+  },
+  {
+    "name": "Moon Knight",
+    "cover": "Marc Spector",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/4a/Moon_Knight_%28Marc_Spector%29.png/revision/latest?cb=20160622113412",
+    "abilities": [{
+        "name": "Fist of Khonshu",
+        "color": "black",
+        "cost": 9,
+        "description": "Deals damage to the enemy and creates black enemy Attack Tiles. If the damage downs an enemy, restores health to Moon Knight instead."
+      },
+      {
+        "name": "Lunacy",
+        "color": "purple",
+        "cost": 0,
+        "description": "At the start of a battle, this power becomes one of three random powers: when you match black create a  Attack tile, when you match purple deal extra damage, or when you match green create a Strike tile."
+      },
+      {
+        "name": "Moonsilver Blades",
+        "color": "green",
+        "cost": 12,
+        "description": "Deals damage to a random enemy."
+      }
+    ]
+  },
+  {
+    "name": "Mordo",
+    "cover": "Master of the Mystic Arts",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/6/6e/Mordo_%28Master_of_the_Mystic_Arts%29_Cover.png/revision/latest?cb=20170323171435",
+    "abilities": [{
+        "name": "Staff of the Living Tribunal",
+        "color": "black",
+        "cost": 7,
+        "description": "Deal damage, then convert black basic tiles to Charged tiles, or if there are 6 or more black Charged tiles deal damage to the enemy team for each black Charged tile then destroy them."
+      },
+      {
+        "name": "Vaulting Boots of Valtorr",
+        "color": "blue",
+        "cost": 10,
+        "description": "Mordo takes to the air, deftly striking his target for damage then converting 2 basic tiles of the enemy's strongest color into black Charged tiles."
+      },
+      {
+        "name": "Power with Purpose",
+        "color": "purple",
+        "cost": 9,
+        "description": "Stun the target for 1 turn and steal AP."
+      }
+    ]
+  },
+  {
+    "name": "Nightcrawler",
+    "cover": "Classic",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/9/91/Nightcrawler_%28Classic%29.png/revision/latest?cb=20171102194133",
+    "abilities": [{
+        "name": "BAMF!",
+        "color": "purple",
+        "cost": 7,
+        "description": "Converts basic tiles to the color most present on the board. (PASSIVE) If the enemy would deal team damage to Nightcrawler, make him Airborne for 1 turn instead."
+      },
+      {
+        "name": "En Garde!",
+        "color": "red",
+        "cost": 9,
+        "description": "Deals damage. If you have 12 or more AP in your strongest color, deals more damage instead."
+      },
+      {
+        "name": "Everywhere At Once",
+        "color": "blue",
+        "cost": 12,
+        "description": "Deals damage for each point of AP in the Enemy's strongest color and steals 2 of that AP."
+      }
+    ]
+  },
+  {
+    "name": "Nova",
+    "cover": "Sam Alexander",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/6/6f/Nova_%28Sam_Alexander%29.png/revision/latest?cb=20160216004708",
+    "abilities": [{
+        "name": "Takeoff",
+        "color": "red",
+        "cost": 6,
+        "description": "Creates 2 black Strike tiles. While at least one friendly black Strike tile is on the board, this power becomes Rocket Man."
+      },
+      {
+        "name": "Nova Blast",
+        "color": "yellow",
+        "cost": 7,
+        "description": "Deals damage to the target and creates 1 black Strike tile for each ally still in the fight."
+      },
+      {
+        "name": "Danger Zone",
+        "color": "black",
+        "cost": 8,
+        "description": "If there are fewer than 5 friendly black Strike tiles on the board, creates 3 black Strike tiles. Otherwise, Nova loses control and crashes into his enemy, converting all friendly black Strike tiles to basic tiles and dealing damage."
+      }
+    ]
+  },
+  {
+    "name": "Peggy Carter",
+    "cover": "Captain America",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/8/8b/Peggy_Carter_%28Captain_America%29.png/revision/latest?cb=20160625233412",
+    "abilities": [{
+        "name": "Ultimate Soldier",
+        "color": "red",
+        "cost": 9,
+        "description": "Peggy lands a well-placed blow, ignoring any Protect tiles and dealing damage to the target."
+      },
+      {
+        "name": "Legendary Presence",
+        "color": "yellow",
+        "cost": 0,
+        "description": "While Peggy's health is greater than 50%, all enemy powers cost 2 AP more."
+      },
+      {
+        "name": "Do as Peggy Says",
+        "color": "blue",
+        "cost": 11,
+        "description": "Stuns all enemies but the target for 3 turns and places one 3-turn blue Countdown tile that deals damage for each active ally."
+      }
+    ]
+  },
+  {
+    "name": "Quake",
+    "cover": "Daisy Johnson",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/a/a4/Quake_%28Daisy_Johnson%29.png/revision/latest?cb=20161210101703",
+    "abilities": [{
+        "name": "Earthquake",
+        "color": "green",
+        "cost": 11,
+        "description": "Deals damage to the enemy team and shuffles the gameboard."
+      },
+      {
+        "name": "Coordinated Tactics",
+        "color": "yellow",
+        "cost": 0,
+        "description": "reduces damage from enemy powers that affect the whole team. (To a minimum of 1)."
+      },
+      {
+        "name": "Resonance Frequency",
+        "color": "blue",
+        "cost": 7,
+        "description": "Select a tile and destroy up random tiles of that color. Does not generate AP."
+      }
+    ]
+  },
+  {
+    "name": "red Hulk",
+    "cover": "Thunderbolt Ross",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/a/a9/red_Hulk_%28Thunderbolt_Ross%29.png/revision/latest?cb=20151015152609",
+    "abilities": [{
+        "name": "Seeing red",
+        "color": "red",
+        "cost": 0,
+        "description": "If red Hulk is damaged for 342 damage or more, he creates a 1-turn red Countdown tile which destroys random basic tiles. Does not generate AP."
+      },
+      {
+        "name": "Hammer & Anvil",
+        "color": "green",
+        "cost": 9,
+        "description": "Deals damage to the enemy team. If red Hulk has 18 or more green AP, this power drains all friendly green AP and deals more damage instead."
+      },
+      {
+        "name": "Gamma Siphon",
+        "color": "purple",
+        "cost": 7,
+        "description": "Drains the enemy team of all green AP and generates 1 of his own green AP."
+      }
+    ]
+  },
+  {
+    "name": "Riri Williams",
+    "cover": "Ironheart",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/b/b4/Riri_Williams_%28Ironheart%29.png/revision/latest?cb=20170421161356",
+    "abilities": [{
+        "name": "Magnetic Repulsors",
+        "color": "blue",
+        "cost": 9,
+        "description": "Attract 2 enemy Attack, Protect, and Strike tiles to the center of the board."
+      },
+      {
+        "name": "Remote Control Gauntlets",
+        "color": "red",
+        "cost": 11,
+        "description": "Riri's Remote Control Gauntlets attack from the flank dealing damage to the target and placing a Countdown tile that unlocks and removes enemy Attack, Protect, or Strike tiles."
+      },
+      {
+        "name": "Selfless Intervention",
+        "color": "green",
+        "cost": 8,
+        "description": "Deal damage to the target. Her armor reacts to the impact sending Riri Airborne for 2 turns and her target Airborne."
+      }
+    ]
+  },
+  {
+    "name": "Rocket & Groot",
+    "cover": "Awesome Mix Volume 2",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/d/de/Rocket_%26_Groot_%28Awesome_Mix_Volume_2%29.png/revision/latest?cb=20170508194651",
+    "abilities": [{
+        "name": "Rocket’s Pack",
+        "color": "blue",
+        "cost": 12,
+        "description": "If there’s not one already, creates a blue Countdown that activates every turn, dealing damage and creating a black tile."
+      },
+      {
+        "name": "Welcome to the Team",
+        "color": "yellow",
+        "cost": 0,
+        "description": "At the start of the battle create 3 Strike tiles. If there is another member of the Guardians of the Galaxy on their team create stronger tiles instead."
+      },
+      {
+        "name": "Don’t Push This Button",
+        "color": "green",
+        "cost": 10,
+        "description": "Creates a 3-turn Atomic Bomb Countdown tile that deals damage to the enemy team. If it’s matched away, it deals less damage to the enemy team and damages to your team."
+      }
+    ]
+  },
+  {
+    "name": "Rogue",
+    "cover": "Classic",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/b/b0/Rogue_%28Classic%29.png/revision/latest?cb=20171104074642",
+    "abilities": [{
+        "name": "Gloves Off",
+        "color": "green",
+        "cost": 5,
+        "description": "Rogue grabs onto her enemy, draining them of their power and gaining it for herself. This power becomes Power Siphon. Its color is the target's strongest color."
+      },
+      {
+        "name": "Sugah, You're Goin' Down",
+        "color": "red",
+        "cost": 12,
+        "description": "Deals damage and destroys a chosen block of 3x3 tiles, dealing damage and generating AP."
+      },
+      {
+        "name": "Leading the Charge",
+        "color": "yellow",
+        "cost": 0,
+        "description": "As long as Rogue is in front, enemy matches deal 10% less damage for each teammate still in the fight. Whenever the enemy makes a green, red, or yellow match, send Rogue to the front."
+      }
+    ]
+  },
+  {
+    "name": "Sandman",
+    "cover": "Flint Marko",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/2/2c/Sandman_%28Flint_Marko%29.png/revision/latest?cb=20170618154056",
+    "abilities": [{
+        "name": "Sand Blast",
+        "color": "green",
+        "cost": 9,
+        "description": "Deals damage to the enemy team, and stuns the target."
+      },
+      {
+        "name": "Shifting Sands",
+        "color": "purple",
+        "cost": 8,
+        "description": "Swaps random non-yellow basic tiles, converting some of them to yellow."
+      },
+      {
+        "name": "Sand Smash",
+        "color": "yellow",
+        "cost": 10,
+        "description": "Create Protect tiles. If there are 7 or more friendly Protect tiles, remove them all and deal damage."
+      }
+    ]
+  },
+  {
+    "name": "Spider-Gwen",
+    "cover": "Gwen Stacy",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/d/d0/Spider-Gwen_%28Gwen_Stacy%29.png/revision/latest?cb=20160216004717",
+    "abilities": [{
+        "name": "Teenage Kicks",
+        "color": "purple",
+        "cost": 6,
+        "description": "Stuns enemy and creates Web tiles."
+      },
+      {
+        "name": "Cherry Bomb",
+        "color": "red",
+        "cost": 12,
+        "description": "Deals damage to the enemy and removes a random Web tile from the board. (Cost 1 AP less for every Web tile on the board, minimum of 6)"
+      },
+      {
+        "name": "Kick Out the Jams",
+        "color": "yellow",
+        "cost": 8,
+        "description": "Gwen gives each teammate a burst of health and creates web tiles."
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man",
+    "cover": "Back in black",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/42/Spider-Man_%28Back_in_black%29.png/revision/latest?cb=20160113190630",
+    "abilities": [{
+        "name": "Taek-web-do",
+        "color": "blue",
+        "cost": 6,
+        "description": "If Spider-Man is invisible, he deals damage to the target. Otherwise, he stuns the target for 1 turn and deals damage."
+      },
+      {
+        "name": "Automotive Artillery",
+        "color": "green",
+        "cost": 14,
+        "description": "Deals damage to the target enemy, ignoring the effects of any Protect tiles, and stuns a random enemy for 2 turns."
+      },
+      {
+        "name": "Shadowy Acrobatics",
+        "color": "purple",
+        "cost": 0,
+        "description": "Enemy Strike tiles add 45% less damage (to a minimum of 1). While at least one enemy is stunned, Spider-Man is invisible."
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man",
+    "cover": "Peter Parker",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/f/f3/Spider-Man_%28Peter_Parker%29.png/revision/latest?cb=20170722035933",
+    "abilities": [{
+        "name": "Stick Around",
+        "color": "blue",
+        "cost": 9,
+        "description": "If there are fewer than 5 Web tiles, create 2 Web tiles. Otherwise, stun the enemy team for 1 turn and remove 2 Web tiles."
+      },
+      {
+        "name": "Arachnid Agility",
+        "color": "green",
+        "cost": 10,
+        "description": "Deals damage to a random enemy, then damage to a random enemy once for each web tile on the board (Max. 3 tiles)."
+      },
+      {
+        "name": "Web Shot",
+        "color": "red",
+        "cost": 7,
+        "description": "Deal damage. Then, if there are 3 or more Web tiles, convert 1 of them to Critical tiles. If there are 5 or more Web tiles, convert 2 more of them to Critical tiles."
+      }
+    ]
+  },
+  {
+    "name": "Spider-Woman",
+    "cover": "Jessica Drew",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/5/52/Spider-Woman_%28Jessica_Drew%29.png/revision/latest?cb=20160917062404",
+    "abilities": [{
+        "name": "Seeking redemption",
+        "color": "black",
+        "cost": 9,
+        "description": "Place a 4-turn Countdown tile on the board. While active, Spider-Woman intercepts targeted attacks, resisting 10% of damage dealt. If the attack is below damage, she dodges, resisting 75% of damage."
+      },
+      {
+        "name": "To Love and Fear",
+        "color": "purple",
+        "cost": 8,
+        "description": "If Love is chosen, removes enemy special tiles. If fear is chosen, creates 3 hidden Trap tiles that deal damage if matched by the enemy."
+      },
+      {
+        "name": "System Shock",
+        "color": "red",
+        "cost": 14,
+        "description": "Spider-Woman unloads her stored bioelectricity on the enemy team, dealing damage to the target, dealing less damage to all other enemies, and stunning a random enemy for 1 turn."
+      }
+    ]
+  },
+  {
+    "name": "Star-Lord",
+    "cover": "Peter Quill",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "http://marvelpuzzlequest.wikia.com/wiki/Star-Lord_(Peter_Quill)",
+    "abilities": [{
+        "name": "Something Good",
+        "color": "yellow",
+        "cost": 10,
+        "description": "Convert 4 basic tiles of the enemy’s strongest color to green Charged tiles. If one of Star-Lord’s teammates has less than 40% health, give the team a burst of healing."
+      },
+      {
+        "name": "Something Bad",
+        "color": "purple",
+        "cost": 8,
+        "description": "Steals random enemy Strike, Attack or Protect tiles. If there are none, steals random enemy AP instead."
+      },
+      {
+        "name": "Bit of Both",
+        "color": "green",
+        "cost": 12,
+        "description": "Destroy random columns of tiles, leaving any friendly tiles, and dealing damage to the enemy team (Destroyed tiles do not generate AP or deal damage)."
+      }
+    ]
+  },
+  {
+    "name": "Star-Lord",
+    "cover": "Awesome Mix Volume 2",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/c/cd/Star-Lord_%28Peter_Quill%29.png/revision/latest?cb=20170428054815",
+    "abilities": [{
+        "name": "Something Good",
+        "color": "yellow",
+        "cost": 10,
+        "description": "Convert 4 basic tiles of the enemy’s strongest color to green Charged tiles. If one of Star-Lord’s teammates has less than 40% health, give the team a burst of healing."
+      },
+      {
+        "name": "Something Bad",
+        "color": "purple",
+        "cost": 8,
+        "description": "Steals random enemy Strike, Attack or Protect tiles. If there are none, steals random enemy AP instead."
+      },
+      {
+        "name": "Bit of Both",
+        "color": "green",
+        "cost": 12,
+        "description": "Destroy a random columns of tiles, leaving any friendly tiles, and deals damage to the enemy team (Destroyed tiles do not generate AP or deal damage)."
+      }
+    ]
+  },
+  {
+    "name": "Steve Rogers",
+    "cover": "First Avenger",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/f/f4/Steve_Rogers_%28First_Avenger%29.png/revision/latest?cb=20161213191906",
+    "abilities": [{
+        "name": "Earth's Mightiest Heroes",
+        "color": "yellow",
+        "cost": 10,
+        "description": "Captain America calls his allies to his side to defend freedom. Scarlet Witch conjures a spell, Winter Soldier draws his weapon, Ant-Man readies an attack, Falcon rallies to protect, and Hawkeye prepares to stun."
+      },
+      {
+        "name": "Shield Bash",
+        "color": "red",
+        "cost": 11,
+        "description": "Hits the target for damage and transforms a random basic red tile into a 2-turn Countdown tile that generates 7 AP in his team's strongest color. For each other member of Team Cap on his team, the AP generated is increased by 2."
+      },
+      {
+        "name": "Coordinated Offensive",
+        "color": "blue",
+        "cost": 7,
+        "description": "Cap and his team deal x damage to the target. For every friendly Strike, Protect, and Attack tile on the board (up to a maximum of 8), deals x additional damage and destroys 1 enemy AP in a random color."
+      }
+    ]
+  },
+  {
+    "name": "Thanos",
+    "cover": "Modern",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/0/0e/Thanos_%28Modern%29.png/revision/latest?cb=20161223073638",
+    "abilities": [{
+        "name": "Court Death",
+        "color": "black",
+        "cost": 0,
+        "description": "When you down an enemy, deal damage to all of Thanos' enemies and to his allies."
+      },
+      {
+        "name": "Infinite Power",
+        "color": "purple",
+        "cost": 8,
+        "description": "Create 3-turn purple Countdown tile. While this tile is on the board, Thanos deals an extra 150% match damaged."
+      },
+      {
+        "name": "Come and Get Me!",
+        "color": "green",
+        "cost": 12,
+        "description": "Places a 4-turn Countdown tile that moves Thanos to the front at the end of the turn. When the Countdown tile goes off, deal damage to the enemy team."
+      }
+    ]
+  },
+  {
+    "name": "Thanos",
+    "cover": "The Mad Titan",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/3/31/Thanos_%28The_Mad_Titan%29.png/revision/latest?cb=20161223080440",
+    "abilities": [{
+        "name": "Court Death",
+        "color": "black",
+        "cost": 0,
+        "description": "When you down an enemy, deal damage to all of Thanos' enemies and to his allies."
+      },
+      {
+        "name": "Infinite Power",
+        "color": "purple",
+        "cost": 8,
+        "description": "Create 3-turn purple Countdown tile. While this tile is on the board, Thanos deals an extra 150% match damaged."
+      },
+      {
+        "name": "Come and Get Me!",
+        "color": "green",
+        "cost": 12,
+        "description": "Places a 4-turn Countdown tile that moves Thanos to the front at the end of the turn. When the Countdown tile goes off, deal damage to the enemy team."
+      }
+    ]
+  },
+  {
+    "name": "The Hulk",
+    "cover": "Totally Awesome",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/8/88/The_Hulk_%28Totally_Awesome%29.png/revision/latest?cb=20151202182015",
+    "abilities": [{
+        "name": "Mastermind Excello",
+        "color": "green",
+        "cost": 13,
+        "description": "Deal damage and destroy a selected 3x3 block of tiles. If the team has at least 14 blue AP, deal extra damage. Otherwise, destroy 3 random basic tiles. (Destroyed tiles do not deal damage or generate AP.)"
+      },
+      {
+        "name": "See the Math of It",
+        "color": "blue",
+        "cost": 0,
+        "description": "At the start of your turn, if one does not already exist, convert a blue basic tile to a 3-turn blue Countdown tile that deals damage and converts 3 random basic tiles to green."
+      },
+      {
+        "name": "Hot Dog Stand",
+        "color": "black",
+        "cost": 7,
+        "description": "Heals Hulk and converts up to 2 blue or green basic tiles to Charged tiles."
+      }
+    ]
+  },
+  {
+    "name": "The Hulk",
+    "cover": "The Main Event",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/a/ad/The_Hulk_%28The_Main_Event%29.png/revision/latest?cb=20171220115907",
+    "abilities": [{
+        "name": "Grand Entrance",
+        "color": "green",
+        "cost": 0,
+        "description": "(PASSIVE) Hulk smashes his way into the arena and wreaks havoc. At the start of battle, destroy random tiles. (Destroyed tiles do not deal damage or gain AP.) At the start of the turn, swap 1 random pair of tiles."
+      },
+      {
+        "name": "Gamma Powerbomb",
+        "color": "purple",
+        "cost": 14,
+        "description": "Deals damage and creates random Critical tiles."
+      },
+      {
+        "name": "The Crowd Goes Wild",
+        "color": "yellow",
+        "cost": 12,
+        "description": "Create 3 3-turn Fortified Countdown Tiles. When this tile ticks down, either deal 111 damage to the enemy team, give the Hulk a burst of health, or gain 2 random AP."
+      }
+    ]
+  },
+  {
+    "name": "The Hulk",
+    "cover": "Bruce Banner",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/4f/The_Hulk_%28Bruce_Banner%29.png/revision/latest?cb=20160801195154",
+    "abilities": [{
+        "name": "Gamma Ray Experiment",
+        "color": "blue",
+        "cost": 0,
+        "description": "At the start of your turn, if there are fewer than 7 green tiles on the board, deal damage and transform 1 random basic tile to green."
+      },
+      {
+        "name": "Smartest Guy in the Room",
+        "color": "black",
+        "cost": 7,
+        "description": "Creates 3 Attack tiles, and an additional enemy Attack tile for each non-downed ally."
+      },
+      {
+        "name": "The Other Guy",
+        "color": "purple",
+        "cost": 0,
+        "description": "(PASSIVE) Banner strains to control his inner nature. At the start of your turn, if you have 10 or more green AP and you don’t have one already, create a 2-turn Transform Countdown tile. When it goes off, Banner transforms into Hulk form. (Hulk replaces Banner until downed and makes matches for his team at turn start.)"
+      }
+    ]
+  },
+  {
+    "name": "The Punisher",
+    "cover": "MAX",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/40/The_Punisher_%28Max%29.png/revision/latest?cb=20161210101649",
+    "abilities": [{
+        "name": "Punish",
+        "color": "black",
+        "cost": 10,
+        "description": "Deals damage plus more damage for every friendly Strike tile on the board. If all allies are stunned or downed, this power becomes Army of One."
+      },
+      {
+        "name": "Merciless Charge",
+        "color": "green",
+        "cost": 10,
+        "description": "Stuns allies for 2 turns and deals damage to the enemy team plus for every downed enemy."
+      },
+      {
+        "name": "Weapons Expertise",
+        "color": "blue",
+        "cost": 8,
+        "description": "Creates 1 strength 65 black Strike tile. (PASSIVE) Friendly Strike tiles’ strength is increased by 8%."
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "cover": "Gladiator",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/42/Thor_%28Gladiator%29.png/revision/latest?cb=20171216194249",
+    "abilities": [{
+        "name": "God of Thunder",
+        "color": "green",
+        "cost": 12,
+        "description": "The Mighty Thor charges his blows with lightning for an explosive attack, dealing damage to all enemies. (PASSIVE) At the beginning of each turn, if Thor is below 50% health, destroys 2 basic red, green or yellow tiles."
+      },
+      {
+        "name": "Asgardian Tactics",
+        "color": "red",
+        "cost": 9,
+        "description": "Thor slashes his twin swords through the enemy's defenses to deal damage to the target, ignoring Protect tiles. Thor deals an additional damage for each friendly Special tile up to 10."
+      },
+      {
+        "name": "Smoldering Fire",
+        "color": "yellow",
+        "cost": 9,
+        "description": "Thor creates a Repeater tile that generates 1 yellow Protect tile(s) each turn. This power becomes Raging Fire."
+      }
+    ]
+  },
+  {
+    "name": "Venom",
+    "cover": "Eddie Brock",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/f/fa/Venom_%28Eddie_Brock%29.png/revision/latest?cb=20151223193451",
+    "abilities": [{
+        "name": "Symbiotic Fury",
+        "color": "green",
+        "cost": 13,
+        "description": "Deals damage, then destroys a random tile for each enemy special tile on the board (does not generate AP). Costs 1 less for each enemy special tile (min cost 7)."
+      },
+      {
+        "name": "Give and Take",
+        "color": "black",
+        "cost": 0,
+        "description": "(PASSIVE) Venom's symbiote powers allows them to stalk their prey, but makes Venom vulnerable to fire and sonics. Enemy Protect tiles' strength are reduced by 25% and enemy Attack tiles' strength are increased by 20%."
+      },
+      {
+        "name": "Lethal Protector",
+        "color": "yellow",
+        "cost": 9,
+        "description": "Deals damage and creates yellow enemy Protect tiles."
+      }
+    ]
+  },
+  {
+    "name": "Venom",
+    "cover": "Agent Venom",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/1/15/Venom_%28Agent_Venom%29.png/revision/latest?cb=20161213074336",
+    "abilities": [{
+        "name": "Symbiotic Assault",
+        "color": "red",
+        "cost": 10,
+        "description": "Deals damage. If you have at least 16 AP in a colored AP pool, deal damage instead."
+      },
+      {
+        "name": "Military Might",
+        "color": "black",
+        "cost": 5,
+        "description": "Drains 2 AP from the highest friendly colored AP pool and deals damage. (PASSIVE) If you have at least 12 AP in any color, this power becomes Alien Weakness."
+      },
+      {
+        "name": "Take Cover",
+        "color": "yellow",
+        "cost": 11,
+        "description": "Deals damage to the enemy team and renders all of Venom’s allies Invisible for some turns."
+      }
+    ]
+  },
+  {
+    "name": "Vulture",
+    "cover": "Adrian Toomes",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/46/Vulture_%28Adrian_Toomes%29.png/revision/latest?cb=20170725190032",
+    "abilities": [{
+        "name": "Circling Prey",
+        "color": "black",
+        "cost": 6,
+        "description": "Vulture goes Airborne for 2 turns. (PASSIVE) At the start of the turn, if Vulture was Airborne, gain 3 green AP , 2 blue AP, and 1 black AP."
+      },
+      {
+        "name": "One Fell Swoop",
+        "color": "green",
+        "cost": 9,
+        "description": "Creates a 3-turn Countdown tile that deals damage. (PASSIVE) If this tile exists when Vulture returns from being Airborne, he removes it dealing damage to the enemy team instead."
+      },
+      {
+        "name": "Hybrid Tech Slicer",
+        "color": "blue",
+        "cost": 10,
+        "description": "Deals damage and destroys up to 2 random enemy Strike, Protect, or Attack tiles. (PASSIVE) Whenever Vulture goes Airborne, drain 10 blue AP for the same effect, also targeting Invisibility and Countdown tiles."
+      }
+    ]
+  },
+  {
+    "name": "War Machine",
+    "cover": "James Rhodes",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/e/e6/War_Machine_%28James_Rhodes%29.png/revision/latest?cb=20161213191751",
+    "abilities": [{
+        "name": "Aerial Assault",
+        "color": "red",
+        "cost": 9,
+        "description": "Creates a red Countdown tile that deals damage. While this tile is on the board, new tiles have a 15% chance of being Attack tiles on War Machine’s turn."
+      },
+      {
+        "name": "Heat Signature Detection",
+        "color": "blue",
+        "cost": 11,
+        "description": "Removes all enemy invisibility tiles and up to 2 enemy Protect tiles, then deals damage."
+      },
+      {
+        "name": "Gatling Gun",
+        "color": "green",
+        "cost": 8,
+        "description": "Creates Countdown tiles that deal damage and destroy up to 2 random basic tiles around them, dealing damage but not generating AP."
+      }
+    ]
+  },
+  {
+    "name": "Wasp",
+    "cover": "Janet Van Dyne",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/e/e2/Wasp_%28Janet_Van_Dyne%29.png/revision/latest?cb=20160917144234",
+    "abilities": [{
+        "name": "Tactical Intuition",
+        "color": "yellow",
+        "cost": 8,
+        "description": "Converts all friendly Strike Tiles to Protect tiles and vice versa, strengthening them."
+      },
+      {
+        "name": "That Buzzing Sound",
+        "color": "blue",
+        "cost": 0,
+        "description": "At the start of your turn, if you have at least 7 blue AP, creates random 1-turn Countdown tile that steals 1 AP of its color. If an enemy matches this tile, Wasp stings the target for damage."
+      },
+      {
+        "name": "Wasp Sting",
+        "color": "black",
+        "cost": 7,
+        "description": "Deals damage. If the team has at least 8 blue AP, she stuns the target for 1 turn."
+      }
+    ]
+  },
+  {
+    "name": "Winter Soldier",
+    "cover": "Bucky Barnes",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/a/a4/Winter_Soldier_%28Bucky_Barnes%29.png/revision/latest?cb=20161218100137",
+    "abilities": [{
+        "name": "Precision Shot",
+        "color": "purple",
+        "cost": 8,
+        "description": "Select a basic tile. Winter Soldier destroys that tile, dealing damage and stealing enemy AP of that color."
+      },
+      {
+        "name": "Detonator",
+        "color": "blue",
+        "cost": 10,
+        "description": "Creates a blue Countdown tile and 3 random Trap tiles. When the Countdown tile reaches 0, destroy all of Winter Soldier’s Trap tiles dealing damage for each. If an enemy matches the trap tile away, create a blue attack tile."
+      },
+      {
+        "name": "Moving Target",
+        "color": "red",
+        "cost": 12,
+        "description": "Creates a red Countdown tile that deals damage. If you match it away, deal more damage instead."
+      }
+    ]
+  },
+  {
+    "name": "Wolverine",
+    "cover": "Old Man Logan",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/4c/Wolverine_%28Old_Man_Logan%29.png/revision/latest?cb=20151006165149",
+    "abilities": [{
+        "name": "Living Legend",
+        "color": "black",
+        "cost": 9,
+        "description": "Create black Strike tiles and end the turn. If the team has 12 or more yellow AP, also replace all of Wolverine's powers with new powers."
+      },
+      {
+        "name": "Die Hard",
+        "color": "yellow",
+        "cost": 0,
+        "description": "At the start of the turn, Wolverine restores health for each team member still in the fight."
+      },
+      {
+        "name": "Reluctant Hero",
+        "color": "red",
+        "cost": 0,
+        "description": "When an ally fires a power, if there are fewer than 5 friendly Strike tiles, Logan loses health and creates red Strike tiles."
+      }
+    ]
+  },
+  {
+    "name": "X-23",
+    "cover": "All-New Wolverine",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/8/85/X-23_%28All-New_Wolverine%29.png/revision/latest?cb=20160820115953",
+    "abilities": [{
+        "name": "Holding Back",
+        "color": "green",
+        "cost": 8,
+        "description": "Deals damage. When activated, if her team has 9 or more red AP, replace this power with Berserker Fury for the rest of the game."
+      },
+      {
+        "name": "Savage Healing",
+        "color": "red",
+        "cost": 0,
+        "description": "Every time X-23 makes a green, red, or purple match, she heals a bit."
+      },
+      {
+        "name": "Tracking Prey",
+        "color": "purple",
+        "cost": 12,
+        "description": "She creates a purple Trap tile that deals damage when matched by the enemy. If X-23's team matches this tile, it deals 913 damage and creates a black Strike tile. Costs 1 AP less for every friendly Strike tile on the board (Minimum 6)."
+      }
+    ]
+  },
+  {
+    "name": "Yondu",
+    "cover": "Awesome Mix Volume 2",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/4/45/Yondu_%28Awesome_Mix_Volume_2%29.jpg/revision/latest?cb=20170902174853",
+    "abilities": [{
+        "name": "Yaka Parachute",
+        "color": "yellow",
+        "cost": 0,
+        "description": "When you make a match-4 or greater, if Yondu is below 20% health, create a 2-turn yellow Countdown tile that restores health each turn if one does not exist."
+      },
+      {
+        "name": "Ravager's Ruse",
+        "color": "black",
+        "cost": 9,
+        "description": "Destroys AP in the enemy’s highest colored AP pool, then creates a Strike tile for each AP destroyed."
+      },
+      {
+        "name": "Centaurian Archery",
+        "color": "blue",
+        "cost": 10,
+        "description": "Deals damage. This power becomes Yaka Assault."
+      }
+    ]
+  },
+  {
+    "name": "Nico Minoru",
+    "cover": "Runaways",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/0/01/Nico_Minoru_%28Runaways%29.png/revision/latest?cb=20171220115909",
+    "abilities": [{
+        "name": "When Blood Is Shed...",
+        "color": "blue",
+        "cost": 0,
+        "description": "When Nico takes damage, if one does not exist, create a 7-turn blue Countdown tile which replaces Nico's powers with new powers while it's on the board."
+      },
+      {
+        "name": "Try Not to Die",
+        "color": "yellow",
+        "cost": 7,
+        "description": "Create 2 Protect Tiles. (PASSIVE) Friendly Protect tiles' strength is increased by 15%, but they have no effect on Nico."
+      },
+      {
+        "name": "Mystical Affinity",
+        "color": "purple",
+        "cost": 0,
+        "description": "At the start of the turn, if you have more Attack, Strike, or Protect tiles than the enemy, increase the strength of those tiles."
+      }
+    ]
+  },
+  {
+    "name": "America Chavez",
+    "cover": "Young Avengers",
+    "stars": 4,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/5/5e/America_Chavez_%28Young_Avengers%29.png/revision/latest?cb=20171225115013",
+    "abilities": [{
+        "name": "Punch Everyone",
+        "color": "red",
+        "cost": 0,
+        "description": "(PASSIVE) America rushes into battle with a very simple plan for success. America's match damage is increased by 7% for each AP she has in that color."
+      },
+      {
+        "name": "Ticket to the Multiverse",
+        "color": "yellow",
+        "cost": 0,
+        "description": "When you make a Match-4 or greater, create 2 Trap Tiles in that color. When America has Trap tiles in at least 3 colors, remove them all to deal damage and generate 1 AP in those colors."
+      },
+      {
+        "name": "Fear Not, Mi Gente!",
+        "color": "green",
+        "cost": 0,
+        "description": "At the start of the turn, if you have more AP than the enemy in at least 4 colors, create a Critical tile. If you have more AP than the enemy in at least 5 colors, also deals damage."
+      }
+    ]
+  },
+  {
+    "name": "Angel",
+    "cover": "All New X-Men",
+    "stars": 3,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/a/a4/Angel_%28All_New_X-Men%29.png/revision/latest?cb=20171218130953",
+    "abilities": [{
+        "name": "Angle of Attack",
+        "color": "blue",
+        "cost": 11,
+        "description": "Deal damage and stun the target for 2 turns."
+      },
+      {
+        "name": "Enemy Down",
+        "color": "green",
+        "cost": 10,
+        "description": "Deals damage and creates 1 green Attack tile."
+      },
+      {
+        "name": "Aerial Superiority",
+        "color": "black",
+        "cost": 7,
+        "description": "Create a 4-turn Countdown tile of a chosen color which deals damage. While an Aerial Superiority tile is on the board, neither team may gain AP in its color."
+      }
+    ]
+  },
+  {
+    "name": "Archangel",
+    "cover": "Classic",
+    "stars": 5,
+    "rank": 0,
+    
+    "image": "https://vignette.wikia.nocookie.net/marvelpuzzlequest/images/6/6e/Archangel_%28Classic%29.png/revision/latest?cb=20171218163005",
+    "abilities": [{
+        "name": "Angle of Attack",
+        "color": "blue",
+        "cost": 11,
+        "description": "Deal damage and stun the target for 2 turns. (Passive) At the start of turn, deal damage to any Airborne enemies and stun them for 1 turn."
+      },
+      {
+        "name": "Enemy Down",
+        "color": "green",
+        "cost": 10,
+        "description": "Deals damage and destroys 2 AP in 2 random enemy AP pools."
+      },
+      {
+        "name": "Aerial Superiority",
+        "color": "black",
+        "cost": 7,
+        "description": "Create a 4-turn Countdown tile of a chosen color which deals damage. While an Aerial Superiority tile is on the board, neither team may gain AP in its color."
       }
     ]
   }
