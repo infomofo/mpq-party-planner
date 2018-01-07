@@ -91,13 +91,13 @@ angular.module('mpqPartyPlannerApp')
       $scope.mpqModel.sortPredicate = predicate;
     };
 
-    $http.get('data/characters.json').success(function (data) {
-      $scope.mpqModel.characters = data;
+    $http.get('data/characters.json').then(function (data) {
+      $scope.mpqModel.characters = data.data;
 
       $scope.mpqModel.selectedCharacters = _.filter($scope.mpqModel.characters, function(character) {
 
         var search = searchName(character);
-        if (character.name !== '' && selection.indexOf(search) !== -1) {
+        if (search && character.name.indexOf(search) !== -1) {
           return true;
         } else {
           return false;

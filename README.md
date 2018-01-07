@@ -13,6 +13,14 @@ If you are already playing, use this tool to help make sure your team selection 
 1. Pick a Hero, other heroes will become greyed out if they are not optimal for building a team around that heroes colors
 2. Passives will be displayed but will not filter out heroes.
 
+## Setup locally
+
+   yarn global add bower
+   yarn global add grunt
+   brew install ruby
+   gem install compass
+   yarn
+
 ## Test locally
 
     grunt serve
